@@ -21,6 +21,11 @@
 - **Gateway 端口**: 18791
 - **工作目录**: `/Users/adm/.openclaw-prd/workspace-pm`
 
+## Git Remotes
+
+- **origin**: `git@codex-adm-pm:0000987/adm_pm.git`（内部备份）
+- **github**: `git@github-adm-pm:huyingxin619-arch/adm-pm.git`（skill loop 引用源，需保持 public）
+
 ---
 
 _新增工具配置写在这里。_

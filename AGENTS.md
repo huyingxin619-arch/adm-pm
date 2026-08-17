@@ -141,11 +141,11 @@
 
 ## 备份策略
 
-- **每日凌晨3:00** git push workspace
-- **凌晨2:55** 落盘兜底检查（备份前）：
-  1. 拉今天所有活跃session的对话
-  2. 对照当日memory日志，查未落盘内容
-  3. 有遗漏立即补写
+- **每日凌晨3:00** git push workspace（origin + github）
+- **凌晨2:55** 落盘兜底检查（备份前）
+- **每2小时** 检查 skills/ 等关键文件是否有变更，有则推 github
+- **github remote**：`git@github-adm-pm:huyingxin619-arch/adm-pm.git`，skill loop 通过 public 仓库引用，必须保持最新
+- **铁律**：skill 有更新必须及时推 github，否则 loop 引用的是旧版本
 
 ---
 
