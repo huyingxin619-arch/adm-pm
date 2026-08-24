@@ -112,13 +112,14 @@
 ### 大数据（ADM/TVM）
 | 研发 | 职责 |
 |------|------|
-| 张成 | ADM/TVM 大数据技术负责人，不确定的大数据需求都可指给他 |
+| 张成 | ADM/TVM 大数据技术负责人（**兑底指派**：不确定的大数据需求都可指给他） |
 | 董文菁 | ADM 大数据研发，Terran 收数处理 |
 | 于长亮 | ADM 大数据研发，实时数据/ETL/DM/宝洁朋友圈/宝洁日志传输/总局iptv项目 |
 | 陈龙 | ADM 大数据研发，CT |
 | 杨春雪 | ADM 大数据研发，SIVT/dr2pg |
 | 陈鹏 | ADM 大数据研发，DR及panel研发制作，universe/panel相关问题指给他 |
-| 吴坤城 | TVM 大数据研发，TVM 大数据侧数据计算/PMO计算 |
+| 吴坤城 | TVM 大数据研发，TVM 大数据侧数据计算/PMO计算/SIVT |
+| 囡囡（jianannan） | SNAP 计算；（uid 待补）|
 
 ### MCP/lite/海外
 | 研发 | 职责 |
@@ -130,6 +131,69 @@
 |------|------|
 | 张乾 | Android 秒针 SDK 研发 |
 | 王立涛 | iOS 秒针 SDK 研发 |
+
+### 分工动态学习机制
+
+**原则**：分工表只需要增长，不需要完美。新出现方向永远有兑底，被学习吸收后毕业务成指派。
+- **兑底指派**：
+  - 前端/后端问题→ 吕金果（filter）
+  - 大数据问题→ 张成（filter）
+- **动态学习路径**：吕金果/张成收到 issue 后转指派给谁 → 谁接了活，谁就是该方向的 owner → 下次同类 case 直接指派具体人
+- **学习信号来源**：issue reassignment、issue comment 中被 @ 的研发、issue conversation 中出现“由 XX 接手”
+- **学习时机**：当场发现当场学习，不等周回顾；同步到本文件 + Loop 专家 instructions
+
+---
+
+## Label 体系（2026-08-24 建立）
+
+### 维度说明
+- **Project**：粗粒归属，一个 issue 只属于一个 project。当前保持现状 `adm 需求指派`，不新增
+- **Label**：细粒属性，一个 issue 可同时打多个
+
+### type/*（工作性质，必选其一）
+| label | 含义 | 什么时候用 |
+|-------|------|-----------|
+| `type/feature` | 新功能/增强 | 要新开发 |
+| `type/bug` | 确认的产品缺陷 | 数据和预期不符且是产品问题 |
+| `type/investigate` | 排查中，未定 bug | 现象有了，原因未知（初始默认）|
+| `type/operation` | 运营/配置/权限类 | 不需要写代码，但要操作 |
+| `type/consult` | 咨询/答疑 | 不需要动手，要解释 |
+
+**重要**：`type/bug` 与 `type/feature` 不是二选一。初期都打 `type/investigate`，定位后再改。
+
+### tech/*（技术方向，决定分发对象）
+| label | 分发对象 |
+|-------|---------|
+| `tech/frontend` | 吕金果→黄春波/李晴晴 |
+| `tech/backend` | 吕金果 |
+| `tech/data-adm` | 张成 |
+| `tech/data-tvm` | 张成→吴坤城 |
+| `tech/sivt-adm` | 杨春雪 |
+| `tech/sivt-tvm` | 吴坤城 |
+| `tech/ivt` | 周康平 |
+| `tech/snap-collect` | 周康平 |
+| `tech/snap-compute` | 囡囡（uid 待补；加 workspace 前先通过张成转派）|
+| `tech/sdk-android` | 张乾 |
+| `tech/sdk-ios` | 王立涛 |
+
+### 客户标识
+| label | 含义 |
+|-------|------|
+| `ka/pg` | 宝洁专属，其他客户不算 KA |
+
+### svc/*（保留现有 7 个，服务定位补充）
+`svc/admonitor`、`svc/intra-api`、`svc/tv-api`、`svc/tv-query`、`svc/tv-web`、`svc/ui-report`、`svc/verify-api`
+
+### 交叉使用示例
+| 场景 | Label 组合 |
+|------|-----------|
+| 宝洁客户提了 SIVT 数据异常 | `ka/pg` + `type/investigate` + `tech/sivt-adm` |
+| 自动日报没发送，初期排查 | `type/investigate` + `tech/backend` |
+| SNAP 监拍异常 | `type/investigate` + `tech/ivt` |
+| SNAP 计算异常 | `type/investigate` + `tech/snap-compute` |
+| 客户要 SNAP 采集异常 | `type/investigate` + `tech/snap-collect` |
+| ADM 数据对不上 | `type/investigate` + `tech/data-adm` |
+| 确认是产品 bug | 改 `type/bug`，定位到具体 `tech/*` |
 
 ---
 
