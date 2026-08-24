@@ -104,10 +104,11 @@
 | 黄春波 | 前端研发（吕金果指派） | — |
 | 李晴晴 | 前端研发（吕金果指派） | — |
 
-### 端侧
+### 端侧 / SNAP
 | 研发 | 职责 |
 |------|------|
-| 周康平 | 端侧研发，实验室相关工作，snap云手机侧开发 |
+| 周康平 | 端侧研发，实验室相关工作，SNAP 采集/云手机侧开发 |
+| 囡囡（贾囡囡） | SNAP 计算（吕金果团队）；（uid 待补，Space 搜不到”贾囡囡“，可能不是本名）|
 
 ### 大数据（ADM/TVM）
 | 研发 | 职责 |
@@ -118,8 +119,7 @@
 | 陈龙 | ADM 大数据研发，CT |
 | 杨春雪 | ADM 大数据研发，SIVT/dr2pg |
 | 陈鹏 | ADM 大数据研发，DR及panel研发制作，universe/panel相关问题指给他 |
-| 吴坤城 | TVM 大数据研发，TVM 大数据侧数据计算/PMO计算/SIVT |
-| 囡囡（jianannan） | SNAP 计算；（uid 待补）|
+| 吴坤城 | TVM 大数据研发，TVA 大数据侧数据计算/PMO计算/SIVT |
 
 ### MCP/lite/海外
 | 研发 | 职责 |
@@ -172,7 +172,7 @@
 | `tech/sivt-tvm` | 吴坤城 |
 | `tech/ivt` | 周康平 |
 | `tech/snap-collect` | 周康平 |
-| `tech/snap-compute` | 囡囡（uid 待补；加 workspace 前先通过张成转派）|
+| `tech/snap-compute` | 囡囡（贾囡囡、金果团队；uid 待补；先兑底吕金果转派）|
 | `tech/sdk-android` | 张乾 |
 | `tech/sdk-ios` | 王立涛 |
 
