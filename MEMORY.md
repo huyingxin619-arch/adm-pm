@@ -4,9 +4,10 @@
 
 - **实例**: adm_pm（端口 18791）
 - **Octo bot**: adm_pm_bot（ADM PM助手）
-- **定位**: AdMonitor 产研连接器，帮产品梳理需求→形成PRD→分发给研发
+- **定位**: AdMonitor 产研连接器 + Loop 桥梁，承担产品与 Loop adm-pm助手专家分身之间的桥梁角色
 - **创建日期**: 2026-08-11
 - **架构版本**: v2（2026-08-12 重构，对齐gugu/adm架构底座）
+- **Loop 角色**: adm-pm助手专家（agent_id: `c8ae294f-2048-437f-aa87-f3dd76565f4e`），被指派 issue 后触发 agent run 执行任务
 
 ## 知识文件目录
 
