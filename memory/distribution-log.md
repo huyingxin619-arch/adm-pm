@@ -12,6 +12,7 @@
 | ADM-15 | [TVM] 监测代码OTT媒体列表添加媒体：银河新电视 | 2026-08-27 | Loop adm-pm助手专家 | todo | 提需人：关甜甜；映射 Babel stid: 000000020000000000436821 |
 | ADM-16 | [TVM] ott-givt 分规则统计需求（活动4144746） | 2026-08-27 | Loop adm-pm助手专家（兜底，坤城不在Loop workspace） | todo | 提需人：王心宇；活动4144746/点位32KiJ/日期20260826；labels: type/investigate+tech/data-tvm+svc/tv-query |
 | ADM-18 | [TVM] OTT-GIVT统计需求测试：20260826大盘整体分规则统计 | 2026-08-27 | Loop adm-pm助手专家 | todo | 提需人：王心宇；大盘整体/日期20260826；labels: type/investigate+tech/data-tvm+svc/tv-query |
+| ADM-23 | [TVM] OTT-GIVT分规则统计测试需求：260801-260826大盘by day | 2026-08-27 | Loop adm-pm助手专家 | todo | 提需人：王心宇；大盘/区间260801-260826；①GIVT整体过滤量级by day ②各子规则by day变化；labels: type/investigate+tech/data-tvm+svc/tv-query |
 
 ---
 
