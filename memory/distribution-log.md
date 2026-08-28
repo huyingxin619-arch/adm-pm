@@ -14,6 +14,12 @@
 | ADM-18 | [TVM] OTT-GIVT统计需求测试：20260826大盘整体分规则统计 | 2026-08-27 | Loop adm-pm助手专家 | todo | 提需人：王心宇；大盘整体/日期20260826；labels: type/investigate+tech/data-tvm+svc/tv-query |
 | ADM-23 | [TVM] OTT-GIVT分规则统计测试需求：260801-260826大盘by day | 2026-08-27 | Loop adm-pm助手专家 | todo | 提需人：王心宇；大盘/区间260801-260826；①GIVT整体过滤量级by day ②各子规则by day变化；labels: type/investigate+tech/data-tvm+svc/tv-query |
 
+## 2026-08-28
+
+| PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
+|---------|------|----------|--------|------|------|
+| ADM-24 | ADM M+ & TVM 数据中心 API 接口开发 | 2026-08-28 | Loop adm-pm助手专家（→吕金果二次分配） | todo | 提需人：胡映昕；优先级high；期望2周完成；含2张截图附件；issue ID: 5e4c50ef-6039-4289-836c-a0c8ae1379bc |
+
 ---
 
 _每次分发后即时更新。_
