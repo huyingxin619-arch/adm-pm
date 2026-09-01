@@ -71,6 +71,7 @@
 | 行动规则变了 | `AGENTS.md` |
 | 工具配置变了 | `TOOLS.md` |
 | 角色定位 / 思维方式变了 | `SOUL.md` |
+| issue 提需人 ↔ 来源群映射 | `memory/distribution-log.md` |
 
 ### 触发词表
 
@@ -104,15 +105,34 @@
 
 1. 根据 PRD 内容判断属于哪个研发方向
 2. 在 Loop 创建 issue，指派给 adm-pm助手专家（Loop 里的我）
-3. 记录分发时间、接收人
-4. 定期跟进 Loop issue 状态
-5. 完成后更新状态，反馈给产品
+3. 记录分发时间、接收人、**提需人、来源群 group_id**
+4. 由 `Loop issue 事件轮询` cron（每 3 分钟）自动捕获变更并通知，不再需要人工定期跟进
+5. 通知完成后更新 distribution-log.md / requirement-tracker.md 状态
+
+### 主动通知机制（2026-09-01 建立）
+
+**反面教材**：运行以来一次都没主动通知过提需人。小胡批评后建立本机制。
+
+**捕获 4 类事件**（scripts/issue_poll.py 轮询）：
+1. 状态变更（todo/in_progress/in_review/done/blocked/cancelled 之间的切换）
+2. 新评论（专家/研发在 issue 下留言）
+3. 指派人变更（兜底/转指派）
+4. 新建子任务（专家拆单子任务）
+
+**通知规则**：
+- 通知发到**需求原来的来源群** @ 提需人（不私聊、不发 webhook 群、不 @ 小胡除非小胡就是提需人）
+- 子任务事件 → 沿 parent_issue_id 找到根需求，通知根提需人
+- 4 类事件全通知：让提需人对「自己的需求在动」有感知
+- 状态文案：in_review=请验收、done=已闭环、blocked=有阻塞（附原因）、cancelled=已取消（附原因）
+
+**实施**：cron job `Loop issue 事件轮询` 每 3 分钟跑 `bash ~/.openclaw-adm_pm/workspace-pm/scripts/issue-poll.sh`，有事件就按规则发通知 + 更新两份日志
 
 ### Loop Issue 创建铁律
 - **读图**：如果反馈内容含图片，必须先用 image 工具读图，提取关键信息（task ID、错误日志、配置截图等）
 - **附图**：有图片的 issue 必须把图附到 issue 上（--attachment）
 - **完整信息**：issue 描述必须包含所有执行所需信息，不能假设 Loop 那边的我知道对话上下文
 - **指派目标**：默认指派给 adm-pm助手专家（assignee: adm-pm助手），不是其他专家
+- **来源群记录**（2026-09-01 新增）：建 issue 时必须在描述中标注「来源群: {group_id}」，同时记入 distribution-log.md。轮询通知机制靠这个字段定位通知发到哪里，**没记 = 放弃主动通知**
 
 ---
 

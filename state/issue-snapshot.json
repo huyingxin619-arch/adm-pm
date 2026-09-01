@@ -1,0 +1,172 @@
+{
+  "ADM-22": {
+    "status": "in_review",
+    "updated_at": "2026-08-27T18:46:00+08:00",
+    "title": "[tv-web] 自定义人群发布TA重算时未传布点计算参数"
+  },
+  "ADM-36": {
+    "status": "todo",
+    "updated_at": "2026-09-01T20:04:19+08:00",
+    "title": "[ADM] 监测点信息导出extInfo字段异常（批量导出错位+新建活动字段空值）"
+  },
+  "ADM-21": {
+    "status": "in_review",
+    "updated_at": "2026-08-27T18:45:37+08:00",
+    "title": "[tv-api] 活动列表 /campaign/list 空指针 NPE 修复"
+  },
+  "ADM-11": {
+    "status": "cancelled",
+    "updated_at": "2026-08-24T17:04:18+08:00",
+    "title": "后端排查：活动2510519 日报发送服务及配置检查"
+  },
+  "ADM-35": {
+    "status": "todo",
+    "updated_at": "2026-09-01T17:39:15+08:00",
+    "title": "[ADM] 统计caid版本信息（2026年7月日志）"
+  },
+  "ADM-34": {
+    "status": "cancelled",
+    "updated_at": "2026-09-01T16:49:55+08:00",
+    "title": "[测试] worker 模型自报验证"
+  },
+  "ADM-33": {
+    "status": "in_progress",
+    "updated_at": "2026-09-01T11:06:24+08:00",
+    "title": "[TVM] 多维自动报告异常（任务1106395/1106394）"
+  },
+  "ADM-20": {
+    "status": "cancelled",
+    "updated_at": "2026-08-27T16:28:21+08:00",
+    "title": "[tv-api] [bug] tvmonitor 活动管理：自定义人群发布TA重算失败 + 活动列表空指针"
+  },
+  "ADM-19": {
+    "status": "in_review",
+    "updated_at": "2026-08-27T15:53:04+08:00",
+    "title": "[GIVT查询] 20260826 大盘整体 OTT-GIVT 分规则统计"
+  },
+  "ADM-18": {
+    "status": "in_progress",
+    "updated_at": "2026-08-27T15:42:36+08:00",
+    "title": "[TVM] OTT-GIVT统计需求测试：20260826大盘整体分规则统计"
+  },
+  "ADM-10": {
+    "status": "in_review",
+    "updated_at": "2026-08-24T18:27:26+08:00",
+    "title": "排查活动2510519日报发送服务及配置（后端侧）"
+  },
+  "ADM-8": {
+    "status": "done",
+    "updated_at": "2026-08-27T17:40:24+08:00",
+    "title": "活动2510519 自动日报未发送（汉高施华蔻抖音）"
+  },
+  "ADM-28": {
+    "status": "todo",
+    "updated_at": "2026-09-01T15:19:57+08:00",
+    "title": "M+ 任务下载 CSV 字段错列 — 导出逻辑修复（ns字段逗号未转义）"
+  },
+  "ADM-27": {
+    "status": "in_review",
+    "updated_at": "2026-08-28T18:57:18+08:00",
+    "title": "M+ 任务下载字段错列排查（任务481039/481041）"
+  },
+  "ADM-17": {
+    "status": "in_review",
+    "updated_at": "2026-08-27T22:39:11+08:00",
+    "title": "[bug] tvmonitor 活动管理：自定义人群发布TA重算失败 + 活动列表空指针"
+  },
+  "ADM-16": {
+    "status": "in_review",
+    "updated_at": "2026-08-27T15:35:34+08:00",
+    "title": "[TVM] ott-givt 分规则统计需求（活动4144746）"
+  },
+  "ADM-15": {
+    "status": "in_review",
+    "updated_at": "2026-08-27T18:34:12+08:00",
+    "title": "[TVM] 监测代码OTT媒体列表添加媒体：银河新电视"
+  },
+  "ADM-14": {
+    "status": "cancelled",
+    "updated_at": "2026-08-27T15:10:54+08:00",
+    "title": "下载 givt 数据：caid=4144065, date=20260825"
+  },
+  "ADM-13": {
+    "status": "cancelled",
+    "updated_at": "2026-08-27T14:27:01+08:00",
+    "title": "下载 givt 数据：caid=4144065, date=20260825"
+  },
+  "ADM-12": {
+    "status": "in_review",
+    "updated_at": "2026-08-26T17:37:43+08:00",
+    "title": "[BUG] TvMonitor：无布点计算权限用户新建活动时，布点计算字段未设默认值"
+  },
+  "ADM-9": {
+    "status": "cancelled",
+    "updated_at": "2026-08-24T17:04:18+08:00",
+    "title": "排查活动2510519日报数据生成情况（大数据侧）"
+  },
+  "ADM-7": {
+    "status": "cancelled",
+    "updated_at": "2026-08-24T17:04:10+08:00",
+    "title": "活动2510519 自动日报未发送"
+  },
+  "ADM-6": {
+    "status": "done",
+    "updated_at": "2026-08-19T17:48:11+08:00",
+    "title": "后端排查：活动2509914点位删除日志与恢复"
+  },
+  "ADM-5": {
+    "status": "done",
+    "updated_at": "2026-08-19T17:48:11+08:00",
+    "title": "AdMonitor 活动点位被误删，需恢复（活动2509914）"
+  },
+  "ADM-26": {
+    "status": "in_progress",
+    "updated_at": "2026-09-01T18:19:32+08:00",
+    "title": "ADM M+ 任务定制 API 接口开发"
+  },
+  "ADM-25": {
+    "status": "in_progress",
+    "updated_at": "2026-08-31T16:01:35+08:00",
+    "title": "TVM 数据中心 API 接口开发"
+  },
+  "ADM-24": {
+    "status": "in_progress",
+    "updated_at": "2026-09-01T18:19:35+08:00",
+    "title": "ADM M+ & TVM 数据中心 API 接口开发"
+  },
+  "ADM-23": {
+    "status": "in_review",
+    "updated_at": "2026-08-28T14:21:59+08:00",
+    "title": "[TVM] OTT-GIVT分规则统计测试需求：260801-260826大盘by day"
+  },
+  "ADM-3": {
+    "status": "in_progress",
+    "updated_at": "2026-08-19T11:15:12+08:00",
+    "title": "test测试"
+  },
+  "ADM-32": {
+    "status": "blocked",
+    "updated_at": "2026-08-31T20:01:07+08:00",
+    "title": "TV-跨屏打通CTR"
+  },
+  "ADM-2": {
+    "status": "todo",
+    "updated_at": "2026-08-17T19:26:29+08:00",
+    "title": "多维钻取API增加GIVT分规则指标"
+  },
+  "ADM-31": {
+    "status": "blocked",
+    "updated_at": "2026-08-31T20:01:27+08:00",
+    "title": "TV-PMO跨屏打通"
+  },
+  "ADM-30": {
+    "status": "in_review",
+    "updated_at": "2026-08-31T19:23:49+08:00",
+    "title": "TV-数据定制-批量任务"
+  },
+  "ADM-29": {
+    "status": "in_progress",
+    "updated_at": "2026-08-31T19:18:30+08:00",
+    "title": "TV-数据定制-3种新建"
+  }
+}
