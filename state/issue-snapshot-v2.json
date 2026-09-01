@@ -11,9 +11,9 @@
   "ADM-36": {
     "id": "9bab8061-fb2a-42a0-9e15-0e735be6096c",
     "status": "todo",
-    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-01T20:04:19+08:00",
+    "updated_at": "2026-09-01T21:15:36+08:00",
     "title": "[ADM] 监测点信息导出extInfo字段异常（批量导出错位+新建活动字段空值）",
     "parent_issue_id": null
   },
@@ -218,9 +218,9 @@
   "ADM-26": {
     "id": "29aa13b3-871e-4446-8770-e588f5692877",
     "status": "in_progress",
-    "assignee_id": "38aeb0d2-df7f-4323-94b7-4e69da660add",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-01T18:19:32+08:00",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-09-01T23:25:52+08:00",
     "title": "ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
   },
