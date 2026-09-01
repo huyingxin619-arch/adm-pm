@@ -31,7 +31,7 @@
 |---------|------|----------|--------|------|------|
 | ADM-33 | [TVM] 多维自动报告异常（任务1106395/1106394） | 2026-09-01 | Loop adm-pm助手专家 | todo | 提需人：邢思源；优先级high；子任务1106405计算失败+8/29报告未生成；issue ID: 270ad7ff-34d8-4830-978f-016d10b65e66 |
 | ADM-35 | [ADM] 统计caid版本信息（2026年7月日志） | 2026-09-01 | 于长亮 | todo | 提需人：邢思源；优先级high；日志7/1-7/30；m14a优先m14兜底；剔除CAID默认值；by day输出非朋友圈大盘+朋友圈整体流量；issue ID: daef2a20-4eab-4b0f-afbc-1655a4a719a0 |
-| ADM-36 | [ADM] 监测点信息导出extInfo字段异常（批量导出错位+新建活动字段空值） | 2026-09-01 | Loop adm-pm助手专家 | todo | 提需人：吴济；优先级high；历史活动2512416正常/新活动2513757异常；extInfo_md5FormatType批量导出左移+新建活动空值；extInfo_budgetInput被copy；issue ID: 9bab8061-fb2a-42a0-9e15-0e735be6096c |
+| ADM-36 | [ADM] 监测点信息导出extInfo字段异常（批量导出错位+新建活动字段空值） | 2026-09-01 | Loop adm-pm助手专家 | 开发中 | 提需人：吴济；优先级high；历史活动2512416正常/新活动2513757异常；extInfo_md5FormatType批量导出左移+新建活动空值；extInfo_budgetInput被copy；issue ID: 9bab8061-fb2a-42a0-9e15-0e735be6096c；⚠️漏记来源群group_id，9/1建issue时未补；9/1 21:15 指派人变更+技术方案评论 |
 
 ---
 
