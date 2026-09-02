@@ -30,7 +30,7 @@
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
 | ADM-37 | [TVM] SIVT线上举证条数限制（新增设备规则） | 2026-09-02 | Loop adm-pm助手专家（→吴坤城） | in_review | 提需人：王心宇；来源群：直聊DM（无group_id）；优先级P1/high；期望本周(9/5前)；新增设备规则全量→限50条按uuid升序；非白名单已无量不改；labels: type/feature+tech/sivt-tvm+svc/tv-api；issue ID: 3c9bb261-02ba-4c3e-afe4-fb9655125197；9/2 11:33 状态变更 in_progress→in_review（请验收）；9/2 14:21 指派人变更（adm-pm助手→d5ca704c） |
-| ADM-38 | [TVM] OTT GIVT举证开发需求 | 2026-09-02 | Loop adm-pm助手专家（目标承接：吴坤城，坤城不在Loop workspace无法直派） | todo | 提需人：王心宇；来源群：直聊DM（无group_id）；优先级high；参照OTV以SFTP形式支持举证；举证规则/字段/存储要求见企微文档（链接在issue内）；labels: type/feature+tech/data-tvm+svc/tv-api；issue ID: 1450ab52-62a3-4e51-b8b8-e616afa89cb7；9/2 15:13 指派人变更（adm-pm助手→7bcc9ad4）+新评论（需求审核报告：复述需求内容，确认提需人王心宇，目标承接人待定） |
+| ADM-38 | [TVM] OTT GIVT举证开发需求 | 2026-09-02 | Loop adm-pm助手专家（目标承接：吴坤城，坤城不在Loop workspace无法直派） | todo | 提需人：王心宇；来源群：直聊DM（无group_id）；优先级high；参照OTV以SFTP形式支持举证；举证规则/字段/存储要求见企微文档（链接在issue内）；labels: type/feature+tech/data-tvm+svc/tv-api；issue ID: 1450ab52-62a3-4e51-b8b8-e616afa89cb7；9/2 15:13 指派人变更（adm-pm助手→7bcc9ad4）+新评论（需求审核报告：复述需求内容，确认提需人王心宇，目标承接人待定）；9/2 16:00 指派人变更（7bcc9ad4→d5ca704c）；来源群无group_id跳过通知 |
 
 ## 2026-09-01
 
