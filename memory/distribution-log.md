@@ -23,7 +23,7 @@
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
 | ADM-24 | ADM M+ & TVM 数据中心 API 接口开发 | 2026-08-28 | Loop adm-pm助手专家（→吕金果二次分配） | 开发中 | 提需人：胡映昕；优先级high；期望2周完成；含2张截图附件；issue ID: 5e4c50ef-6039-4289-836c-a0c8ae1379bc；⚠️老issue无来源群group_id，跳过主动通知；子任务ADM-26：9/2 14:34 指派人变更+新评论（技术负责人审核反馈：mplus配置前缀应使用admonitor、prod环境redis配置需修正）；9/2 14:47 指派人变更+新评论（配置修改已完成：mplus配置前缀统一到admonitor命名空间，从mz.mplus.*迁移到mz.admonitor.mplus.*）；9/2 14:47 新评论（确认合并）；9/2 14:56 指派人变更+新评论（OCTO-LOOP合并指令：技术负责人确认合并，请将feat/ADM-26-mplus-api合并到feature/260831-mplus-api并push） |
-| ADM-27 | M+ 任务下载字段错列排查（任务481039/481041） | 2026-08-28 | Loop adm-pm助手专家 | todo | 提需人：胡映昕；反馈人：慕程琳；优先级high；任务ID 481039/481041；活动2510032；字段ti/NS/IP/tr/ipTp错列；含2张截图+1个zip附件；issue ID: ae7727f0-c42f-4c10-87c0-a2b812d6e789 |
+| ADM-27 | M+ 任务下载字段错列排查（任务481039/481041） | 2026-08-28 | Loop adm-pm助手专家 | 开发中 | 提需人：胡映昕；反馈人：慕程琳；优先级high；任务ID 481039/481041；活动2510032；字段ti/NS/IP/tr/ipTp错列；含2张截图+1个zip附件；issue ID: ae7727f0-c42f-4c10-87c0-a2b812d6e789；子任务ADM-28（CSV字段逗号未转义修复）：9/2 15:43 状态 todo→in_progress；9/2 15:43 新评论（ns字段回传多ip导致M+取值异常，ns只适配单个ip，多ip违背设计）；⚠️老issue无来源群group_id，跳过通知 |
 
 ## 2026-09-02
 
@@ -37,7 +37,7 @@
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
 | ADM-33 | [TVM] 多维自动报告异常（任务1106395/1106394） | 2026-09-01 | Loop adm-pm助手专家 | todo | 提需人：邢思源；优先级high；子任务1106405计算失败+8/29报告未生成；issue ID: 270ad7ff-34d8-4830-978f-016d10b65e66；9/2 11:38 状态 in_progress→todo（格式审核未通过：缺svc服务标签，无法自动派发）+指派人变更+新评论（格式审核未通过反馈）；9/2 11:46 指派人变更+新评论（OCTO-LOOP：svc/ui-report无对应dev agent，无法自动派工排查）；9/2 11:49 状态 todo→blocked（有阻塞）；9/2 14:03 状态 blocked→todo + 指派人变更 + 新评论（OCTO-LOOP流程纠正：之前误判涉及svc/ui-report导致阻塞，实际标签为svc/tv-web+svc/tv-query，由tv cloud web worker统一处理，不涉及ui-report）；9/2 14:03 新评论（等待三个探索agent完成代码分析，开始搜索/home/mlclaw/miaozhen/api代码库中auto-report功能）；⚠️无来源群group_id，跳过通知 |
-| ADM-35 | [ADM] 统计caid版本信息（2026年7月日志） | 2026-09-01 | 于长亮 | todo | 提需人：邢思源；优先级high；日志7/1-7/30；m14a优先m14兜底；剔除CAID默认值；by day输出非朋友圈大盘+朋友圈整体流量；issue ID: daef2a20-4eab-4b0f-afbc-1655a4a719a0 |
+| ADM-35 | [ADM] 统计caid版本信息（2026年7月日志） | 2026-09-01 | 于长亮 | in_progress | 提需人：邢思源；优先级high；日志7/1-7/30；m14a优先m14兜底；剔除CAID默认值；by day输出非朋友圈大盘+朋友圈整体流量；issue ID: daef2a20-4eab-4b0f-afbc-1655a4a719a0；9/2 15:42 状态 todo→in_progress；⚠️无来源群group_id，跳过通知 |
 | ADM-36 | [ADM] 监测点信息导出extInfo字段异常（批量导出错位+新建活动字段空值） | 2026-09-01 | Loop adm-pm助手专家 | 开发中 | 提需人：吴济；优先级high；历史活动2512416正常/新活动2513757异常；extInfo_md5FormatType批量导出左移+新建活动空值；extInfo_budgetInput被copy；issue ID: 9bab8061-fb2a-42a0-9e15-0e735be6096c；⚠️漏记来源群group_id，9/1建issue时未补；9/1 21:15 指派人变更+新评论（extInfo列位置是运行时扫描表头fieldName→列号映射，要求提供日志格式去服务器查看细节）；9/2 14:20 指派人变更+新评论（extInfo列索引扫描相关日志说明：现有日志仅2行在SpotsInfoServiceImpl.java的findExtInfoIndexFromExcel()方法内）；9/2 14:20 新评论（排查结论：根因是导入模板版本不一致导致列索引错位，非代码bug，8/25上线后有人用旧模板导入） |
 
 ---
