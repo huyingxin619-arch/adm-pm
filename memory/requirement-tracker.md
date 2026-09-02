@@ -8,7 +8,7 @@
 
 | 需求编号 | 标题 | 状态 | 负责人 | 最后更新 | 备注 |
 |-----------|------|------|--------|----------|------|
-| ADM-33 | [TVM] 多维自动报告异常（任务1106395/1106394） | 已分发 | Loop adm-pm助手专家 | 2026-09-02 16:28 | 提需人：邢思源；优先级high；9/2 14:03 状态 blocked→todo + 指派人变更 + 新评论（OCTO-LOOP流程纠正：误判涉及svc/ui-report导致阻塞，实际标签svc/tv-web+svc/tv-query，由tv cloud web worker统一处理）；9/2 14:03 新评论（等待三个探索agent完成代码分析，搜索api代码库auto-report功能）；9/2 16:28 指派人变更（取消指派）；无来源群group_id跳过通知 |
+| ADM-33 | [TVM] 多维自动报告异常（任务1106395/1106394） | 已分发 | Loop adm-pm助手专家 | 2026-09-02 16:28 | 提需人：邢思源；优先级high；9/2 14:03 状态 blocked→todo + 指派人变更 + 新评论（OCTO-LOOP流程纠正：误判涉及svc/ui-report导致阻塞，实际标签svc/tv-web+svc/tv-query，由tv cloud web worker统一处理）；9/2 14:03 新评论（等待三个探索agent完成代码分析，搜索api代码库auto-report功能）；9/2 16:28 指派人变更（取消指派）；9/2 16:28 指派人变更（→4f356f9a，重新指派）；无来源群group_id跳过通知 |
 | ADM-35 | [ADM] 统计caid版本信息（2026年7月日志） | 开发中 | 于长亮 | 2026-09-02 15:42 | 提需人：邢思源；优先级high；9/2 15:42 状态 todo→in_progress；无来源群group_id跳过通知 |
 | ADM-36 | [ADM] 监测点信息导出extInfo字段异常 | 开发中 | Loop adm-pm助手专家 | 2026-09-02 14:20 | 提需人：吴济；优先级high；9/1 21:15 新评论（extInfo列位置是运行时扫描表头fieldName→列号映射，要求提供日志格式去服务器查看）；9/2 14:20 新评论（排查结论：根因是导入模板版本不一致导致列索引错位，非代码bug，8/25上线后有人用旧模板导入extInfo列）；无来源群group_id跳过通知 |
 | ADM-26 | ADM M+ 任务定制 API 接口开发（ADM-24子任务） | 开发中 | Loop adm-pm助手专家 | 2026-09-02 14:56 | 提需人：胡映昕；父需求ADM-24；9/2 14:34 指派人变更+新评论（技术负责人审核反馈：mplus配置前缀应使用admonitor、prod环境redis配置需修正）；9/2 14:47 指派人变更+新评论（配置修改已完成：mplus配置前缀统一到admonitor命名空间，从mz.mplus.*迁移到mz.admonitor.mplus.*）；9/2 14:47 新评论（确认合并）；9/2 14:56 指派人变更+新评论（OCTO-LOOP合并指令：技术负责人确认合并，请将feat/ADM-26-mplus-api合并到feature/260831-mplus-api并push）；老issue无来源群，跳过通知 |
