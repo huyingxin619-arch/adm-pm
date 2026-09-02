@@ -12,6 +12,7 @@
 | ADM-35 | [ADM] 统计caid版本信息（2026年7月日志） | 已分发 | 于长亮 | 2026-09-01 | 提需人：邢思源；优先级high |
 | ADM-36 | [ADM] 监测点信息导出extInfo字段异常 | 开发中 | Loop adm-pm助手专家 | 2026-09-02 14:20 | 提需人：吴济；优先级high；9/1 21:15 新评论（extInfo列位置是运行时扫描表头fieldName→列号映射，要求提供日志格式去服务器查看）；9/2 14:20 新评论（排查结论：根因是导入模板版本不一致导致列索引错位，非代码bug，8/25上线后有人用旧模板导入extInfo列）；无来源群group_id跳过通知 |
 | ADM-26 | ADM M+ 任务定制 API 接口开发（ADM-24子任务） | 开发中 | Loop adm-pm助手专家 | 2026-09-02 14:56 | 提需人：胡映昕；父需求ADM-24；9/2 14:34 指派人变更+新评论（技术负责人审核反馈：mplus配置前缀应使用admonitor、prod环境redis配置需修正）；9/2 14:47 指派人变更+新评论（配置修改已完成：mplus配置前缀统一到admonitor命名空间，从mz.mplus.*迁移到mz.admonitor.mplus.*）；9/2 14:47 新评论（确认合并）；9/2 14:56 指派人变更+新评论（OCTO-LOOP合并指令：技术负责人确认合并，请将feat/ADM-26-mplus-api合并到feature/260831-mplus-api并push）；老issue无来源群，跳过通知 |
+| ADM-38 | [TVM] OTT GIVT举证开发需求 | 已分发 | Loop adm-pm助手专家 | 2026-09-02 15:13 | 提需人：王心宇；优先级high；9/2 15:13 指派人变更（adm-pm助手→7bcc9ad4）+新评论（需求审核报告：复述需求内容，确认提需人王心宇，目标承接人待定）；来源群无group_id跳过通知 |
 | ADM-37 | [TVM] SIVT线上举证条数限制（新增设备规则） | in_review | Loop adm-pm助手专家 | 2026-09-02 14:21 | 提需人：王心宇；优先级P1/high；期望本周(9/5前)；9/2 11:33 状态 in_progress→in_review（请验收）；9/2 14:21 指派人变更（adm-pm助手→d5ca704c）；来源群无group_id跳过通知 |
 | ADM-12 | [BUG] TvMonitor：无布点计算权限用户新建活动时，布点计算字段未设默认值 | 已闭环 | Loop adm-pm助手专家 | 2026-09-02 11:51 | 9/2 11:51 in_review→done 已闭环；老issue无来源群记录 |
 | ADM-15 | [TVM] 监测代码OTT媒体列表添加媒体：银河新电视 | 已闭环 | Loop adm-pm助手专家 | 2026-09-02 11:51 | 提需人：关甜甜；9/2 11:51 in_review→done 已闭环；老issue无来源群group_id跳过通知 |
