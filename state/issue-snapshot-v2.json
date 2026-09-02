@@ -218,9 +218,9 @@
   "ADM-26": {
     "id": "29aa13b3-871e-4446-8770-e588f5692877",
     "status": "in_progress",
-    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
-    "assignee_type": "member",
-    "updated_at": "2026-09-01T23:25:52+08:00",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-02T10:57:00+08:00",
     "title": "ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
   },
