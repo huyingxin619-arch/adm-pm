@@ -1,4 +1,13 @@
 {
+  "ADM-37": {
+    "id": "3c9bb261-02ba-4c3e-afe4-fb9655125197",
+    "status": "in_review",
+    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-02T11:33:12+08:00",
+    "title": "[TVM] SIVT线上举证条数限制（新增设备规则）",
+    "parent_issue_id": null
+  },
   "ADM-22": {
     "id": "ee225426-321f-4cf9-b026-752501911f41",
     "status": "in_review",
@@ -218,9 +227,9 @@
   "ADM-26": {
     "id": "29aa13b3-871e-4446-8770-e588f5692877",
     "status": "in_progress",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_id": "38aeb0d2-df7f-4323-94b7-4e69da660add",
     "assignee_type": "agent",
-    "updated_at": "2026-09-02T10:57:00+08:00",
+    "updated_at": "2026-09-02T11:25:34+08:00",
     "title": "ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
   },

@@ -29,7 +29,7 @@
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-37 | [TVM] SIVT线上举证条数限制（新增设备规则） | 2026-09-02 | Loop adm-pm助手专家（→吴坤城） | todo | 提需人：王心宇；来源群：直聊DM（无group_id）；优先级P1/high；期望本周(9/5前)；新增设备规则全量→限50条按uuid升序；非白名单已无量不改；labels: type/feature+tech/sivt-tvm+svc/tv-api；issue ID: 3c9bb261-02ba-4c3e-afe4-fb9655125197 |
+| ADM-37 | [TVM] SIVT线上举证条数限制（新增设备规则） | 2026-09-02 | Loop adm-pm助手专家（→吴坤城） | in_review | 提需人：王心宇；来源群：直聊DM（无group_id）；优先级P1/high；期望本周(9/5前)；新增设备规则全量→限50条按uuid升序；非白名单已无量不改；labels: type/feature+tech/sivt-tvm+svc/tv-api；issue ID: 3c9bb261-02ba-4c3e-afe4-fb9655125197；9/2 11:33 状态变更 in_progress→in_review（请验收） |
 
 ## 2026-09-01
 
