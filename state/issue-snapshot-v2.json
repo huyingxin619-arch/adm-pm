@@ -73,10 +73,10 @@
   },
   "ADM-33": {
     "id": "270ad7ff-34d8-4830-978f-016d10b65e66",
-    "status": "todo",
-    "assignee_id": "",
-    "assignee_type": "",
-    "updated_at": "2026-09-02T16:28:33+08:00",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-02T17:52:59+08:00",
     "title": "[TVM] 多维自动报告异常（任务1106395/1106394）",
     "parent_issue_id": null
   },

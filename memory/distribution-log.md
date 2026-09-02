@@ -2,9 +2,10 @@
 
 格式：PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注
 
-> **2026-09-01 起新增必填字段**：备注中必须包含「提需人：XXX；来源群：{group_id}」。
-> 来源群是轮询通知机制发消息的归宿，没记 = 放弃主动通知。
-> 老 issue（2026-09-01 之前建的）没有来源群字段，轮询发现后跳过通知，仅更新状态。
+> **2026-09-02 起规则更新**：备注中必须包含「提需人：XXX；通知渠道：{chat_id}」。
+> 通知渠道 = 需求提出时的聊天通道，DM 和群聊都通知。格式：DM:{uid} 或 群:{group_no}。
+> 提需人 = @我提需求的那个人。
+> 2026-09-02 之前建的 issue 没有通知渠道字段，轮询跳过通知，仅更新状态。
 
 ---
 
@@ -22,23 +23,23 @@
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-24 | ADM M+ & TVM 数据中心 API 接口开发 | 2026-08-28 | Loop adm-pm助手专家（→吕金果二次分配） | 开发中 | 提需人：胡映昕；优先级high；期望2周完成；含2张截图附件；issue ID: 5e4c50ef-6039-4289-836c-a0c8ae1379bc；⚠️老issue无来源群group_id，跳过主动通知；子任务ADM-26：9/2 14:34 指派人变更+新评论（技术负责人审核反馈：mplus配置前缀应使用admonitor、prod环境redis配置需修正）；9/2 14:47 指派人变更+新评论（配置修改已完成：mplus配置前缀统一到admonitor命名空间，从mz.mplus.*迁移到mz.admonitor.mplus.*）；9/2 14:47 新评论（确认合并）；9/2 14:56 指派人变更+新评论（OCTO-LOOP合并指令：技术负责人确认合并，请将feat/ADM-26-mplus-api合并到feature/260831-mplus-api并push） |
-| ADM-27 | M+ 任务下载字段错列排查（任务481039/481041） | 2026-08-28 | Loop adm-pm助手专家 | 开发中 | 提需人：胡映昕；反馈人：慕程琳；优先级high；任务ID 481039/481041；活动2510032；字段ti/NS/IP/tr/ipTp错列；含2张截图+1个zip附件；issue ID: ae7727f0-c42f-4c10-87c0-a2b812d6e789；子任务ADM-28（CSV字段逗号未转义修复）：9/2 15:43 状态 todo→in_progress；9/2 15:43 新评论（ns字段回传多ip导致M+取值异常，ns只适配单个ip，多ip违背设计）；⚠️老issue无来源群group_id，跳过通知 |
+| ADM-24 | ADM M+ & TVM 数据中心 API 接口开发 | 2026-08-28 | Loop adm-pm助手专家（→吕金果二次分配） | 开发中 | 提需人：胡映昕；优先级high；期望2周完成；含2张截图附件；issue ID: 5e4c50ef-6039-4289-836c-a0c8ae1379bc；⚠️老issue无通知渠道，跳过通知；子任务ADM-26：9/2 14:34 指派人变更+新评论（技术负责人审核反馈：mplus配置前缀应使用admonitor、prod环境redis配置需修正）；9/2 14:47 指派人变更+新评论（配置修改已完成：mplus配置前缀统一到admonitor命名空间，从mz.mplus.*迁移到mz.admonitor.mplus.*）；9/2 14:47 新评论（确认合并）；9/2 14:56 指派人变更+新评论（OCTO-LOOP合并指令：技术负责人确认合并，请将feat/ADM-26-mplus-api合并到feature/260831-mplus-api并push） |
+| ADM-27 | M+ 任务下载字段错列排查（任务481039/481041） | 2026-08-28 | Loop adm-pm助手专家 | 开发中 | 提需人：胡映昕；反馈人：慕程琳；优先级high；任务ID 481039/481041；活动2510032；字段ti/NS/IP/tr/ipTp错列；含2张截图+1个zip附件；issue ID: ae7727f0-c42f-4c10-87c0-a2b812d6e789；子任务ADM-28（CSV字段逗号未转义修复）：9/2 15:43 状态 todo→in_progress；9/2 15:43 新评论（ns字段回传多ip导致M+取值异常，ns只适配单个ip，多ip违背设计）；⚠️老issue无通知渠道，跳过通知 |
 
 ## 2026-09-02
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-37 | [TVM] SIVT线上举证条数限制（新增设备规则） | 2026-09-02 | Loop adm-pm助手专家（→吴坤城） | in_review | 提需人：王心宇；来源群：直聊DM（无group_id）；优先级P1/high；期望本周(9/5前)；新增设备规则全量→限50条按uuid升序；非白名单已无量不改；labels: type/feature+tech/sivt-tvm+svc/tv-api；issue ID: 3c9bb261-02ba-4c3e-afe4-fb9655125197；9/2 11:33 状态变更 in_progress→in_review（请验收）；9/2 14:21 指派人变更（adm-pm助手→d5ca704c） |
-| ADM-38 | [TVM] OTT GIVT举证开发需求 | 2026-09-02 | Loop adm-pm助手专家（目标承接：吴坤城，坤城不在Loop workspace无法直派） | todo | 提需人：王心宇；来源群：直聊DM（无group_id）；优先级high；参照OTV以SFTP形式支持举证；举证规则/字段/存储要求见企微文档（链接在issue内）；labels: type/feature+tech/data-tvm+svc/tv-api；issue ID: 1450ab52-62a3-4e51-b8b8-e616afa89cb7；9/2 15:13 指派人变更（adm-pm助手→7bcc9ad4）+新评论（需求审核报告：复述需求内容，确认提需人王心宇，目标承接人待定）；9/2 16:00 指派人变更（7bcc9ad4→d5ca704c）；来源群无group_id跳过通知 |
+| ADM-37 | [TVM] SIVT线上举证条数限制（新增设备规则） | 2026-09-02 | Loop adm-pm助手专家（→吴坤城） | in_review | 提需人：王心宇；通知渠道：DM:03b1da44f59b437b8edb0be6800288cf；优先级P1/high；期望本周(9/5前)；新增设备规则全量→限50条按uuid升序；非白名单已无量不改；labels: type/feature+tech/sivt-tvm+svc/tv-api；issue ID: 3c9bb261-02ba-4c3e-afe4-fb9655125197；9/2 11:33 状态变更 in_progress→in_review（请验收）；9/2 14:21 指派人变更（adm-pm助手→d5ca704c） |
+| ADM-38 | [TVM] OTT GIVT举证开发需求 | 2026-09-02 | Loop adm-pm助手专家（目标承接：吴坤城，坤城不在Loop workspace无法直派） | todo | 提需人：王心宇；通知渠道：DM:03b1da44f59b437b8edb0be6800288cf；优先级high；参照OTV以SFTP形式支持举证；举证规则/字段/存储要求见企微文档（链接在issue内）；labels: type/feature+tech/data-tvm+svc/tv-api；issue ID: 1450ab52-62a3-4e51-b8b8-e616afa89cb7；9/2 15:13 指派人变更（adm-pm助手→7bcc9ad4）+新评论（需求审核报告：复述需求内容，确认提需人王心宇，目标承接人待定）；9/2 16:00 指派人变更（7bcc9ad4→d5ca704c） |
 
 ## 2026-09-01
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-33 | [TVM] 多维自动报告异常（任务1106395/1106394） | 2026-09-01 | Loop adm-pm助手专家 | todo | 提需人：邢思源；优先级high；子任务1106405计算失败+8/29报告未生成；issue ID: 270ad7ff-34d8-4830-978f-016d10b65e66；9/2 11:38 状态 in_progress→todo（格式审核未通过：缺svc服务标签，无法自动派发）+指派人变更+新评论（格式审核未通过反馈）；9/2 11:46 指派人变更+新评论（OCTO-LOOP：svc/ui-report无对应dev agent，无法自动派工排查）；9/2 11:49 状态 todo→blocked（有阻塞）；9/2 14:03 状态 blocked→todo + 指派人变更 + 新评论（OCTO-LOOP流程纠正：之前误判涉及svc/ui-report导致阻塞，实际标签为svc/tv-web+svc/tv-query，由tv cloud web worker统一处理，不涉及ui-report）；9/2 14:03 新评论（等待三个探索agent完成代码分析，开始搜索/home/mlclaw/miaozhen/api代码库中auto-report功能）；9/2 16:28 指派人变更（取消指派）；9/2 16:28 指派人变更（→4f356f9a，重新指派）；9/2 16:31 指派人变更（4f356f9a→1c537bb8）；9/2 16:52 指派人变更（1c537bb8→4f356f9a，重新指派）；9/2 17:05 指派人变更（4f356f9a→1c537bb8）；9/2 17:05 新评论（OCTO-LOOP根因已确认，请出修复方案：技术负责人黄春波已通过生产日志确认真实根因，与代码静态分析有差异，请基于确认的根因出修复方案）；9/2 17:05 新评论（修复方案：①st_email表email字段VARCHAR(30)太短导致收件人邮箱被截断 ②子任务计算失败修复方案）；9/2 17:13 指派人变更（1c537bb8→4f356f9a，重新指派）；9/2 17:16 新评论（agent自身评论：issue被重新指派回来，可能因@黄春波触发）；9/2 17:26 新评论（agent自身评论：No new comments, waiting for 黄春波's confirmation. The repeated triggers appear to be from the system re-assigning to me after my own comments post. Not…）；9/2 17:33 状态 todo→done 已闭环；9/2 17:53 状态 done→in_review（请验收）；⚠️无来源群group_id，跳过通知 |
-| ADM-35 | [ADM] 统计caid版本信息（2026年7月日志） | 2026-09-01 | 于长亮 | in_progress | 提需人：邢思源；优先级high；日志7/1-7/30；m14a优先m14兜底；剔除CAID默认值；by day输出非朋友圈大盘+朋友圈整体流量；issue ID: daef2a20-4eab-4b0f-afbc-1655a4a719a0；9/2 15:42 状态 todo→in_progress；⚠️无来源群group_id，跳过通知 |
-| ADM-36 | [ADM] 监测点信息导出extInfo字段异常（批量导出错位+新建活动字段空值） | 2026-09-01 | Loop adm-pm助手专家 | 开发中 | 提需人：吴济；优先级high；历史活动2512416正常/新活动2513757异常；extInfo_md5FormatType批量导出左移+新建活动空值；extInfo_budgetInput被copy；issue ID: 9bab8061-fb2a-42a0-9e15-0e735be6096c；⚠️漏记来源群group_id，9/1建issue时未补；9/1 21:15 指派人变更+新评论（extInfo列位置是运行时扫描表头fieldName→列号映射，要求提供日志格式去服务器查看细节）；9/2 14:20 指派人变更+新评论（extInfo列索引扫描相关日志说明：现有日志仅2行在SpotsInfoServiceImpl.java的findExtInfoIndexFromExcel()方法内）；9/2 14:20 新评论（排查结论：根因是导入模板版本不一致导致列索引错位，非代码bug，8/25上线后有人用旧模板导入）；9/2 15:03 新评论（8.25和9.1的上线涉及到adm的模板了吗？没涉及到也会影响这个问题是不是 @huangchunbo）；9/2 15:03 新评论（@吴济：每次上线重启后会拿业务导入的模版进行索引设置，所以导致了这个问题）；9/2 15:03 新评论（@huangchunbo：业务找到这两波活动的导入模板，表头一致，没有新旧之分）；9/2 15:03 新评论（@吴济：上线后第一个导入的模版读取完就缓存了，后面的都不会重新扫描）；⚠️漏记来源群group_id，9/1建issue时未补 |
+| ADM-33 | [TVM] 多维自动报告异常（任务1106395/1106394） | 2026-09-01 | Loop adm-pm助手专家 | todo | 提需人：邢思源；优先级high；子任务1106405计算失败+8/29报告未生成；issue ID: 270ad7ff-34d8-4830-978f-016d10b65e66；9/2 11:38 状态 in_progress→todo（格式审核未通过：缺svc服务标签，无法自动派发）+指派人变更+新评论（格式审核未通过反馈）；9/2 11:46 指派人变更+新评论（OCTO-LOOP：svc/ui-report无对应dev agent，无法自动派工排查）；9/2 11:49 状态 todo→blocked（有阻塞）；9/2 14:03 状态 blocked→todo + 指派人变更 + 新评论（OCTO-LOOP流程纠正：之前误判涉及svc/ui-report导致阻塞，实际标签为svc/tv-web+svc/tv-query，由tv cloud web worker统一处理，不涉及ui-report）；9/2 14:03 新评论（等待三个探索agent完成代码分析，开始搜索/home/mlclaw/miaozhen/api代码库中auto-report功能）；9/2 16:28 指派人变更（取消指派）；9/2 16:28 指派人变更（→4f356f9a，重新指派）；9/2 16:31 指派人变更（4f356f9a→1c537bb8）；9/2 16:52 指派人变更（1c537bb8→4f356f9a，重新指派）；9/2 17:05 指派人变更（4f356f9a→1c537bb8）；9/2 17:05 新评论（OCTO-LOOP根因已确认，请出修复方案：技术负责人黄春波已通过生产日志确认真实根因，与代码静态分析有差异，请基于确认的根因出修复方案）；9/2 17:05 新评论（修复方案：①st_email表email字段VARCHAR(30)太短导致收件人邮箱被截断 ②子任务计算失败修复方案）；9/2 17:13 指派人变更（1c537bb8→4f356f9a，重新指派）；9/2 17:16 新评论（agent自身评论：issue被重新指派回来，可能因@黄春波触发）；9/2 17:26 新评论（agent自身评论：No new comments, waiting for 黄春波's confirmation. The repeated triggers appear to be from the system re-assigning to me after my own comments post. Not…）；9/2 17:33 状态 todo→done 已闭环；9/2 17:53 状态 done→in_review（请验收）；⚠️老issue无通知渠道，跳过通知 |
+| ADM-35 | [ADM] 统计caid版本信息（2026年7月日志） | 2026-09-01 | 于长亮 | in_progress | 提需人：邢思源；优先级high；日志7/1-7/30；m14a优先m14兜底；剔除CAID默认值；by day输出非朋友圈大盘+朋友圈整体流量；issue ID: daef2a20-4eab-4b0f-afbc-1655a4a719a0；9/2 15:42 状态 todo→in_progress；⚠️老issue无通知渠道，跳过通知 |
+| ADM-36 | [ADM] 监测点信息导出extInfo字段异常（批量导出错位+新建活动字段空值） | 2026-09-01 | Loop adm-pm助手专家 | 开发中 | 提需人：吴济；优先级high；历史活动2512416正常/新活动2513757异常；extInfo_md5FormatType批量导出左移+新建活动空值；extInfo_budgetInput被copy；issue ID: 9bab8061-fb2a-42a0-9e15-0e735be6096c；⚠️漏记通知渠道，9/1建issue时未补；9/1 21:15 指派人变更+新评论（extInfo列位置是运行时扫描表头fieldName→列号映射，要求提供日志格式去服务器查看细节）；9/2 14:20 指派人变更+新评论（extInfo列索引扫描相关日志说明：现有日志仅2行在SpotsInfoServiceImpl.java的findExtInfoIndexFromExcel()方法内）；9/2 14:20 新评论（排查结论：根因是导入模板版本不一致导致列索引错位，非代码bug，8/25上线后有人用旧模板导入）；9/2 15:03 新评论（8.25和9.1的上线涉及到adm的模板了吗？没涉及到也会影响这个问题是不是 @huangchunbo）；9/2 15:03 新评论（@吴济：每次上线重启后会拿业务导入的模版进行索引设置，所以导致了这个问题）；9/2 15:03 新评论（@huangchunbo：业务找到这两波活动的导入模板，表头一致，没有新旧之分）；9/2 15:03 新评论（@吴济：上线后第一个导入的模版读取完就缓存了，后面的都不会重新扫描）；⚠️漏记通知渠道，9/1建issue时未补 |
 
 ---
 

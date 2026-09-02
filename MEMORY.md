@@ -14,7 +14,7 @@
 | 文件 | 内容 | 触发词 |
 |------|------|--------|
 | `memory/prd-knowledge.md` | PRD模板、分发规则、研发对应关系 | PRD、分发、研发 |
-| `memory/distribution-log.md` | PRD分发记录、接收人、状态跟踪 | 分发记录、接收人、状态 |
+| `memory/distribution-log.md` | PRD分发记录、接收人、状态跟踪、通知渠道 | 分发记录、接收人、状态 |
 | `memory/requirement-tracker.md` | 进行中需求跟踪 | 需求进度、进行中 |
 | `memory/pitfalls.md` | 踩坑日记 | 报错、问题 |
 | `memory/YYYY-MM-DD.md` | 每日记录 | 日期 |
