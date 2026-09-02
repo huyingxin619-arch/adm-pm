@@ -1,10 +1,19 @@
 {
+  "ADM-38": {
+    "id": "1450ab52-62a3-4e51-b8b8-e616afa89cb7",
+    "status": "in_progress",
+    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
+    "assignee_type": "member",
+    "updated_at": "2026-09-02T16:00:53+08:00",
+    "title": "[TVM] OTT GIVT举证开发需求",
+    "parent_issue_id": null
+  },
   "ADM-37": {
     "id": "3c9bb261-02ba-4c3e-afe4-fb9655125197",
     "status": "in_review",
-    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-02T11:33:12+08:00",
+    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
+    "assignee_type": "member",
+    "updated_at": "2026-09-02T14:21:07+08:00",
     "title": "[TVM] SIVT线上举证条数限制（新增设备规则）",
     "parent_issue_id": null
   },
@@ -20,9 +29,9 @@
   "ADM-36": {
     "id": "9bab8061-fb2a-42a0-9e15-0e735be6096c",
     "status": "todo",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-01T21:15:36+08:00",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-09-02T15:03:40+08:00",
     "title": "[ADM] 监测点信息导出extInfo字段异常（批量导出错位+新建活动字段空值）",
     "parent_issue_id": null
   },
@@ -46,10 +55,10 @@
   },
   "ADM-35": {
     "id": "daef2a20-4eab-4b0f-afbc-1655a4a719a0",
-    "status": "todo",
+    "status": "in_progress",
     "assignee_id": "37f8ed8c-7925-4e01-8fce-25283fa67d64",
     "assignee_type": "member",
-    "updated_at": "2026-09-01T17:39:15+08:00",
+    "updated_at": "2026-09-02T15:42:28+08:00",
     "title": "[ADM] 统计caid版本信息（2026年7月日志）",
     "parent_issue_id": null
   },
@@ -64,10 +73,10 @@
   },
   "ADM-33": {
     "id": "270ad7ff-34d8-4830-978f-016d10b65e66",
-    "status": "in_progress",
-    "assignee_id": "b2d4c158-36c9-4e9e-a17d-eb83eda4df3e",
-    "assignee_type": "member",
-    "updated_at": "2026-09-01T11:06:24+08:00",
+    "status": "todo",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-09-02T16:28:33+08:00",
     "title": "[TVM] 多维自动报告异常（任务1106395/1106394）",
     "parent_issue_id": null
   },
@@ -118,10 +127,10 @@
   },
   "ADM-28": {
     "id": "bde7f2f7-e4e7-4ab0-a217-a8a2ff2a243b",
-    "status": "todo",
+    "status": "in_progress",
     "assignee_id": "37f8ed8c-7925-4e01-8fce-25283fa67d64",
     "assignee_type": "member",
-    "updated_at": "2026-09-01T15:19:57+08:00",
+    "updated_at": "2026-09-02T15:43:13+08:00",
     "title": "M+ 任务下载 CSV 字段错列 — 导出逻辑修复（ns字段逗号未转义）",
     "parent_issue_id": "ae7727f0-c42f-4c10-87c0-a2b812d6e789"
   },
@@ -154,10 +163,10 @@
   },
   "ADM-15": {
     "id": "136d78f2-8e8f-41d9-a5ff-769bc642b92e",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-08-27T18:34:12+08:00",
+    "updated_at": "2026-09-02T11:51:56+08:00",
     "title": "[TVM] 监测代码OTT媒体列表添加媒体：银河新电视",
     "parent_issue_id": null
   },
@@ -181,10 +190,10 @@
   },
   "ADM-12": {
     "id": "e1e0a3bd-6ec9-4aae-8ef7-f58371194cfa",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-08-26T17:37:43+08:00",
+    "updated_at": "2026-09-02T11:51:44+08:00",
     "title": "[BUG] TvMonitor：无布点计算权限用户新建活动时，布点计算字段未设默认值",
     "parent_issue_id": null
   },
@@ -227,9 +236,9 @@
   "ADM-26": {
     "id": "29aa13b3-871e-4446-8770-e588f5692877",
     "status": "in_progress",
-    "assignee_id": "38aeb0d2-df7f-4323-94b7-4e69da660add",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-02T11:25:34+08:00",
+    "updated_at": "2026-09-02T15:05:05+08:00",
     "title": "ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
   },
