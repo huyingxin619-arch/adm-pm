@@ -141,6 +141,18 @@ def main():
                 "updated_at": new["updated_at"],
             })
 
+        # --- updated_at 变化但状态/指派人都没变（来回变化被快照抵消）---
+        # 说明中间有动作，需要通知提需人关注
+        prev_updated = prev.get("updated_at", "")
+        if prev_updated != new["updated_at"] and prev["status"] == new["status"] and prev.get("assignee_id") == new.get("assignee_id"):
+            events.append({
+                "type": "updated",
+                "identifier": ident,
+                "title": new["title"],
+                "status": new["status"],
+                "updated_at": new["updated_at"],
+            })
+
         # --- 新评论 ---
         if new["status"] in ("done", "cancelled"):
             old_counts[ident] = -1
