@@ -16,7 +16,7 @@
 | ADM-37 | [TVM] SIVT线上举证条数限制（新增设备规则） | in_review | Loop adm-pm助手专家 | 2026-09-02 14:21 | 提需人：王心宇；优先级P1/high；期望本周(9/5前)；9/2 11:33 状态 in_progress→in_review（请验收）；9/2 14:21 指派人变更（adm-pm助手→d5ca704c）；来源群无group_id跳过通知 |
 | ADM-28 | M+ 任务下载 CSV 字段错列 — 导出逻辑修复（ns字段逗号未转义）（ADM-27子任务） | 开发中 | Loop adm-pm助手专家 | 2026-09-02 15:43 | 提需人：胡映昕；父需求ADM-27；9/2 15:43 状态 todo→in_progress；9/2 15:43 新评论（ns字段回传多ip导致M+取值异常，ns只适配单个ip，多ip违背设计）；老issue无来源群跳过通知 |
 | ADM-12 | [BUG] TvMonitor：无布点计算权限用户新建活动时，布点计算字段未设默认值 | 已闭环 | Loop adm-pm助手专家 | 2026-09-02 11:51 | 9/2 11:51 in_review→done 已闭环；老issue无来源群记录 |
-| ADM-17 | [bug] tvmonitor 活动管理：自定义人群发布TA重算失败 + 活动列表空指针 | 已闭环 | Loop adm-pm助手专家 | 2026-09-03 14:39 | 老issue无通知渠道；9/3 10:49 in_review→done 已闭环；子任务ADM-22（自定义人群发布TA重算时未传布点计算参数）9/3 14:39 in_review→done 已闭环 |
+| ADM-17 | [bug] tvmonitor 活动管理：自定义人群发布TA重算失败 + 活动列表空指针 | 已闭环 | Loop adm-pm助手专家 | 2026-09-03 16:48 | 老issue无通知渠道；9/3 10:49 in_review→done 已闭环；子任务ADM-22（自定义人群发布TA重算时未传布点计算参数）9/3 14:39 in_review→done 已闭环；子任务ADM-21（活动列表/campaign/list空指针NPE修复）9/3 16:48 in_review→done 已闭环 |
 | ADM-15 | [TVM] 监测代码OTT媒体列表添加媒体：银河新电视 | 已闭环 | Loop adm-pm助手专家 | 2026-09-02 11:51 | 提需人：关甜甜；9/2 11:51 in_review→done 已闭环；老issue无来源群group_id跳过通知 |
 | ADM-18 | [TVM] OTT-GIVT统计需求测试：20260826大盘整体分规则统计 | 已闭环 | Loop adm-pm助手专家 | 2026-09-03 15:37 | 提需人：王心宇；9/3 15:36 in_progress→done 已闭环；9/3 15:37 updated（当前done）；老issue无通知渠道跳过通知 |
 | ADM-16 | [TVM] ott-givt 分规则统计需求（活动4144746） | 已闭环 | Loop adm-pm助手专家 | 2026-09-03 15:37 | 提需人：王心宇；9/3 15:37 in_review→done 已闭环；老issue无通知渠道跳过通知 |
