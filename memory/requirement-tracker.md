@@ -18,6 +18,8 @@
 | ADM-12 | [BUG] TvMonitor：无布点计算权限用户新建活动时，布点计算字段未设默认值 | 已闭环 | Loop adm-pm助手专家 | 2026-09-02 11:51 | 9/2 11:51 in_review→done 已闭环；老issue无来源群记录 |
 | ADM-17 | [bug] tvmonitor 活动管理：自定义人群发布TA重算失败 + 活动列表空指针 | 已闭环 | Loop adm-pm助手专家 | 2026-09-03 14:39 | 老issue无通知渠道；9/3 10:49 in_review→done 已闭环；子任务ADM-22（自定义人群发布TA重算时未传布点计算参数）9/3 14:39 in_review→done 已闭环 |
 | ADM-15 | [TVM] 监测代码OTT媒体列表添加媒体：银河新电视 | 已闭环 | Loop adm-pm助手专家 | 2026-09-02 11:51 | 提需人：关甜甜；9/2 11:51 in_review→done 已闭环；老issue无来源群group_id跳过通知 |
+| ADM-18 | [TVM] OTT-GIVT统计需求测试：20260826大盘整体分规则统计 | 已闭环 | Loop adm-pm助手专家 | 2026-09-03 15:36 | 提需人：王心宇；9/3 15:36 in_progress→done 已闭环；老issue无通知渠道跳过通知 |
+| ADM-19 | [GIVT查询] 20260826 大盘整体 OTT-GIVT 分规则统计（ADM-18子任务） | 已闭环 | Loop adm-pm助手专家 | 2026-09-03 15:35 | 提需人：王心宇；父需求ADM-18；9/3 15:35 in_review→done 已闭环；老issue无通知渠道跳过通知 |
 
 ---
 
