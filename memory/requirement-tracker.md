@@ -21,7 +21,7 @@
 | ADM-18 | [TVM] OTT-GIVT统计需求测试：20260826大盘整体分规则统计 | 已闭环 | Loop adm-pm助手专家 | 2026-09-03 15:37 | 提需人：王心宇；9/3 15:36 in_progress→done 已闭环；9/3 15:37 updated（当前done）；老issue无通知渠道跳过通知 |
 | ADM-16 | [TVM] ott-givt 分规则统计需求（活动4144746） | 已闭环 | Loop adm-pm助手专家 | 2026-09-03 15:37 | 提需人：王心宇；9/3 15:37 in_review→done 已闭环；老issue无通知渠道跳过通知 |
 | ADM-19 | [GIVT查询] 20260826 大盘整体 OTT-GIVT 分规则统计（ADM-18子任务） | 已闭环 | Loop adm-pm助手专家 | 2026-09-03 15:35 | 提需人：王心宇；父需求ADM-18；9/3 15:35 in_review→done 已闭环；老issue无通知渠道跳过通知 |
-| ADM-39 | [ADM] 监测点信息导出模板与存储表结构对应优化 | 已搁置 | Loop adm-pm助手专家 | 2026-09-03 16:00 | 提需人：吴济；优先级high；9/3 16:00 状态 todo→cancelled（已取消）；关联ADM-36 |
+| ADM-39 | [ADM] 监测点信息导出模板与存储表结构对应优化 | 已搁置 | Loop adm-pm助手专家 | 2026-09-03 16:03 | 提需人：吴济；优先级high；9/3 16:00 状态 todo→cancelled（已取消）；9/3 16:03 updated（当前cancelled）；关联ADM-36；已通知群聊@吴济 |
 | ADM-40 | [TVM] OTT-GIVT统计：2026年8月各子规则(keyword) by day表现 | in_review | wkc 小分队 | 2026-09-03 15:03 | 提需人：王心宇；优先级high；9/3 15:03 in_progress→in_review（请验收） |
 
 ---
