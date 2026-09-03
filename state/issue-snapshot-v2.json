@@ -260,12 +260,21 @@
     "title": "ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
   },
+  "ADM-42": {
+    "id": "e246efe9-3a2e-46ec-b3db-dcb153abb600",
+    "status": "todo",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-09-03T20:26:31+08:00",
+    "title": "[ADM] DR报告与数据定制模块OS数据不一致排查 — 数据侧（活动2495707）",
+    "parent_issue_id": "3b11ca93-c01b-467e-a2fa-9c5c6d881e67"
+  },
   "ADM-41": {
     "id": "3b11ca93-c01b-467e-a2fa-9c5c6d881e67",
-    "status": "todo",
+    "status": "in_review",
     "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
     "assignee_type": "agent",
-    "updated_at": "2026-09-03T20:21:32+08:00",
+    "updated_at": "2026-09-03T20:27:15+08:00",
     "title": "[ADM] DR报告与数据定制模块操作系统数据不一致排查（活动2495707）",
     "parent_issue_id": null
   },
