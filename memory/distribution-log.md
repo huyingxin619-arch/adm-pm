@@ -23,7 +23,7 @@
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-24 | ADM M+ & TVM 数据中心 API 接口开发 | 2026-08-28 | Loop adm-pm助手专家（→吕金果二次分配） | 开发中 | 提需人：胡映昕；优先级high；期望2周完成；含2张截图附件；issue ID: 5e4c50ef-6039-4289-836c-a0c8ae1379bc；⚠️老issue无通知渠道，跳过通知；子任务ADM-26：9/2 14:34 指派人变更+新评论（技术负责人审核反馈：mplus配置前缀应使用admonitor、prod环境redis配置需修正）；9/2 14:47 指派人变更+新评论（配置修改已完成：mplus配置前缀统一到admonitor命名空间，从mz.mplus.*迁移到mz.admonitor.mplus.*）；9/2 14:47 新评论（确认合并）；9/2 14:56 指派人变更+新评论（OCTO-LOOP合并指令：技术负责人确认合并，请将feat/ADM-26-mplus-api合并到feature/260831-mplus-api并push）；9/3 14:51 指派人变更（4f356f9a→38aeb0d2）+新评论（技术负责人要求：M+ list接口需补充ES查询能力，与admonitor web端保持一致，参考intra-api多维查询）；9/3 15:25 指派人变更（38aeb0d2→4f356f9a）+新评论（M+ list接口ES/MzSearch查询能力已补充完成，参考AdQueryTaskListServiceImpl实现，接入ES主路径+MySQL透明降级） |
+| ADM-24 | ADM M+ & TVM 数据中心 API 接口开发 | 2026-08-28 | Loop adm-pm助手专家（→吕金果二次分配） | 开发中 | 提需人：胡映昕；优先级high；期望2周完成；含2张截图附件；issue ID: 5e4c50ef-6039-4289-836c-a0c8ae1379bc；⚠️老issue无通知渠道，跳过通知；子任务ADM-26：9/2 14:34 指派人变更+新评论（技术负责人审核反馈：mplus配置前缀应使用admonitor、prod环境redis配置需修正）；9/2 14:47 指派人变更+新评论（配置修改已完成：mplus配置前缀统一到admonitor命名空间，从mz.mplus.*迁移到mz.admonitor.mplus.*）；9/2 14:47 新评论（确认合并）；9/2 14:56 指派人变更+新评论（OCTO-LOOP合并指令：技术负责人确认合并，请将feat/ADM-26-mplus-api合并到feature/260831-mplus-api并push）；9/3 14:51 指派人变更（4f356f9a→38aeb0d2）+新评论（技术负责人要求：M+ list接口需补充ES查询能力，与admonitor web端保持一致，参考intra-api多维查询）；9/3 15:25 指派人变更（38aeb0d2→4f356f9a）+新评论（M+ list接口ES/MzSearch查询能力已补充完成，参考AdQueryTaskListServiceImpl实现，接入ES主路径+MySQL透明降级）；9/3 15:51 指派人变更（4f356f9a→38aeb0d2）+新评论（OCTO-LOOP启动报错修复：mz.admonitor.mplus.list.es.base-url is required when mz.admonitor.mplus.list.es.enabled=true，M+ list ES不应启用） |
 | ADM-27 | M+ 任务下载字段错列排查（任务481039/481041） | 2026-08-28 | Loop adm-pm助手专家 | 开发中 | 提需人：胡映昕；反馈人：慕程琳；优先级high；任务ID 481039/481041；活动2510032；字段ti/NS/IP/tr/ipTp错列；含2张截图+1个zip附件；issue ID: ae7727f0-c42f-4c10-87c0-a2b812d6e789；子任务ADM-28（CSV字段逗号未转义修复）：9/2 15:43 状态 todo→in_progress；9/2 15:43 新评论（ns字段回传多ip导致M+取值异常，ns只适配单个ip，多ip违背设计）；⚠️老issue无通知渠道，跳过通知 |
 
 ## 2026-09-02
@@ -45,7 +45,7 @@
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-39 | [ADM] 监测点信息导出模板与存储表结构对应优化 | 2026-09-03 | Loop adm-pm助手专家 | todo | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；优化整个监测点信息导出模板匹配逻辑（单活动/批量/多维钻取）；关联ADM-36；issue ID: 3c650d05-e7ff-4698-a19a-77b2fedcb3c1；labels: type/feature+tech/backend+svc/admonitor+svc/ui-report |
+| ADM-39 | [ADM] 监测点信息导出模板与存储表结构对应优化 | 2026-09-03 | Loop adm-pm助手专家 | cancelled | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；优化整个监测点信息导出模板匹配逻辑（单活动/批量/多维钻取）；关联ADM-36；issue ID: 3c650d05-e7ff-4698-a19a-77b2fedcb3c1；labels: type/feature+tech/backend+svc/admonitor+svc/ui-report；9/3 16:00 状态 todo→cancelled（已取消） |
 | ADM-40 | [TVM] OTT-GIVT统计：2026年8月各子规则(keyword) by day表现 | 2026-09-03 | wkc 小分队（squad） | in_review | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；大盘整体；2026-08-01~08-31 by day；各子规则keyword；issue ID: 4bebe45c-ceac-4bdc-addb-3fd09cc5997c；labels: type/investigate+tech/data-tvm+svc/tv-api+svc/tv-query；原指派adm-pm助手专家，心宇要求指派坤城，转指派wkc小分队（leader: wkc-指挥官）；9/3 15:03 in_progress→in_review（请验收） |
 
 ---
