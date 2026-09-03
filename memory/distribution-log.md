@@ -47,7 +47,7 @@
 |---------|------|----------|--------|------|------|
 | ADM-39 | [ADM] 监测点信息导出模板与存储表结构对应优化 | 2026-09-03 | Loop adm-pm助手专家 | cancelled | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；优化整个监测点信息导出模板匹配逻辑（单活动/批量/多维钻取）；关联ADM-36；issue ID: 3c650d05-e7ff-4698-a19a-77b2fedcb3c1；labels: type/feature+tech/backend+svc/admonitor+svc/ui-report；9/3 16:00 状态 todo→cancelled（已取消）；9/3 16:03 updated（当前cancelled） |
 | ADM-40 | [TVM] OTT-GIVT统计：2026年8月各子规则(keyword) by day表现 | 2026-09-03 | wkc 小分队（squad） | done | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；大盘整体；2026-08-01~08-31 by day；各子规则keyword；issue ID: 4bebe45c-ceac-4bdc-addb-3fd09cc5997c；labels: type/investigate+tech/data-tvm+svc/tv-api+svc/tv-query；原指派adm-pm助手专家，心宇要求指派坤城，转指派wkc小分队（leader: wkc-指挥官）；9/3 15:03 in_progress→in_review（请验收）；9/3 done 已闭环 |
-| ADM-41 | [ADM] DR报告与数据定制模块操作系统数据不一致排查（活动2495707） | 2026-09-03 | Loop adm-pm助手专家（目标承接：于长亮） | todo | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；活动2495707；2026-04-01~04-30；DR报告有windowsphone曝光54，数据定制模块任务481889 mobile端无windowsphone；都基于dmlog；issue ID: 3b11ca93-c01b-467e-a2fa-9c5c6d881e67；labels: type/investigate+tech/data-adm+svc/admonitor |
+| ADM-41 | [ADM] DR报告与数据定制模块操作系统数据不一致排查（活动2495707） | 2026-09-03 | Loop adm-pm助手专家（目标承接：于长亮） | in_progress | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；活动2495707；2026-04-01~04-30；DR报告有windowsphone曝光54，数据定制模块任务481889 mobile端无windowsphone；都基于dmlog；issue ID: 3b11ca93-c01b-467e-a2fa-9c5c6d881e67；labels: type/investigate+tech/data-adm+svc/admonitor；9/3 20:22 状态变更 todo→in_progress |
 
 ---
 
