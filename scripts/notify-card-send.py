@@ -15,7 +15,7 @@ def main():
      icon, color, action,
      api_url, bot_token) = sys.argv[1:15]
 
-    # 构建卡片正文
+    # 构建卡片正文 — 卡片不放 mention，mention 由紧随其后的纯文本消息负责
     mention_str = f"@[{mention_uid}:{mention_name}]"
 
     # 标题行：图标 + 动作 + issue编号
@@ -33,12 +33,6 @@ def main():
             {"type": "TextBlock", "text": detail, "wrap": True, "spacing": "Small",
              "isSubtle": True}
         )
-
-    # mention 行
-    body_lines.append(
-        {"type": "TextBlock", "text": mention_str, "wrap": True, "spacing": "Medium",
-         "weight": "Bolder"}
-    )
 
     card = {
         "type": "AdaptiveCard",
@@ -84,6 +78,30 @@ def main():
     except Exception as e:
         print(f'ERROR: {e}', file=sys.stderr)
         sys.exit(1)
+
+    # 发第二条：纯文本 mention（卡片里 @人不生效，分两条才可靠）
+    text_body = json.dumps({
+        "channel_id": channel_id,
+        "channel_type": int(channel_type),
+        "payload": {"type": 1, "content": mention_str}
+    }).encode()
+
+    text_req = urllib.request.Request(
+        f"{api_url}/v1/bot/sendMessage",
+        data=text_body,
+        headers={
+            "Authorization": f"Bearer {bot_token}",
+            "Content-Type": "application/json"
+        }
+    )
+
+    try:
+        with urllib.request.urlopen(text_req, timeout=10) as resp:
+            result = json.loads(resp.read())
+            print(json.dumps(result, ensure_ascii=False))
+    except Exception as e:
+        # mention 消息失败不影响卡片已发送的事实
+        print(f'WARN: mention text failed: {e}', file=sys.stderr)
 
 if __name__ == "__main__":
     main()
