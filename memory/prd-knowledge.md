@@ -167,6 +167,8 @@ Loop 原生 7 个状态：`backlog` / `todo` / `in_progress` / `in_review` / `do
 - blocked = 受阻
 - cancelled = 已取消
 
+实际 7 种状态都可能用到，不要自己造词，以 UI 名称为准。
+
 使用边界：
 
 | 状态 | 含义 | 进入条件 | 谁动 |

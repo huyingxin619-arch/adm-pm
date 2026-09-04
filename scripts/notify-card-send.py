@@ -28,12 +28,15 @@ def main():
     issue_url = f"{LOOP_URL_PREFIX}{identifier}"
 
     STATUS_MAP = {
-        "in_review": "🔍 待验收",
-        "done": "✅ 已闭环",
-        "blocked": "🚫 已阻塞",
-        "cancelled": "❌ 已取消",
-        "new_comment": "💬 新评论",
-        "new_child": "🪓 新子任务",
+        "backlog": "待规划",
+        "todo": "待办",
+        "in_progress": "进行中",
+        "in_review": "审核中",
+        "done": "已完成",
+        "blocked": "受阻",
+        "cancelled": "已取消",
+        "new_comment": "新评论",
+        "new_child": "新子任务",
     }
     current_status = STATUS_MAP.get(event_type, event_type)
 
