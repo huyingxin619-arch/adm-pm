@@ -156,7 +156,18 @@
 
 ## Issue 状态流转规范（2026-08-24 建立）
 
-Loop 原生 7 个状态：`backlog` / `todo` / `in_progress` / `in_review` / `done` / `blocked` / `cancelled`。使用边界：
+Loop 原生 7 个状态：`backlog` / `todo` / `in_progress` / `in_review` / `done` / `blocked` / `cancelled`。
+
+实际中文名称（2026-09-04 小胡截图确认）：
+- backlog = 待规划
+- todo = 待办
+- in_progress = 进行中
+- in_review = 审核中
+- done = 已完成
+- blocked = 受阻
+- cancelled = 已取消
+
+使用边界：
 
 | 状态 | 含义 | 进入条件 | 谁动 |
 |------|------|---------|------|

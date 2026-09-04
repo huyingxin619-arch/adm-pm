@@ -13,8 +13,8 @@
 
 set -euo pipefail
 
-if [ "$#" -ne 8 ]; then
-  echo "USAGE: notify-card.sh <event_type> <identifier> <title> <detail> <channel_id> <channel_type> <mention_uid> <mention_name>" >&2
+if [ "$#" -lt 8 ]; then
+  echo "USAGE: notify-card.sh <event_type> <identifier> <title> <detail> <channel_id> <channel_type> <mention_uid> <mention_name> [assignee_name]" >&2
   exit 1
 fi
 
@@ -26,6 +26,7 @@ CHANNEL_ID="$5"
 CHANNEL_TYPE="$6"
 MENTION_UID="$7"
 MENTION_NAME="$8"
+ASSIGNEE="${9:-未指派}"
 
 # 从 openclaw 配置读取 bot token
 BOT_TOKEN=$(python3 -c "
@@ -60,4 +61,4 @@ python3 "$HOME/.openclaw-adm_pm/workspace-pm/scripts/notify-card-send.py" \
   "$CHANNEL_ID" "$CHANNEL_TYPE" \
   "$MENTION_UID" "$MENTION_NAME" \
   "$ICON" "$COLOR" "$ACTION" \
-  "$API_URL" "$BOT_TOKEN"
+  "$API_URL" "$BOT_TOKEN" "$ASSIGNEE"

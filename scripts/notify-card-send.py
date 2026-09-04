@@ -22,19 +22,39 @@ def main():
      channel_id, channel_type,
      mention_uid, mention_name,
      icon, color, action,
-     api_url, bot_token) = sys.argv[1:15]
+     api_url, bot_token, assignee) = sys.argv[1:16]
 
     mention_str = f"@[{mention_uid}:{mention_name}]"
     issue_url = f"{LOOP_URL_PREFIX}{identifier}"
 
-    # 首行大字：图标 + 动作 + 标题（合并一行，不超过一屏原则）
-    header_text = f"{icon} {action}：{title}"
+    STATUS_MAP = {
+        "in_review": "🔍 待验收",
+        "done": "✅ 已闭环",
+        "blocked": "🚫 已阻塞",
+        "cancelled": "❌ 已取消",
+        "new_comment": "💬 新评论",
+        "new_child": "🪓 新子任务",
+    }
+    current_status = STATUS_MAP.get(event_type, event_type)
+
+    # 首行大字：图标 + 动作 + 标题（标题为 markdown 链接，点击直达 issue）
+    header_text = f"{icon} {action}：[{title}]({issue_url})"
 
     body = [
         {
-            "type": "TextBlock", "text": header_text, "size": "Large",
+            "type": "TextBlock", "text": header_text, "size": "Medium",
             "weight": "Bolder", "color": color if color != "default" else "Default",
             "wrap": True, "spacing": "None"
+        },
+        {
+            "type": "FactSet",
+            "facts": [
+                {"title": "编号", "value": identifier},
+                {"title": "状态", "value": current_status},
+                {"title": "指派", "value": assignee},
+            ],
+            "spacing": "Small",
+            "separator": True
         }
     ]
 
@@ -49,7 +69,7 @@ def main():
         "done": "🎉 需求已闭环，感谢配合",
         "blocked": "⚠️ 处理中遇到阻塞，请留意后续更新或补充信息",
         "cancelled": "❌ 该需求已被取消，原因见详情",
-        "new_comment": "💬 有新评论，点下方按钮查看",
+        "new_comment": "💬 有新评论，点标题查看",
         "new_child": "🪓 已拆分子任务，在父需求中跟进",
     }
     action_hint = ACTION_GUIDE.get(event_type, "")
@@ -60,19 +80,11 @@ def main():
             "color": color if color != "default" else "Default"
         })
 
-    # 底部跳转按钮（比整卡 selectAction 防误触）
-    card_actions = [{
-        "type": "Action.OpenUrl",
-        "title": f"🔗 打开 {identifier}",
-        "url": issue_url
-    }]
-
     card = {
         "type": "AdaptiveCard",
         "version": "1.5",
         "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "body": body,
-        "actions": card_actions
+        "body": body
     }
 
     plain_parts = [f"{icon} {action}：{identifier}", title]
