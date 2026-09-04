@@ -90,6 +90,12 @@
 - **自动性任务/发送类问题**（如自动日报未发送、任务状态异常）：**默认只分后端**（吕金果），不同时 @ 大数据侧。后端先查发送/调度链路，如果定位到是数据生成问题再升级到大数据侧。不要上来就 @ 所有人。
 - 避免不必要的跨方向同步排查，减少干扰。
 
+### Work Agent 派发规则（2026-09-04 黄春波明确）
+- **不要直接把任务派给 work agent**（如 hcb-admonitor-fullstack）
+- work agent 只接受**团长（octo-issue-dispatcher）**或 **worker 所有者（黄春波）**的派发，其他人派的一律退回
+- **admonitor web 端任务**：派给 agent: dispatcher 或人员 member，由他们二次分配
+- 这条规则适用于所有需要指派给 work agent 的场景，不仅限于 admonitor web
+
 ### 特定方向直派规则（产品指定）
 - **OTT-GIVT 统计任务** → **wkc 小分队**（squad_id: 8a96f947-f669-49f9-a954-01ea4fbf2f74，leader: wkc-指挥官）。王心宇 2026-09-03 明确要求：OTT GIVT统计任务都要指派给坤城，无论通过直聊还是群聊提。坤城不在Loop workspace member里，但有 wkc 小分队 squad，直接指派该 squad。
 - **OTT-GIVT 相关统计需求** → **吴坤城**（TVM大数据研发，负责TVA数据计算/SIVT）。产品（王心宇）2026-08-28 明确要求，后续此类需求跳过兑底直接指派坤城。

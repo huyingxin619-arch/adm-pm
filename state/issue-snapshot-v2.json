@@ -46,10 +46,10 @@
   },
   "ADM-36": {
     "id": "9bab8061-fb2a-42a0-9e15-0e735be6096c",
-    "status": "in_progress",
+    "status": "in_review",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-09-03T18:35:30+08:00",
+    "updated_at": "2026-09-04T13:02:26+08:00",
     "title": "[ADM] 监测点信息导出extInfo字段异常（批量导出错位+新建活动字段空值）",
     "parent_issue_id": null
   },
@@ -260,12 +260,48 @@
     "title": "ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
   },
+  "ADM-46": {
+    "id": "22df45d3-b695-424b-b333-49e751d9d062",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-04T17:43:01+08:00",
+    "title": "[TVM] 排查PMO跨屏打通任务18195卡在'提交成功'状态",
+    "parent_issue_id": "1f7d3e60-272f-44de-bd01-165ba580f32b"
+  },
+  "ADM-45": {
+    "id": "1f7d3e60-272f-44de-bd01-165ba580f32b",
+    "status": "in_review",
+    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-04T17:42:17+08:00",
+    "title": "[TVM] PMO跨屏打通任务18195状态卡在'提交成功'，无计算进程",
+    "parent_issue_id": null
+  },
+  "ADM-44": {
+    "id": "a0fe19dd-26aa-4baf-9eff-e24fb0d38306",
+    "status": "in_progress",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-04T17:34:32+08:00",
+    "title": "[后端] 修复 OpenAPI /cms/v1/regions/list 地域字典缺失86个地级市",
+    "parent_issue_id": "8087a516-9d11-4b1c-9273-165c6780613e"
+  },
+  "ADM-43": {
+    "id": "8087a516-9d11-4b1c-9273-165c6780613e",
+    "status": "in_review",
+    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-04T17:04:11+08:00",
+    "title": "[ADM] 多维钻取API地域字典不完整（OpenAPI /cms/v1/regions/list 缺86个地级市）",
+    "parent_issue_id": null
+  },
   "ADM-42": {
     "id": "e246efe9-3a2e-46ec-b3db-dcb153abb600",
-    "status": "todo",
-    "assignee_id": "",
-    "assignee_type": "",
-    "updated_at": "2026-09-03T20:26:31+08:00",
+    "status": "in_progress",
+    "assignee_id": "37f8ed8c-7925-4e01-8fce-25283fa67d64",
+    "assignee_type": "member",
+    "updated_at": "2026-09-04T10:19:49+08:00",
     "title": "[ADM] DR报告与数据定制模块OS数据不一致排查 — 数据侧（活动2495707）",
     "parent_issue_id": "3b11ca93-c01b-467e-a2fa-9c5c6d881e67"
   },
