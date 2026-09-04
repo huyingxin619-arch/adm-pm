@@ -5,8 +5,17 @@
 """
 
 import json
+import os
+import subprocess
 import sys
 import urllib.request
+
+# Loop web UI 的 issue 详情链接前缀（Dispatcher 确认格式）
+LOOP_URL_PREFIX = os.environ.get(
+    "LOOP_ISSUE_URL_PREFIX",
+    "https://im.deepminer.com.cn/fleet/adm-81pn/issues/"
+)
+
 
 def main():
     (event_type, identifier, title, detail,
@@ -15,37 +24,63 @@ def main():
      icon, color, action,
      api_url, bot_token) = sys.argv[1:15]
 
-    # 构建卡片正文 — 卡片不放 mention，mention 由紧随其后的纯文本消息负责
     mention_str = f"@[{mention_uid}:{mention_name}]"
+    issue_url = f"{LOOP_URL_PREFIX}{identifier}"
 
-    # 标题行：图标 + 动作 + issue编号
-    header_text = f"{icon} {action}：{identifier}"
+    # 首行大字：图标 + 动作 + 标题（合并一行，不超过一屏原则）
+    header_text = f"{icon} {action}：{title}"
 
-    # 正文：需求标题 + 详情 + mention
-    body_lines = [
-        {"type": "TextBlock", "text": header_text, "size": "Medium", "weight": "Bolder",
-         "color": color if color != "default" else "Default", "wrap": True},
-        {"type": "TextBlock", "text": title, "wrap": True, "spacing": "Small"},
+    body = [
+        {
+            "type": "TextBlock", "text": header_text, "size": "Large",
+            "weight": "Bolder", "color": color if color != "default" else "Default",
+            "wrap": True, "spacing": "None"
+        }
     ]
 
     if detail:
-        body_lines.append(
-            {"type": "TextBlock", "text": detail, "wrap": True, "spacing": "Small",
-             "isSubtle": True}
-        )
+        body.append({
+            "type": "TextBlock", "text": detail,
+            "wrap": True, "spacing": "Small", "isSubtle": True
+        })
+
+    ACTION_GUIDE = {
+        "in_review": "👉 请到测试环境验证，确认无误后请验收",
+        "done": "🎉 需求已闭环，感谢配合",
+        "blocked": "⚠️ 处理中遇到阻塞，请留意后续更新或补充信息",
+        "cancelled": "❌ 该需求已被取消，原因见详情",
+        "new_comment": "💬 有新评论，点下方按钮查看",
+        "new_child": "🪓 已拆分子任务，在父需求中跟进",
+    }
+    action_hint = ACTION_GUIDE.get(event_type, "")
+    if action_hint:
+        body.append({
+            "type": "TextBlock", "text": action_hint,
+            "wrap": True, "spacing": "Medium", "weight": "Bolder",
+            "color": color if color != "default" else "Default"
+        })
+
+    # 底部跳转按钮（比整卡 selectAction 防误触）
+    card_actions = [{
+        "type": "Action.OpenUrl",
+        "title": f"🔗 打开 {identifier}",
+        "url": issue_url
+    }]
 
     card = {
         "type": "AdaptiveCard",
         "version": "1.5",
         "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "body": body_lines
+        "body": body,
+        "actions": card_actions
     }
 
-    # plain fallback
     plain_parts = [f"{icon} {action}：{identifier}", title]
     if detail:
-        plain_parts.append(detail)
-    plain_parts.append(mention_str)
+        plain_parts.append(f"详情：{detail}")
+    if action_hint:
+        plain_parts.append(action_hint)
+    plain_parts.append(issue_url)
     plain = "\n".join(plain_parts)
 
     payload = {
@@ -56,7 +91,7 @@ def main():
         "plain": plain
     }
 
-    body = json.dumps({
+    card_body = json.dumps({
         "channel_id": channel_id,
         "channel_type": int(channel_type),
         "payload": payload
@@ -64,7 +99,7 @@ def main():
 
     req = urllib.request.Request(
         f"{api_url}/v1/bot/sendMessage",
-        data=body,
+        data=card_body,
         headers={
             "Authorization": f"Bearer {bot_token}",
             "Content-Type": "application/json"
@@ -74,34 +109,38 @@ def main():
     try:
         with urllib.request.urlopen(req, timeout=10) as resp:
             result = json.loads(resp.read())
-            print(json.dumps(result, ensure_ascii=False))
+            print(f"CARD_SENT: {result.get('message_id', 'unknown')}", file=sys.stderr)
     except Exception as e:
-        print(f'ERROR: {e}', file=sys.stderr)
+        print(f'ERROR: card send failed: {e}', file=sys.stderr)
         sys.exit(1)
 
-    # 发第二条：纯文本 mention（卡片里 @人不生效，分两条才可靠）
-    text_body = json.dumps({
-        "channel_id": channel_id,
-        "channel_type": int(channel_type),
-        "payload": {"type": 1, "content": mention_str}
-    }).encode()
-
-    text_req = urllib.request.Request(
-        f"{api_url}/v1/bot/sendMessage",
-        data=text_body,
-        headers={
-            "Authorization": f"Bearer {bot_token}",
-            "Content-Type": "application/json"
-        }
-    )
-
+    # 第二条：mention 通知，走 openclaw CLI
+    target = channel_id if int(channel_type) == 1 else f"group:{channel_id}"
+    # mention 消息带上关键信息，而非只 @人
+    mention_msg = f"{mention_str} 【{identifier}】{action}：{title}"
+    cli_cmd = [
+        "openclaw", "message", "send",
+        "--channel", "octo",
+        "--account", "adm_pm_bot",
+        "--target", target,
+        "--message", mention_msg
+    ]
+    env = os.environ.copy()
+    env["PATH"] = "/Users/adm/.nvm/versions/node/v24.19.0/bin:" + env.get("PATH", "/opt/homebrew/bin:/usr/bin:/bin")
     try:
-        with urllib.request.urlopen(text_req, timeout=10) as resp:
-            result = json.loads(resp.read())
-            print(json.dumps(result, ensure_ascii=False))
+        r = subprocess.run(cli_cmd, capture_output=True, text=True, timeout=60, env=env)
+        out = (r.stdout or "").strip()
+        err = (r.stderr or "").strip()
+        if r.returncode != 0:
+            print(f"WARN: mention CLI rc={r.returncode} stdout={out} stderr={err}", file=sys.stderr)
+        else:
+            # 输出关键确认信息
+            print(f"MENTION_SENT: {out}", file=sys.stderr)
+    except subprocess.TimeoutExpired:
+        print("WARN: mention CLI timeout after 60s", file=sys.stderr)
     except Exception as e:
-        # mention 消息失败不影响卡片已发送的事实
-        print(f'WARN: mention text failed: {e}', file=sys.stderr)
+        print(f"WARN: mention CLI exception: {e}", file=sys.stderr)
+
 
 if __name__ == "__main__":
     main()

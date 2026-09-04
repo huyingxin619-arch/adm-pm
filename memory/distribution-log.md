@@ -57,6 +57,7 @@
 | ADM-43 | [ADM] 多维钻取API地域字典不完整（OpenAPI /cms/v1/regions/list 缺86个地级市） | 2026-09-04 | Loop adm-pm助手专家 | in_review | 提需人：胡映昕；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；OpenAPI /cms/v1/regions/list 返回251个地级市，多维钻取全量337个，缺86个；issue ID: 8087a516-9d11-4b1c-9273-165c6780613e；labels: type/bug+tech/backend+svc/admonitor+svc/intra-api；9/4 16:58 状态变更 todo→in_progress；9/4 17:04 状态变更 in_progress→in_review（请验收）+新评论（需求审核与分发完成：OpenAPI返回251个地级市，多维钻取全量337个，缺86个，已拆分后端子任务ADM-44）+拆分新子任务ADM-44；已通知群聊@胡映昕 |
 | ADM-44 | [后端] 修复 OpenAPI /cms/v1/regions/list 地域字典缺失86个地级市 | 2026-09-04 | Loop adm-pm助手专家 | in_progress | 提需人：胡映昕（继承父需求ADM-43）；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；父需求ADM-43；9/4 17:04 新建子任务；9/4 17:05 状态变更 todo→in_progress + 指派人变更（4f356f9a→d0ff2b22）；已通知群聊@胡映昕；9/4 17:24 指派人变更（41eee17b→4f356f9a）；已通知群聊@胡映昕；9/4 17:34 updated（当前in_progress）；已通知群聊@胡映昕 |
 | ADM-45 | [TVM] PMO跨屏打通任务18195状态卡在'提交成功'，无计算进程 | 2026-09-04 | Loop adm-pm助手专家 | in_progress | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；任务18195状态卡在提交成功，无计算中/计算失败进程；issue ID: 1f7d3e60-272f-44de-bd01-165ba580f32b；labels: type/bug+tech/backend+svc/admonitor+svc/tv-api+svc/tv-query；9/4 17:40 状态变更 todo→in_progress；已通知群聊@吴济 |
+| ADM-46 | [TVM] 排查PMO跨屏打通任务18195卡在'提交成功'状态（ADM-45子任务） | 2026-09-04 | Loop adm-pm助手专家 | in_progress | 提需人：吴济（继承父需求ADM-45）；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；父需求ADM-45；9/4 19:03 新评论（PMO跨屏打通任务18195状态机代码分析报告：st_pom_task表状态值说明、提交成功状态卡住原因分析）；已通知群聊@吴济 |
 
 ---
 
