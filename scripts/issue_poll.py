@@ -5,14 +5,40 @@
 状态文件：state/issue-snapshot-v2.json + state/issue-comments-state.json
 """
 
+import hashlib
 import json
 import os
 import subprocess
 import sys
+import time
 
 STATE_DIR = sys.argv[1]
 SNAPSHOT_FILE = os.path.join(STATE_DIR, "issue-snapshot-v2.json")
 COMMENTS_FILE = os.path.join(STATE_DIR, "issue-comments-state.json")
+HEARTBEAT_FILE = os.path.join(STATE_DIR, "poll-heartbeat.txt")
+
+
+def write_heartbeat():
+    try:
+        with open(HEARTBEAT_FILE, "w") as f:
+            f.write(str(int(time.time())))
+    except Exception:
+        pass
+
+
+def make_event_id(ev):
+    """生成事件唯一 ID：类型+issue+关键字段的 hash，用于通知去重。"""
+    key_fields = [
+        ev.get("type", ""),
+        ev.get("identifier", ""),
+        ev.get("new_status", ""),
+        ev.get("old_status", ""),
+        ev.get("new_assignee", ""),
+        ev.get("updated_at", ""),
+        ev.get("comment_preview", ""),
+    ]
+    raw = "|".join(key_fields)
+    return hashlib.md5(raw.encode()).hexdigest()[:16]
 
 # 跳过的系统/测试 issue（不触发事件）
 SKIP_IDENTS = {"ADM-3"}
@@ -124,6 +150,7 @@ def main():
         with open(COMMENTS_FILE, "w") as f:
             json.dump(comments_state, f, ensure_ascii=False)
 
+        write_heartbeat()
         print("FIRST_RUN")
         return 0
 
@@ -229,7 +256,11 @@ def main():
     with open(COMMENTS_FILE, "w") as f:
         json.dump(new_comments, f, ensure_ascii=False)
 
+    write_heartbeat()
+
     if events:
+        for ev in events:
+            ev["event_id"] = make_event_id(ev)
         print(json.dumps(events, ensure_ascii=False, indent=2))
     else:
         print("NO_CHANGES")
