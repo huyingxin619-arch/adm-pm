@@ -40,8 +40,8 @@ THEME = {
     "done":        {"icon": "✅", "label": "任务完成",   "sub": "验收通过，任务真正闭环",            "style": "good",      "color": "Good"},
     "blocked":     {"icon": "🚫", "label": "任务受阻",   "sub": "任务有阻塞，等待处理",              "style": "attention", "color": "Attention"},
     "cancelled":   {"icon": "❌", "label": "任务取消",   "sub": "任务已取消，不再跟进",              "style": "emphasis",  "color": "Default"},
-    "new_comment": {"icon": "💬", "label": "有新评论",   "sub": "有人在 issue 下留言",               "style": "accent",    "color": "Accent"},
-    "new_child":   {"icon": "🪓", "label": "拆分子任务", "sub": "已拆分子任务，可在父需求中跟进",     "style": "accent",    "color": "Accent"},
+    "new_comment": {"icon": "💬", "label": "有新评论",   "sub": "有人在 issue 下留言",               "style": "emphasis",  "color": "Default"},
+    "new_child":   {"icon": "🧩", "label": "拆分子任务", "sub": "已拆分子任务，可在父需求中跟进",     "style": "emphasis",  "color": "Default"},
 }
 
 
