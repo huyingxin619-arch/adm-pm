@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""notify-card-send.py — 方案A：纯白底+彩色文字行，无色块分段。
+"""notify-card-send.py — AdaptiveCard 通知卡片。
 
 结构：
-- 第一行：emoji + 状态名（彩色文字）+ 副标题
-- 第二行：[编号] 标题（可点击链接）
-- 第三行：五步进度条（所有模板保留）
-- 第四行：执行人 + 提需人
-- 第五行：详情（separator 分隔，无色块）
+- 头横幅（Container + style 色块）：emoji + 状态名 + 副标题
+- 标题行：[编号] 标题
+- 五步进度条
+- 双列：执行人 + 提需人
+- 详情色块（Container + style）
 - 底部：打开 Issue → 按钮
 """
 
@@ -30,17 +30,18 @@ EVENT_STEP = {
     "new_comment": -1, "new_child": -1,
 }
 
-# 主题：颜色统一——进度条节点色 = 卡片文字色
+# 主题：色块底色(style) + 文字色(color) + emoji
+# 待规划/待办/已取消=灰, 进行中/新评论/新子任务=紫, 审核中=橙, 已完成=绿, 受阻=红
 THEME = {
-    "backlog":     {"icon": "📋", "label": "进入待规划", "sub": "新任务已创建，待确认要不要做",       "color": "Default"},
-    "todo":        {"icon": "📝", "label": "进入待办",   "sub": "已确认要做，还没人动",              "color": "Accent"},
-    "in_progress": {"icon": "🔧", "label": "开始执行",   "sub": "任务进行中，有人在干活",            "color": "Accent"},
-    "in_review":   {"icon": "🔍", "label": "提交验收",   "sub": "研发已交付，等产品验收",            "color": "Warning"},  # 橙色，跟进度条统一
-    "done":        {"icon": "✅", "label": "任务完成",   "sub": "验收通过，任务真正闭环",            "color": "Good"},
-    "blocked":     {"icon": "🚫", "label": "任务受阻",   "sub": "任务有阻塞，等待处理",              "color": "Attention"},
-    "cancelled":   {"icon": "❌", "label": "任务取消",   "sub": "任务已取消，不再跟进",              "color": "Default"},
-    "new_comment": {"icon": "💬", "label": "有新评论",   "sub": "有人在 issue 下留言",               "color": "Warning"},
-    "new_child":   {"icon": "🪓", "label": "拆分子任务", "sub": "已拆分子任务，可在父需求中跟进",     "color": "Warning"},
+    "backlog":     {"icon": "📋", "label": "进入待规划", "sub": "新任务已创建，待确认要不要做",       "style": "emphasis",  "color": "Default"},
+    "todo":        {"icon": "📝", "label": "进入待办",   "sub": "已确认要做，还没人动",              "style": "emphasis",  "color": "Default"},
+    "in_progress": {"icon": "🔧", "label": "开始执行",   "sub": "任务进行中，有人在干活",            "style": "accent",    "color": "Accent"},
+    "in_review":   {"icon": "🔍", "label": "提交验收",   "sub": "研发已交付，等产品验收",            "style": "warning",   "color": "Warning"},
+    "done":        {"icon": "✅", "label": "任务完成",   "sub": "验收通过，任务真正闭环",            "style": "good",      "color": "Good"},
+    "blocked":     {"icon": "🚫", "label": "任务受阻",   "sub": "任务有阻塞，等待处理",              "style": "attention", "color": "Attention"},
+    "cancelled":   {"icon": "❌", "label": "任务取消",   "sub": "任务已取消，不再跟进",              "style": "emphasis",  "color": "Default"},
+    "new_comment": {"icon": "💬", "label": "有新评论",   "sub": "有人在 issue 下留言",               "style": "accent",    "color": "Accent"},
+    "new_child":   {"icon": "🪓", "label": "拆分子任务", "sub": "已拆分子任务，可在父需求中跟进",     "style": "accent",    "color": "Accent"},
 }
 
 
@@ -105,15 +106,20 @@ def main():
         step_idx = int(sys.argv[16])
 
     body = [
-        # 状态头行（纯文字着色，无色块）
-        {"type": "TextBlock",
-         "text": f"{t['icon']} {t['label']}",
-         "weight": "Bolder", "size": "Medium",
-         "color": t["color"], "spacing": "None"},
-        {"type": "TextBlock",
-         "text": t["sub"],
-         "size": "Small", "isSubtle": True, "spacing": "None"},
-        # 标题行：[编号] 标题（可点击）
+        # ── 头横幅（色块） ──
+        {"type": "Container",
+         "style": t["style"],
+         "spacing": "None",
+         "items": [
+             {"type": "TextBlock",
+              "text": f"{t['icon']} {t['label']}",
+              "weight": "Bolder", "size": "Medium",
+              "color": t["color"], "spacing": "None"},
+             {"type": "TextBlock",
+              "text": t["sub"],
+              "size": "Small", "isSubtle": True, "spacing": "None"}
+         ]},
+        # 标题行：[编号] 标题
         {"type": "TextBlock",
          "text": f"[{identifier}] {title}",
          "weight": "Bolder", "size": "Medium",
@@ -121,7 +127,7 @@ def main():
          "color": t["color"] if t["color"] != "Default" else "Default"},
     ]
 
-    # 进度条（所有模板都保留）
+    # 进度条
     if step_idx >= 0:
         body.append(build_progress_bar(step_idx, event_type))
 
@@ -143,13 +149,18 @@ def main():
         ]
     })
 
-    # 详情（无色块，用 separator 分隔）
+    # 详情色块
     if detail:
         body.append({
-            "type": "TextBlock",
-            "text": detail,
-            "wrap": True, "spacing": "Medium", "isSubtle": True,
-            "separator": True
+            "type": "Container",
+            "style": t["style"] if t["style"] != "default" else "default",
+            "spacing": "Small",
+            "separator": True,
+            "items": [
+                {"type": "TextBlock", "text": detail,
+                 "wrap": True, "spacing": "None", "isSubtle": True,
+                 "color": t["color"] if t["color"] != "Default" else "Default"}
+            ]
         })
 
     # 底部按钮

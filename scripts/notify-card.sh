@@ -6,11 +6,12 @@
 # event_type: backlog | todo | in_progress | in_review | done | blocked | cancelled | new_comment | new_child
 # channel_type: 1=DM, 2=Group
 #
-# 配色（AdaptiveCard Container style）:
-#   good(绿)       = 审核中/已完成
+# 配色（AdaptiveCard Container style）：
+#   emphasis(灰)   = 待规划/待办/已取消
+#   accent(紫)     = 进行中/新评论/新子任务
+#   warning(橙)    = 审核中
+#   good(绿)       = 已完成
 #   attention(红)  = 受阻
-#   warning(黄)    = 新评论/新子任务
-#   emphasis(灰蓝) = 待规划/待办/进行中/已取消
 
 set -euo pipefail
 
