@@ -106,19 +106,14 @@ def main():
         step_idx = int(sys.argv[16])
 
     body = [
-        # ── 头横幅（色块） ──
-        {"type": "Container",
-         "style": t["style"],
-         "spacing": "None",
-         "items": [
-             {"type": "TextBlock",
-              "text": f"{t['icon']} {t['label']}",
-              "weight": "Bolder", "size": "Medium",
-              "color": t["color"], "spacing": "None"},
-             {"type": "TextBlock",
-              "text": t["sub"],
-              "size": "Small", "isSubtle": True, "spacing": "None"}
-         ]},
+        # 状态头行（纯文字着色，无色块）
+        {"type": "TextBlock",
+         "text": f"{t['icon']} {t['label']}",
+         "weight": "Bolder", "size": "Medium",
+         "color": t["color"], "spacing": "None"},
+        {"type": "TextBlock",
+         "text": t["sub"],
+         "size": "Small", "isSubtle": True, "spacing": "None"},
         # 标题行：[编号] 标题
         {"type": "TextBlock",
          "text": f"[{identifier}] {title}",
