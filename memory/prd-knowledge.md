@@ -92,15 +92,26 @@
 
 ### Work Agent 派发规则（2026-09-04 黄春波明确，2026-09-08 更新）
 **指派路由区分（2026-09-08 小胡+黄春波+Dispatcher 三方确认）：**
-- **以下 svc 标签的 issue assign 给团长（octo-issue-dispatcher, agent_id: 4f356f9a-4875-4028-9af9-24725bd5457c）**：
+**路由判定规则：svc 标签决定走不走团长，tech 标签只描述技术方向，两者正交。**
+
+- **以下 5 个 svc 标签 assign 给团长（octo-issue-dispatcher, agent_id: 4f356f9a-4875-4028-9af9-24725bd5457c）**：
   - svc/admonitor — ADM 平台前后端
   - svc/intra-api — ADM 内部 API
-  - svc/tv-web / svc/tv-api / svc/tv-query — TVM 系列
+  - svc/tv-web — TVM 前端 web
+  - svc/tv-api — TVM 后端 API
+  - svc/tv-query — TVM 查询服务
 - **不 assign 给团长，直接指派对应负责人**：
-  - 大数据任务 → 张成/吴坤城等
-  - 端侧/SDK → 周康平/张乾/王立涛
+  - 大数据任务（tech/data-adm、tech/data-tvm 但无 svc/tv-* 标签）→ 张成/吴坤城等
+  - 端侧/SNAP → 周康平/囡囡
+  - SDK → 张乾/王立涛
   - MCP/lite/海外 → 赵思捷
   - svc/verify-api、svc/ui-report → 走人工/其他团队
+- **tech/data-tvm 路由规则（2026-09-08 明确）**：
+  - tech/data-tvm + svc/tv-* → 走团长（TVM 前后端代码逻辑问题，如 ADM-49）
+  - tech/data-tvm 无 svc/tv-* → 走张成/吴坤城（纯大数据任务）
+- **tech/sivt-* 路由待确认**（等黄春波明确）：
+  - tech/sivt-adm → 杨春雪（大数据）或走团长（如需改前端/后端代码）？
+  - tech/sivt-tvm → 吴坤城（大数据）或走团长（如需改前端/后端代码）？
 
 **前端/后端任务铁律：**
 - 不要直接把任务派给 work agent（如 hcb-admonitor-fullstack、lqq-admonitor、hcb-cloud-monitor-intra-api、hcb-cloud-tv-web 等）
