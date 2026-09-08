@@ -90,11 +90,14 @@
 - **自动性任务/发送类问题**（如自动日报未发送、任务状态异常）：**默认只分后端**（吕金果），不同时 @ 大数据侧。后端先查发送/调度链路，如果定位到是数据生成问题再升级到大数据侧。不要上来就 @ 所有人。
 - 避免不必要的跨方向同步排查，减少干扰。
 
-### Work Agent 派发规则（2026-09-04 黄春波明确）
-- **不要直接把任务派给 work agent**（如 hcb-admonitor-fullstack）
+### Work Agent 派发规则（2026-09-04 黄春波明确，2026-09-08 Dispatcher 确认）
+- **不要直接把任务派给 work agent**（如 hcb-admonitor-fullstack、lqq-admonitor、hcb-cloud-monitor-intra-api、hcb-cloud-tv-web 等）
 - work agent 只接受**团长（octo-issue-dispatcher）**或 **worker 所有者（黄春波）**的派发，其他人派的一律退回
+- **PM助手建单后只 assign 给团长（octo-issue-dispatcher, agent_id: 4f356f9a-4875-4028-9af9-24725bd5457c）**，由团长做格式审核和派发
 - **admonitor web 端任务**：派给 agent: dispatcher 或人员 member，由他们二次分配
 - 这条规则适用于所有需要指派给 work agent 的场景，不仅限于 admonitor web
+- **打回处理**：收到团长打回后 → 读取打回内容确认要改什么 → 修改标签 → assign 回团长。**不自己换 worker 派出去，不尝试任何二次指派。**
+- **铁律0拒收识别**：如果 issue 被 worker 以"非授权派发"理由退回，说明有人绕过团长直接 assign 了 worker。此时不要重新指派，直接 assign 回团长重新走流程。
 
 ### 特定方向直派规则（产品指定）
 - **OTT-GIVT 统计任务** → **wkc 小分队**（squad_id: 8a96f947-f669-49f9-a954-01ea4fbf2f74，leader: wkc-指挥官）。王心宇 2026-09-03 明确要求：OTT GIVT统计任务都要指派给坤城，无论通过直聊还是群聊提。坤城不在Loop workspace member里，但有 wkc 小分队 squad，直接指派该 squad。
@@ -234,6 +237,16 @@ Loop 原生 7 个状态：`backlog` / `todo` / `in_progress` / `in_review` / `do
 
 ### svc/*（保留现有 7 个，服务定位补充）
 `svc/admonitor`、`svc/intra-api`、`svc/tv-api`、`svc/tv-query`、`svc/tv-web`、`svc/ui-report`、`svc/verify-api`
+
+### ⚠️ ADM/TVM svc 标签隔离规则（2026-09-08 建立）
+**TVM issue 禁止使用 ADM 标签，反之亦然。**
+
+| 产品线 | 可用 svc 标签 | 禁用标签 |
+|--------|-------------|----------|
+| ADM | svc/admonitor, svc/intra-api, svc/ui-report, svc/verify-api | svc/tv-* |
+| TVM | svc/tv-web, svc/tv-api, svc/tv-query | svc/admonitor, svc/intra-api |
+
+**反面教材（ADM-49）**：TVM 活动延期后端逻辑，issue 打了 svc/admonitor + svc/intra-api，实际应为 svc/tv-api。导致 Dispatcher 打回修正，浪费一轮。
 
 ### 交叉使用示例
 | 场景 | Label 组合 |

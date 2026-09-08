@@ -132,7 +132,8 @@
 - **读图**：如果反馈内容含图片，必须先用 image 工具读图，提取关键信息（task ID、错误日志、配置截图等）
 - **附图**：有图片的 issue 必须把图附到 issue 上（--attachment）
 - **完整信息**：issue 描述必须包含所有执行所需信息，不能假设 Loop 那边的我知道对话上下文
-- **指派目标**：默认指派给 adm-pm助手专家（assignee: adm-pm助手），不是其他专家
+- **指派目标**：**只 assign 给团长（octo-issue-dispatcher, agent_id: 4f356f9a-4875-4028-9af9-24725bd5457c）**，由团长做格式审核和派发。**禁止直接 assign 给 worker**（hcb-*、lqq-* 等）
+- **打回处理**：收到团长打回 → 改标签 → assign 回团长。不自己换 worker，不二次指派
 - **通知渠道记录**（2026-09-02 更新）：建 issue 时必须在描述中标注「通知渠道: {chat_id}」和「提需人: {sender_id}」，同时记入 distribution-log.md。格式：DM:{uid} 或 群:{group_no}。轮询通知机制靠这个字段定位通知发到哪里，**没记 = 放弃主动通知**
 
 ---
