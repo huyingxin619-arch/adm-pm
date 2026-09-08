@@ -90,12 +90,16 @@
 - **自动性任务/发送类问题**（如自动日报未发送、任务状态异常）：**默认只分后端**（吕金果），不同时 @ 大数据侧。后端先查发送/调度链路，如果定位到是数据生成问题再升级到大数据侧。不要上来就 @ 所有人。
 - 避免不必要的跨方向同步排查，减少干扰。
 
-### Work Agent 派发规则（2026-09-04 黄春波明确，2026-09-08 Dispatcher 确认）
-- **不要直接把任务派给 work agent**（如 hcb-admonitor-fullstack、lqq-admonitor、hcb-cloud-monitor-intra-api、hcb-cloud-tv-web 等）
-- work agent 只接受**团长（octo-issue-dispatcher）**或 **worker 所有者（黄春波）**的派发，其他人派的一律退回
-- **PM助手建单后只 assign 给团长（octo-issue-dispatcher, agent_id: 4f356f9a-4875-4028-9af9-24725bd5457c）**，由团长做格式审核和派发
-- **admonitor web 端任务**：派给 agent: dispatcher 或人员 member，由他们二次分配
-- 这条规则适用于所有需要指派给 work agent 的场景，不仅限于 admonitor web
+### Work Agent 派发规则（2026-09-04 黄春波明确，2026-09-08 更新）
+**指派路由区分（2026-09-08 小胡明确）：**
+- **ADM/TVM 前端/后端任务** → assign 给团长（octo-issue-dispatcher, agent_id: 4f356f9a-4875-4028-9af9-24725bd5457c），由团长做格式审核和派发worker
+- **大数据任务** → 直接指派给对应负责人（张成/吴坤城等），不走团长
+- **其他方向**（端侧/SDK/MCP等）→ 按研发对应表直接指派
+
+**前端/后端任务铁律：**
+- 不要直接把任务派给 work agent（如 hcb-admonitor-fullstack、lqq-admonitor、hcb-cloud-monitor-intra-api、hcb-cloud-tv-web 等）
+- work agent 只接受团长或 worker 所有者（黄春波）的派发，其他人派的一律退回
+- PM助手建单后只 assign 给团长，由团长派发
 - **打回处理**：收到团长打回后 → 读取打回内容确认要改什么 → 修改标签 → assign 回团长。**不自己换 worker 派出去，不尝试任何二次指派。**
 - **铁律0拒收识别**：如果 issue 被 worker 以"非授权派发"理由退回，说明有人绕过团长直接 assign 了 worker。此时不要重新指派，直接 assign 回团长重新走流程。
 
