@@ -105,7 +105,7 @@
   - 端侧/SNAP → 周康平/囡囡
   - SDK → 张乾/王立涛
   - MCP/lite/海外 → 赵思捷
-  - svc/verify-api、svc/ui-report → 走人工/其他团队
+  - svc/verify-api、svc/ui-report → 暂不涉及，后续按需配置（黄春波 2026-09-08 确认）
 - **tech/data-tvm 路由规则（2026-09-08 明确）**：
   - tech/data-tvm + svc/tv-* → 走团长（TVM 前后端代码逻辑问题，如 ADM-49）
   - tech/data-tvm 无 svc/tv-* → 走张成/吴坤城（纯大数据任务）

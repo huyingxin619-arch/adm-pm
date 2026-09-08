@@ -136,7 +136,7 @@
   - **以下 svc 标签 assign 给团长（octo-issue-dispatcher, agent_id: 4f356f9a-4875-4028-9af9-24725bd5457c）**：svc/admonitor、svc/intra-api、svc/tv-web、svc/tv-api、svc/tv-query。**禁止直接 assign 给 worker**（hcb-*、lqq-* 等）
   - **大数据任务** → 直接指派对应负责人（张成/吴坤城等），不走团长
   - **端侧/SDK/MCP等** → 按研发对应表直接指派
-  - **svc/verify-api、svc/ui-report** → 走人工/其他团队，不 assign 给团长
+  - **svc/verify-api、svc/ui-report** → 暂不涉及，后续按需配置（2026-09-08 黄春波确认）
 - **打回处理**：收到团长打回 → 改标签 → assign 回团长。不自己换 worker，不二次指派
 - **通知渠道记录**（2026-09-02 更新）：建 issue 时必须在描述中标注「通知渠道: {chat_id}」和「提需人: {sender_id}」，同时记入 distribution-log.md。格式：DM:{uid} 或 群:{group_no}。轮询通知机制靠这个字段定位通知发到哪里，**没记 = 放弃主动通知**
 
