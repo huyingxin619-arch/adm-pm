@@ -91,10 +91,16 @@
 - 避免不必要的跨方向同步排查，减少干扰。
 
 ### Work Agent 派发规则（2026-09-04 黄春波明确，2026-09-08 更新）
-**指派路由区分（2026-09-08 小胡明确）：**
-- **ADM/TVM 前端/后端任务** → assign 给团长（octo-issue-dispatcher, agent_id: 4f356f9a-4875-4028-9af9-24725bd5457c），由团长做格式审核和派发worker
-- **大数据任务** → 直接指派给对应负责人（张成/吴坤城等），不走团长
-- **其他方向**（端侧/SDK/MCP等）→ 按研发对应表直接指派
+**指派路由区分（2026-09-08 小胡+黄春波+Dispatcher 三方确认）：**
+- **以下 svc 标签的 issue assign 给团长（octo-issue-dispatcher, agent_id: 4f356f9a-4875-4028-9af9-24725bd5457c）**：
+  - svc/admonitor — ADM 平台前后端
+  - svc/intra-api — ADM 内部 API
+  - svc/tv-web / svc/tv-api / svc/tv-query — TVM 系列
+- **不 assign 给团长，直接指派对应负责人**：
+  - 大数据任务 → 张成/吴坤城等
+  - 端侧/SDK → 周康平/张乾/王立涛
+  - MCP/lite/海外 → 赵思捷
+  - svc/verify-api、svc/ui-report → 走人工/其他团队
 
 **前端/后端任务铁律：**
 - 不要直接把任务派给 work agent（如 hcb-admonitor-fullstack、lqq-admonitor、hcb-cloud-monitor-intra-api、hcb-cloud-tv-web 等）
