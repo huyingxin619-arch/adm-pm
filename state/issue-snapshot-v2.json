@@ -271,10 +271,10 @@
   },
   "ADM-50": {
     "id": "001934da-f221-45ff-9078-7f557c21b981",
-    "status": "todo",
+    "status": "in_review",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-09T17:42:46+08:00",
+    "updated_at": "2026-09-09T18:22:15+08:00",
     "title": "预估点击参数支持浮点类型（est_click/est_click_day）",
     "parent_issue_id": null
   },
