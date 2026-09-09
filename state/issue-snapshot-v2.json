@@ -265,7 +265,7 @@
     "status": "in_progress",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-09-08T19:44:32+08:00",
+    "updated_at": "2026-09-09T09:52:14+08:00",
     "title": "[TVM] 活动4144198延期后totalnet权限/过滤类型标签丢失排查",
     "parent_issue_id": null
   },
@@ -308,9 +308,9 @@
   "ADM-44": {
     "id": "a0fe19dd-26aa-4baf-9eff-e24fb0d38306",
     "status": "in_progress",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_id": "41eee17b-bcb6-44a1-a091-6dc4b000aaed",
     "assignee_type": "agent",
-    "updated_at": "2026-09-07T09:53:33+08:00",
+    "updated_at": "2026-09-09T10:05:01+08:00",
     "title": "[后端] 修复 OpenAPI /cms/v1/regions/list 地域字典缺失86个地级市",
     "parent_issue_id": "8087a516-9d11-4b1c-9273-165c6780613e"
   },
@@ -416,9 +416,9 @@
   "ADM-29": {
     "id": "e9786221-5c34-4a9f-b645-0b51a8246b03",
     "status": "in_progress",
-    "assignee_id": "358f4cc8-cc47-4bc0-9b7f-c58cbdf6563e",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-08-31T19:18:30+08:00",
+    "updated_at": "2026-09-09T10:04:19+08:00",
     "title": "TV-数据定制-3种新建",
     "parent_issue_id": "0e9b300f-c269-48a1-b79f-81eb2761b73f"
   }
