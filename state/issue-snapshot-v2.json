@@ -28,10 +28,10 @@
   },
   "ADM-37": {
     "id": "3c9bb261-02ba-4c3e-afe4-fb9655125197",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
     "assignee_type": "member",
-    "updated_at": "2026-09-02T14:21:07+08:00",
+    "updated_at": "2026-09-09T10:54:18+08:00",
     "title": "[TVM] SIVT线上举证条数限制（新增设备规则）",
     "parent_issue_id": null
   },
@@ -251,6 +251,15 @@
     "title": "AdMonitor 活动点位被误删，需恢复（活动2509914）",
     "parent_issue_id": null
   },
+  "ADM-51": {
+    "id": "17f04813-da75-4be3-8c70-bad408f3a9ee",
+    "status": "todo",
+    "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
+    "assignee_type": "member",
+    "updated_at": "2026-09-09T16:07:38+08:00",
+    "title": "lqq-测试专家",
+    "parent_issue_id": null
+  },
   "ADM-26": {
     "id": "29aa13b3-871e-4446-8770-e588f5692877",
     "status": "in_progress",
@@ -260,12 +269,21 @@
     "title": "ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
   },
+  "ADM-50": {
+    "id": "001934da-f221-45ff-9078-7f557c21b981",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-09T17:25:46+08:00",
+    "title": "预估点击参数支持浮点类型（est_click/est_click_day）",
+    "parent_issue_id": null
+  },
   "ADM-49": {
     "id": "64231892-86ba-4b77-8b0c-14e87a6685d9",
-    "status": "in_progress",
-    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
-    "assignee_type": "member",
-    "updated_at": "2026-09-09T09:52:14+08:00",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-09T15:30:08+08:00",
     "title": "[TVM] 活动4144198延期后totalnet权限/过滤类型标签丢失排查",
     "parent_issue_id": null
   },
@@ -307,19 +325,19 @@
   },
   "ADM-44": {
     "id": "a0fe19dd-26aa-4baf-9eff-e24fb0d38306",
-    "status": "in_progress",
-    "assignee_id": "41eee17b-bcb6-44a1-a091-6dc4b000aaed",
+    "status": "done",
+    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
     "assignee_type": "agent",
-    "updated_at": "2026-09-09T10:05:01+08:00",
+    "updated_at": "2026-09-09T11:35:31+08:00",
     "title": "[后端] 修复 OpenAPI /cms/v1/regions/list 地域字典缺失86个地级市",
     "parent_issue_id": "8087a516-9d11-4b1c-9273-165c6780613e"
   },
   "ADM-43": {
     "id": "8087a516-9d11-4b1c-9273-165c6780613e",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
     "assignee_type": "agent",
-    "updated_at": "2026-09-04T17:04:11+08:00",
+    "updated_at": "2026-09-09T11:36:20+08:00",
     "title": "[ADM] 多维钻取API地域字典不完整（OpenAPI /cms/v1/regions/list 缺86个地级市）",
     "parent_issue_id": null
   },
@@ -379,10 +397,10 @@
   },
   "ADM-32": {
     "id": "aa5f447b-5f53-4cf6-ab78-10c6e2db3674",
-    "status": "blocked",
+    "status": "in_review",
     "assignee_id": "358f4cc8-cc47-4bc0-9b7f-c58cbdf6563e",
     "assignee_type": "agent",
-    "updated_at": "2026-08-31T20:01:07+08:00",
+    "updated_at": "2026-09-09T15:34:58+08:00",
     "title": "TV-跨屏打通CTR",
     "parent_issue_id": "0e9b300f-c269-48a1-b79f-81eb2761b73f"
   },
@@ -397,10 +415,10 @@
   },
   "ADM-31": {
     "id": "02265407-12b6-4f7b-88d2-874b83a7736d",
-    "status": "blocked",
+    "status": "in_review",
     "assignee_id": "358f4cc8-cc47-4bc0-9b7f-c58cbdf6563e",
     "assignee_type": "agent",
-    "updated_at": "2026-08-31T20:01:27+08:00",
+    "updated_at": "2026-09-09T15:35:08+08:00",
     "title": "TV-PMO跨屏打通",
     "parent_issue_id": "0e9b300f-c269-48a1-b79f-81eb2761b73f"
   },
@@ -415,10 +433,10 @@
   },
   "ADM-29": {
     "id": "e9786221-5c34-4a9f-b645-0b51a8246b03",
-    "status": "in_progress",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-09T10:04:19+08:00",
+    "status": "in_review",
+    "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
+    "assignee_type": "member",
+    "updated_at": "2026-09-09T15:36:27+08:00",
     "title": "TV-数据定制-3种新建",
     "parent_issue_id": "0e9b300f-c269-48a1-b79f-81eb2761b73f"
   }
