@@ -63,7 +63,7 @@
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-50 | [ADM] 预估点击参数支持浮点类型（est_click/est_click_day） | 2026-09-09 | Loop adm-pm助手专家（→团长Dispatcher） | todo | 提需人：黄春波；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级none；3个CMS API接口est_click/est_click_day改浮点支持2位小数；issue ID: 001934da-f221-45ff-9078-7f557c21b981；labels: type/feature+tech/backend+svc/admonitor；Dispatcher已建单并assign，我补齐描述+修正标签(svc/intra-api→svc/admonitor) |
+| ADM-50 | [ADM] 预估点击参数支持浮点类型（est_click/est_click_day） | 2026-09-09 | Loop adm-pm助手专家（→团长Dispatcher） | in_progress | 提需人：黄春波；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级none；3个CMS API接口est_click/est_click_day改浮点支持2位小数；issue ID: 001934da-f221-45ff-9078-7f557c21b981；labels: type/feature+tech/backend+svc/admonitor；Dispatcher已建单并assign，我补齐描述+修正标签(svc/intra-api→svc/admonitor)；9/9 14:16 状态变更 todo→in_progress |
 
 ---
 

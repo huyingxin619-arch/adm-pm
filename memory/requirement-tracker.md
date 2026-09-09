@@ -33,6 +33,6 @@
 
 | ADM-48 | 玛氏季度跑数任务（2026 Q3 P7-P9） | in_review | 吕金果 | 2026-09-08 17:22 | 提需人：吴济；优先级high；issue ID: 3052d40e-9de8-46f0-8fc6-d9539d2ee2ef；9/8 17:22 状态变更 todo→in_review（请验收）+指派人变更+新评论（任务结果下载链接）；已通知群聊@吴济 |
 | ADM-49 | [TVM] 活动4144198延期后totalnet权限/过滤类型标签丢失排查 | 开发中 | 吕金果 | 2026-09-08 18:27 | 提需人：胡映昕；优先级high；issue ID: 64231892-86ba-4b77-8b0c-14e87a6685d9；9/8 18:26 指派人变更（4f356f9a→1c537bb8）；9/8 18:27 状态变更 todo→in_progress；非通知类型，跳过通知；9/8 19:06 指派人变更（4f356f9a→1c537bb8）；9/8 19:06 新评论（OCTO-LOOP 继续排查指令）已通知群聊@胡映昕；9/8 19:40 指派人变更（1c537bb8→4f356f9a，退回团长）+新评论（## ADM-49 排查结果与修复报告：根因定位到tv-web monitor-tv的OP后台活动编辑/延期流程）已通知群聊@胡映昕；9/8 19:44 指派人变更（4f356f9a→cab5ac70） |
-| ADM-50 | [ADM] 预估点击参数支持浮点类型（est_click/est_click_day） | 已分发 | Loop adm-pm助手专家（→团长Dispatcher） | 2026-09-09 14:08 | 提需人：黄春波；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；3个CMS API接口est_click/est_click_day改浮点支持2位小数；labels: type/feature+tech/backend+svc/admonitor；issue ID: 001934da-f221-45ff-9078-7f557c21b981 |
+| ADM-50 | [ADM] 预估点击参数支持浮点类型（est_click/est_click_day） | 开发中 | Loop adm-pm助手专家（→团长Dispatcher） | 2026-09-09 14:16 | 提需人：黄春波；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；3个CMS API接口est_click/est_click_day改浮点支持2位小数；labels: type/feature+tech/backend+svc/admonitor；issue ID: 001934da-f221-45ff-9078-7f557c21b981；9/9 14:16 状态变更 todo→in_progress；非通知类型，跳过通知 |
 
 ---
