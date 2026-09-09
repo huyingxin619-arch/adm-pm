@@ -259,6 +259,14 @@ Loop 原生 7 个状态：`backlog` / `todo` / `in_progress` / `in_review` / `do
 ### svc/*（保留现有 7 个，服务定位补充）
 `svc/admonitor`、`svc/intra-api`、`svc/tv-api`、`svc/tv-query`、`svc/tv-web`、`svc/ui-report`、`svc/verify-api`
 
+**svc/admonitor 范围说明（2026-09-09 黄春波明确）：**
+svc/admonitor 代表 admonitor 系列，包含：admonitor api、admonitor web、多维钻取、query 等内容。adm-api 属于 svc/admonitor，不是 svc/intra-api。
+
+| svc 标签 | 涵盖范围 |
+|---------|---------|
+| svc/admonitor | admonitor api + admonitor web + 多维钻取 + query 等 admonitor 全系列 |
+| svc/intra-api | 内部监控 API（独立于 admonitor 系列） |
+
 ### ⚠️ ADM/TVM svc 标签隔离规则（2026-09-08 建立）
 **TVM issue 禁止使用 ADM 标签，反之亦然。**
 
