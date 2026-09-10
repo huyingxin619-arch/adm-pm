@@ -79,7 +79,7 @@
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
 | ADM-47 | DOT 模拟提交接口开发 + dev 环境与 CI/CD 部署 | 2026-09-10 | Loop adm-pm助手专家 | in_review | 状态变更 in_progress→in_review（请验收）；无通知渠道记录，跳过通知 |
-| ADM-52 | [TVM] OTT_百事_高危ip举证（活动4145433/点位32aXk/日期2026-9-9） | 2026-09-10 | wkc 小分队（squad） | todo | 提需人：王心宇；通知渠道：DM:03b1da44f59b437b8edb0be6800288cf；优先级high；拉取目标点位在目标日期触犯高危ip的日志；出数字段：caid/spid/uuid/uuid from/tvrm(nx)/ni(iesid)/ti或timestamp/ip/rawip/ns/reg/logid；issue ID: cd3c40ee-d8d1-4467-bb6a-9b94499fb5c8；labels: type/investigate+tech/data-tvm+svc/tv-api+svc/tv-query |
+| ADM-52 | [TVM] OTT_百事_高危ip举证（活动4145433/点位32aXk/日期2026-9-9） | 2026-09-10 | wkc 小分队（squad）→吴坤城 | todo | 提需人：王心宇；通知渠道：DM:03b1da44f59b437b8edb0be6800288cf；优先级high；拉取目标点位在目标日期触犯高危ip的日志；出数字段：caid/spid/uuid/uuid from/tvrm(nx)/ni(iesid)/ti或timestamp/ip/rawip/ns/reg/logid；issue ID: cd3c40ee-d8d1-4467-bb6a-9b94499fb5c8；labels: type/investigate+tech/data-tvm+svc/tv-api+svc/tv-query；9/10 14:35 指派人变更（wkc小分队→吴坤城 d5ca704c） |
 
 ---
 
