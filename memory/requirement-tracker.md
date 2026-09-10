@@ -34,7 +34,7 @@
 | ADM-48 | 玛氏季度跑数任务（2026 Q3 P7-P9） | in_review | 吕金果 | 2026-09-08 17:22 | 提需人：吴济；优先级high；issue ID: 3052d40e-9de8-46f0-8fc6-d9539d2ee2ef；9/8 17:22 状态变更 todo→in_review（请验收）+指派人变更+新评论（任务结果下载链接）；已通知群聊@吴济 |
 | ADM-49 | [TVM] 活动4144198延期后totalnet权限/过滤类型标签丢失排查 | done | 吕金果 | 2026-09-10 11:00 | 提需人：胡映昕；优先级high；issue ID: 64231892-86ba-4b77-8b0c-14e87a6685d9；9/9 11:57 进入in_review；9/9 14:21 黄春波反馈需修复tv-api；9/9 14:32 修复完成；9/9 15:30 三字段安全性复查完成；9/10 11:00 in_review→done 已闭环；各节点已通知群聊@胡映昕 |
 | ADM-47 | DOT 模拟提交接口开发 + dev 环境与 CI/CD 部署 | in_review | Loop adm-pm助手专家 | 2026-09-10 10:25 | 状态变更 in_progress→in_review；无通知渠道记录，跳过通知 |
-| ADM-52 | [TVM] OTT_百事_高危ip举证（活动4145433/点位32aXk/日期2026-9-9） | 已分发 | wkc 小分队（squad）→吴坤城 | 2026-09-10 14:27 | 提需人：王心宇；优先级high；issue ID: cd3c40ee-d8d1-4467-bb6a-9b94499fb5c8；labels: type/investigate+tech/data-tvm+svc/tv-api+svc/tv-query；9/10 16:54 指派人变更（wkc小分队→吴坤城 d5ca704c）；9/10 17:22 指派人变更（36b65f85→4f356f9a团长）+新评论（技术方案：多维钻取与API数据报告适配PMO panel属性ID体系）；已通知群聊@吴济 |
+| ADM-52 | [TVM] OTT_百事_高危ip举证（活动4145433/点位32aXk/日期2026-9-9） | 已分发 | wkc 小分队（squad）→吴坤城 | 2026-09-10 14:27 | 提需人：王心宇；优先级high；issue ID: cd3c40ee-d8d1-4467-bb6a-9b94499fb5c8；labels: type/investigate+tech/data-tvm+svc/tv-api+svc/tv-query；9/10 16:54 指派人变更（wkc小分队→吴坤城 d5ca704c）；9/10 17:22 指派人变更（36b65f85→4f356f9a团长）+新评论（技术方案：多维钻取与API数据报告适配PMO panel属性ID体系）；已通知群聊@吴济；9/10 18:50 指派人变更（6d638aa2→wkc-deployer bbea0220）|
 
 ---
 | ADM-53 | [TVM] 多维钻取与API数据报告适配PMO panel属性ID体系 | 开发中 | Loop adm-pm助手专家（→团长Dispatcher） | 2026-09-10 17:45 | 提需人：吴济；优先级high；期望9月内完成；issue ID: f0f45769-ae26-4a40-badd-4f755929b144；labels: type/feature+tech/frontend+tech/backend+svc/tv-web+svc/tv-api；9/10 17:33 指派人变更（团长→36b65f85）+新评论（确认数据现状+后端修复方案）；已通知群聊@吴济；9/10 17:44 状态变更 todo→in_progress 非通知类型；9/10 17:45 拆分新子任务 ADM-54；已通知群聊@吴济 |
