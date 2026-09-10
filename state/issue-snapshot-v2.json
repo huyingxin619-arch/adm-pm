@@ -143,6 +143,24 @@
     "title": "活动2510519 自动日报未发送（汉高施华蔻抖音）",
     "parent_issue_id": null
   },
+  "ADM-53": {
+    "id": "f0f45769-ae26-4a40-badd-4f755929b144",
+    "status": "todo",
+    "assignee_id": "36b65f85-19d2-43db-a44f-7059bb68a8be",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-10T16:56:14+08:00",
+    "title": "[TVM] 多维钻取与API数据报告适配PMO panel属性ID体系",
+    "parent_issue_id": null
+  },
+  "ADM-52": {
+    "id": "cd3c40ee-d8d1-4467-bb6a-9b94499fb5c8",
+    "status": "in_progress",
+    "assignee_id": "6d638aa2-0349-4f51-94cd-abfbe8978927",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-10T16:54:45+08:00",
+    "title": "[TVM] OTT_百事_高危ip举证（活动4145433/点位32aXk/日期2026-9-9）",
+    "parent_issue_id": null
+  },
   "ADM-28": {
     "id": "bde7f2f7-e4e7-4ab0-a217-a8a2ff2a243b",
     "status": "in_progress",
@@ -265,7 +283,7 @@
     "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-08T15:35:37+08:00",
+    "updated_at": "2026-09-10T16:48:59+08:00",
     "title": "ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
   },
@@ -280,10 +298,10 @@
   },
   "ADM-49": {
     "id": "64231892-86ba-4b77-8b0c-14e87a6685d9",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-09T15:30:08+08:00",
+    "updated_at": "2026-09-10T11:00:10+08:00",
     "title": "[TVM] 活动4144198延期后totalnet权限/过滤类型标签丢失排查",
     "parent_issue_id": null
   },
@@ -298,10 +316,10 @@
   },
   "ADM-47": {
     "id": "818986b2-1270-4450-94b4-23272dfe9704",
-    "status": "in_progress",
+    "status": "in_review",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-09-07T18:32:05+08:00",
+    "updated_at": "2026-09-10T10:25:38+08:00",
     "title": "DOT 模拟提交接口开发 + dev 环境与 CI/CD 部署",
     "parent_issue_id": null
   },
@@ -429,15 +447,6 @@
     "assignee_type": "agent",
     "updated_at": "2026-08-31T19:23:49+08:00",
     "title": "TV-数据定制-批量任务",
-    "parent_issue_id": "0e9b300f-c269-48a1-b79f-81eb2761b73f"
-  },
-  "ADM-29": {
-    "id": "e9786221-5c34-4a9f-b645-0b51a8246b03",
-    "status": "in_review",
-    "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
-    "assignee_type": "member",
-    "updated_at": "2026-09-09T15:36:27+08:00",
-    "title": "TV-数据定制-3种新建",
     "parent_issue_id": "0e9b300f-c269-48a1-b79f-81eb2761b73f"
   }
 }
