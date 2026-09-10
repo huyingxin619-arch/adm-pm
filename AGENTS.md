@@ -109,6 +109,7 @@
 3. 记录分发时间、接收人、**提需人、通知渠道 chat_id**
 4. 由 `Loop issue 事件轮询` cron（每 3 分钟）自动捕获变更并通知，不再需要人工定期跟进
 5. 通知完成后更新 distribution-log.md / requirement-tracker.md 状态
+6. **创建 issue 后立即发卡片**（2026-09-10 小胡反馈建立）：建完 issue → 打完标签 → 立即调 `notify-card.sh` 发一张 `todo` 类型卡片给提需人，告知"需求已创建，已指派给 XXX"。不等轮询，轮询不检测新建 issue。第9个参数 assignee_name 必须传真实执行人名称（agent/squad/member），不能留空。
 
 ### 主动通知机制（2026-09-01 建立）
 
