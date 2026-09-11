@@ -86,7 +86,7 @@
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-57 | ott中点位序布点计算 | （非本分发渠道建单，Loop内自建） | d5ca704c（吴坤城） | todo | 需求：OTT中点位序程序布点计算，两层判断逻辑：①活动按布点计算 ②当天是否布点上线 DAYS=1；目前程序只有逻辑2，需加逻辑1；issue ID: 5a80d4ad-7615-482f-9b03-54041fda6bba；issue描述无提需人/通知渠道字段；9/11 10:40 新评论（已完成 Plan：涉及文件 Campaign.java + Campaigns.java，新增 scheduleCal 字段，SQL 查询中添加 scheduleCal）；⚠️无通知渠道跳过通知 |
+| ADM-57 | ott中点位序布点计算 | （非本分发渠道建单，Loop内自建） | d5ca704c（吴坤城） | todo | 需求：OTT中点位序程序布点计算，两层判断逻辑：①活动按布点计算 ②当天是否布点上线 DAYS=1；目前程序只有逻辑2，需加逻辑1；issue ID: 5a80d4ad-7615-482f-9b03-54041fda6bba；issue描述无提需人/通知渠道字段；9/11 10:40 新评论（可行。要注意更改代码前确认一下lib包和中点位序的代码，当前是否处于master分支，如果不是的话，需要先push merge到master，再开发）；9/11 10:40 新评论（代码审查通过 LGTM：dm-tvmonitor-lib 1.67.3→1.67.4，Campaign.java scheduleCal 字段 Integer 可 null，getter/setter 正确）；；9/11 10:40 新评论（部署完成。dm-tvmonitor-lib 1.67.4本地编译BUILD SUCCESS，已安装到本地Maven仓库；tvmonitor-secDev构建依赖已就绪）；9/11 16:29 新评论（测试结论通过：tvmonitor-secDev feat/nxPosition-scheduleCal-logic1，NxMapperBudianFilterTest.java 新增T01-T10共10个用例）⚠️无通知渠道跳过通知 |
 
 ---
 
