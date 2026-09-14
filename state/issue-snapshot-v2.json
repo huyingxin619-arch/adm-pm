@@ -8,30 +8,39 @@
     "title": "[TVM] OTT-GIVT统计：2026年8月各子规则(keyword) by day表现",
     "parent_issue_id": null
   },
+  "ADM-66": {
+    "id": "3cefc22b-d71b-4eae-85ee-c8a98c63fd83",
+    "status": "cancelled",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-09-14T15:51:34+08:00",
+    "title": "__guard_test_ignore__",
+    "parent_issue_id": null
+  },
   "ADM-64": {
     "id": "c5b2cd58-918a-480f-919a-eccdaf59599d",
-    "status": "in_progress",
-    "assignee_id": "1c537bb8-6269-4cb0-95b2-31459231486f",
+    "status": "cancelled",
+    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
     "assignee_type": "agent",
-    "updated_at": "2026-09-14T15:34:48+08:00",
+    "updated_at": "2026-09-14T17:19:53+08:00",
     "title": "[260914-invalidid-zero-2] 前端: 无效ID By Day置零展示 (monitor-web)",
     "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
   },
   "ADM-63": {
     "id": "5cfafb54-769e-4702-90ba-32b18e520959",
-    "status": "in_progress",
+    "status": "cancelled",
     "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
     "assignee_type": "agent",
-    "updated_at": "2026-09-14T15:34:29+08:00",
+    "updated_at": "2026-09-14T17:19:53+08:00",
     "title": "[260914-invalidid-zero-1] 后端: 无效ID By Day置零判断 (monitor-api)",
     "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
   },
   "ADM-59": {
     "id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b",
-    "status": "in_progress",
+    "status": "todo",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-14T15:13:00+08:00",
+    "updated_at": "2026-09-14T17:25:05+08:00",
     "title": "[TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
     "parent_issue_id": null
   },
@@ -71,21 +80,30 @@
     "title": "[tv-web] 自定义人群发布TA重算时未传布点计算参数",
     "parent_issue_id": "5dfb9f94-0066-43a4-baeb-5eae2ea5ea42"
   },
-  "ADM-60": {
-    "id": "5df9412a-73b2-4658-bc24-1bf59a55d988",
-    "status": "todo",
+  "ADM-67": {
+    "id": "070c7aa3-5c2b-4605-9c6e-939e854de321",
+    "status": "cancelled",
     "assignee_id": "1c537bb8-6269-4cb0-95b2-31459231486f",
     "assignee_type": "agent",
-    "updated_at": "2026-09-14T15:11:11+08:00",
+    "updated_at": "2026-09-14T17:19:54+08:00",
+    "title": "[260914-tvm-invalidid-zero-1] 编码：TVM无效ID置零（数据洞察+多维钻取）",
+    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
+  },
+  "ADM-60": {
+    "id": "5df9412a-73b2-4658-bc24-1bf59a55d988",
+    "status": "cancelled",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-14T16:12:40+08:00",
     "title": "[260914-tvm-invalidid-zero-1] 编码：TVM无效ID置零（数据洞察+多维钻取）",
     "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
   },
   "ADM-58": {
     "id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5",
-    "status": "in_progress",
+    "status": "todo",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-14T15:36:48+08:00",
+    "updated_at": "2026-09-14T17:25:00+08:00",
     "title": "[ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
     "parent_issue_id": null
   },
@@ -196,6 +214,15 @@
     "updated_at": "2026-08-27T17:40:24+08:00",
     "title": "活动2510519 自动日报未发送（汉高施华蔻抖音）",
     "parent_issue_id": null
+  },
+  "ADM-69": {
+    "id": "54d287de-2d6d-435f-93ad-97daaa1d0295",
+    "status": "cancelled",
+    "assignee_id": "1c537bb8-6269-4cb0-95b2-31459231486f",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-14T17:19:54+08:00",
+    "title": "[260914-tvm-invalidid-zero-3] 部署 dev",
+    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
   },
   "ADM-55": {
     "id": "135fb89e-9cb9-4896-b4a9-2b3f42d21872",
@@ -341,6 +368,15 @@
     "title": "AdMonitor 活动点位被误删，需恢复（活动2509914）",
     "parent_issue_id": null
   },
+  "ADM-68": {
+    "id": "4cd9e545-5941-402f-95c5-ca8ff8ef78c4",
+    "status": "cancelled",
+    "assignee_id": "8f6d778a-f901-46dc-8e77-91339a5902eb",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-14T17:19:54+08:00",
+    "title": "[260914-tvm-invalidid-zero-2] 预览验证：TVM无效ID置零集成测试",
+    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
+  },
   "ADM-51": {
     "id": "17f04813-da75-4be3-8c70-bad408f3a9ee",
     "status": "todo",
@@ -355,16 +391,16 @@
     "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-14T14:38:19+08:00",
+    "updated_at": "2026-09-14T15:49:46+08:00",
     "title": "ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
   },
   "ADM-65": {
     "id": "16488218-4c3f-43e2-bee7-3df24268b3f5",
-    "status": "backlog",
+    "status": "cancelled",
     "assignee_id": "8f6d778a-f901-46dc-8e77-91339a5902eb",
     "assignee_type": "agent",
-    "updated_at": "2026-09-14T15:36:11+08:00",
+    "updated_at": "2026-09-14T17:19:53+08:00",
     "title": "[260914-invalidid-zero-3] 预览验证: 无效ID置零集成测试",
     "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
   },
@@ -412,41 +448,5 @@
     "updated_at": "2026-09-07T17:14:35+08:00",
     "title": "[TVM] 排查PMO跨屏打通任务18195卡在'提交成功'状态",
     "parent_issue_id": "1f7d3e60-272f-44de-bd01-165ba580f32b"
-  },
-  "ADM-45": {
-    "id": "1f7d3e60-272f-44de-bd01-165ba580f32b",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-07T17:15:41+08:00",
-    "title": "[TVM] PMO跨屏打通任务18195状态卡在'提交成功'，无计算进程",
-    "parent_issue_id": null
-  },
-  "ADM-44": {
-    "id": "a0fe19dd-26aa-4baf-9eff-e24fb0d38306",
-    "status": "done",
-    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-09T11:35:31+08:00",
-    "title": "[后端] 修复 OpenAPI /cms/v1/regions/list 地域字典缺失86个地级市",
-    "parent_issue_id": "8087a516-9d11-4b1c-9273-165c6780613e"
-  },
-  "ADM-43": {
-    "id": "8087a516-9d11-4b1c-9273-165c6780613e",
-    "status": "done",
-    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-09T11:36:20+08:00",
-    "title": "[ADM] 多维钻取API地域字典不完整（OpenAPI /cms/v1/regions/list 缺86个地级市）",
-    "parent_issue_id": null
-  },
-  "ADM-42": {
-    "id": "e246efe9-3a2e-46ec-b3db-dcb153abb600",
-    "status": "in_progress",
-    "assignee_id": "37f8ed8c-7925-4e01-8fce-25283fa67d64",
-    "assignee_type": "member",
-    "updated_at": "2026-09-04T10:19:49+08:00",
-    "title": "[ADM] DR报告与数据定制模块OS数据不一致排查 — 数据侧（活动2495707）",
-    "parent_issue_id": "3b11ca93-c01b-467e-a2fa-9c5c6d881e67"
   }
 }
