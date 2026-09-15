@@ -105,6 +105,10 @@
 | ADM-72 | [260914-tvm-invalidid-zero-1] 验证构建部署：TVM无效ID置零（数据洞察+多维钻取） | 2026-09-14 | hcb-cloud-tv-web | todo | 提需人：王浩阳（继承父需求ADM-59）；通知渠道：群：9f78c49daf00466a8eb58ede140f52b6；父需求ADM-59；9/14 17:28 新建子任务；已通知群聊@王浩阳 |
 | ADM-80 | [260914-invalidid-zero-7] 前端: 无效ID By Day置零展示 (monitor-web) | 2026-09-14 | hcb-admonitor-fullstack | todo | 提需人：王浩阳（继承父需求ADM-58）；通知渠道：群：9f78c49daf00466a8eb58ede140f52b6；父需求ADM-58；9/14 17:45 新建子任务；已通知群聊@王浩阳 |
 | ADM-81 | [260914-tvm-invalidid-zero-1] 验证构建部署：TVM无效ID置零（数据洞察+多维钻取） | 2026-09-14 | hcb-cloud-tv-web | todo | 提需人：王浩阳（继承父需求ADM-59）；通知渠道：群：9f78c49daf00466a8eb58ede140f52b6；父需求ADM-59；9/14 17:45 新建子任务；已通知群聊@王浩阳 |
+| ADM-55 | IP vs MAC程序进行布点计算 | （非本分发渠道建单，Loop内自建） | c0babe41（wkc-小工具-coder） | in_progress | 需求：IP vs MAC 程序加一层判断——活动是否按布点计算（逻辑1）；参考ADM-57实现方法；issue描述无提需人/通知渠道字段；9/15 15:26 状态变更 todo→in_progress + 指派人变更（d5ca704c→c0babe41）+ 3条新评论（①参考ADM-57实现方法 ②ip2mulmac布点过滤升级开发 ③检查dm-tvmonitor-lib 1.67.3 scheduleCal支持）⚠️无通知渠道跳过通知 |
+
+| ADM-57 | ott中点位序布点计算 | （非本分发渠道建单，Loop内自建） | d5ca704c（吴坤城） | blocked | 需求：OTT中点位序程序布点计算，两层判断逻辑：①活动按布点计算 ②当天是否布点上线 DAYS=1；目前程序只有逻辑2，需加逻辑1；issue ID: 5a80d4ad-7615-482f-9b03-54041fda6bba；issue描述无提需人/通知渠道字段；9/11 10:40 新评论（可行。要注意更改代码前确认一下lib包和中点位序的代码，当前是否处于master分支，如果不是的话，需要先push merge到master，再开发）；9/11 10:40 新评论（代码审查通过 LGTM：dm-tvmonitor-lib 1.67.3→1.67.4，Campaign.java scheduleCal 字段 Integer 可 null，getter/setter 正确）；9/11 10:40 新评论（部署完成。dm-tvmonitor-lib 1.67.4本地编译BUILD SUCCESS，已安装到本地Maven仓库；tvmonitor-secDev构建依赖已就绪）；9/11 16:29 新评论（测试结论通过：tvmonitor-secDev feat/nxPosition-scheduleCal-logic1，NxMapperBudianFilterTest.java 新增T01-T10共10个用例）；9/15 15:21 状态变更 todo→blocked + 2条新评论（①中点位序暂时没有非布点活动且包含days=0，没法做测试，任务暂缓 ②dm-tvmonitor-lib改动在feat/campaign-scheduleCal分支未commit未merge，pom版本1.67.4）⚠️无通知渠道跳过通知 |
+
 | ADM-85 | 挑战因子接口 L1 抽样功能开发 | 2026-09-15 | 文菁收数开发（b72f5107） | in_progress | 无通知渠道记录（Loop内自建或未记录提需人），跳过通知；9/15 11:20 状态变更 todo→in_progress + 新评论（现状核实：已读到PRD原文media-key-service仓库，正在核对）；9/15 11:20 新评论×2（①按照issue描述进行方案设计 ②按issue描述口径出方案，仓库media-key-service，改动清单：ValidationParametersRequest新增可选字段等） |
 
 ---

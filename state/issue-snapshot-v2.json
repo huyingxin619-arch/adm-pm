@@ -17,6 +17,15 @@
     "title": "[260914-tvm-invalidid-zero-1] 验证构建部署：TVM无效ID置零（数据洞察+多维钻取）",
     "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
   },
+  "ADM-85": {
+    "id": "ccdc9240-cf7d-4c61-af8e-fea678c86939",
+    "status": "in_progress",
+    "assignee_id": "b72f5107-6238-4116-99c8-98bca0603a8d",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-15T11:33:11+08:00",
+    "title": "挑战因子接口 L1 抽样功能开发",
+    "parent_issue_id": null
+  },
   "ADM-78": {
     "id": "dfb38907-e72d-4e02-ae68-74171b784c73",
     "status": "cancelled",
@@ -208,10 +217,10 @@
   },
   "ADM-57": {
     "id": "5a80d4ad-7615-482f-9b03-54041fda6bba",
-    "status": "todo",
+    "status": "blocked",
     "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
     "assignee_type": "member",
-    "updated_at": "2026-09-11T10:40:37+08:00",
+    "updated_at": "2026-09-15T15:21:17+08:00",
     "title": "ott中点位序布点计算",
     "parent_issue_id": null
   },
@@ -298,10 +307,10 @@
   },
   "ADM-55": {
     "id": "135fb89e-9cb9-4896-b4a9-2b3f42d21872",
-    "status": "todo",
-    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
-    "assignee_type": "member",
-    "updated_at": "2026-09-11T10:34:17+08:00",
+    "status": "in_progress",
+    "assignee_id": "c0babe41-b708-4290-bbe8-84ec33ab3bb5",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-15T15:26:19+08:00",
     "title": "IP vs MAC程序进行布点计算",
     "parent_issue_id": null
   },
@@ -439,14 +448,5 @@
     "updated_at": "2026-08-19T17:48:11+08:00",
     "title": "AdMonitor 活动点位被误删，需恢复（活动2509914）",
     "parent_issue_id": null
-  },
-  "ADM-75": {
-    "id": "bdfdc368-3143-4617-99b7-a73f623840cd",
-    "status": "cancelled",
-    "assignee_id": "1c537bb8-6269-4cb0-95b2-31459231486f",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-14T17:34:13+08:00",
-    "title": "[260914-tvm-invalidid-zero-3] 部署 dev",
-    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
   }
 }
