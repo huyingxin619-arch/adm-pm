@@ -105,7 +105,7 @@
 | ADM-72 | [260914-tvm-invalidid-zero-1] 验证构建部署：TVM无效ID置零（数据洞察+多维钻取） | 2026-09-14 | hcb-cloud-tv-web | todo | 提需人：王浩阳（继承父需求ADM-59）；通知渠道：群：9f78c49daf00466a8eb58ede140f52b6；父需求ADM-59；9/14 17:28 新建子任务；已通知群聊@王浩阳 |
 | ADM-80 | [260914-invalidid-zero-7] 前端: 无效ID By Day置零展示 (monitor-web) | 2026-09-14 | hcb-admonitor-fullstack | todo | 提需人：王浩阳（继承父需求ADM-58）；通知渠道：群：9f78c49daf00466a8eb58ede140f52b6；父需求ADM-58；9/14 17:45 新建子任务；已通知群聊@王浩阳 |
 | ADM-81 | [260914-tvm-invalidid-zero-1] 验证构建部署：TVM无效ID置零（数据洞察+多维钻取） | 2026-09-14 | hcb-cloud-tv-web | todo | 提需人：王浩阳（继承父需求ADM-59）；通知渠道：群：9f78c49daf00466a8eb58ede140f52b6；父需求ADM-59；9/14 17:45 新建子任务；已通知群聊@王浩阳 |
-| ADM-85 | 挑战因子接口 L1 抽样功能开发 | 2026-09-15 | 文菁收数开发（b72f5107） | in_progress | 无通知渠道记录（Loop内自建或未记录提需人），跳过通知；9/15 11:20 状态变更 todo→in_progress + 新评论（现状核实：已读到PRD原文media-key-service仓库，正在核对） |
+| ADM-85 | 挑战因子接口 L1 抽样功能开发 | 2026-09-15 | 文菁收数开发（b72f5107） | in_progress | 无通知渠道记录（Loop内自建或未记录提需人），跳过通知；9/15 11:20 状态变更 todo→in_progress + 新评论（现状核实：已读到PRD原文media-key-service仓库，正在核对）；9/15 11:20 新评论×2（①按照issue描述进行方案设计 ②按issue描述口径出方案，仓库media-key-service，改动清单：ValidationParametersRequest新增可选字段等） |
 
 ---
 
