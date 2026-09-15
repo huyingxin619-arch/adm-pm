@@ -325,10 +325,10 @@
   },
   "ADM-53": {
     "id": "f0f45769-ae26-4a40-badd-4f755929b144",
-    "status": "in_review",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "status": "in_progress",
+    "assignee_id": "36b65f85-19d2-43db-a44f-7059bb68a8be",
     "assignee_type": "agent",
-    "updated_at": "2026-09-14T18:11:09+08:00",
+    "updated_at": "2026-09-15T16:33:09+08:00",
     "title": "[TVM] 多维钻取与API数据报告适配PMO panel属性ID体系",
     "parent_issue_id": null
   },
