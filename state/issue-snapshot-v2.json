@@ -1,4 +1,22 @@
 {
+  "ADM-93": {
+    "id": "863a638b-11c5-409e-8808-95ff7670d491",
+    "status": "in_progress",
+    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-16T15:26:30+08:00",
+    "title": "[阶段:编码] [ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
+    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
+  },
+  "ADM-92": {
+    "id": "60451ca9-ac13-47e6-aded-29a216c3d6ae",
+    "status": "done",
+    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-16T15:22:19+08:00",
+    "title": "[阶段:编码] [ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
+    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
+  },
   "ADM-91": {
     "id": "27fb3204-dc82-4d1e-8087-02ad6c03c424",
     "status": "todo",
@@ -19,10 +37,10 @@
   },
   "ADM-90": {
     "id": "e2f51903-7635-45bb-bb25-ea9a3033b47c",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-16T14:33:37+08:00",
+    "updated_at": "2026-09-16T15:27:44+08:00",
     "title": "[阶段:方案] [ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
     "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
   },
@@ -76,7 +94,7 @@
     "status": "todo",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-16T14:49:52+08:00",
+    "updated_at": "2026-09-16T14:50:34+08:00",
     "title": "[TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
     "parent_issue_id": null
   },
@@ -121,7 +139,7 @@
     "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-16T13:50:12+08:00",
+    "updated_at": "2026-09-16T15:02:09+08:00",
     "title": "[ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
     "parent_issue_id": null
   },
@@ -397,10 +415,10 @@
   },
   "ADM-50": {
     "id": "001934da-f221-45ff-9078-7f557c21b981",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-09T18:22:15+08:00",
+    "updated_at": "2026-09-16T15:25:41+08:00",
     "title": "预估点击参数支持浮点类型（est_click/est_click_day）",
     "parent_issue_id": null
   },
@@ -429,24 +447,6 @@
     "assignee_type": "member",
     "updated_at": "2026-09-10T10:25:38+08:00",
     "title": "DOT 模拟提交接口开发 + dev 环境与 CI/CD 部署",
-    "parent_issue_id": null
-  },
-  "ADM-46": {
-    "id": "22df45d3-b695-424b-b333-49e751d9d062",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-07T17:14:35+08:00",
-    "title": "[TVM] 排查PMO跨屏打通任务18195卡在'提交成功'状态",
-    "parent_issue_id": "1f7d3e60-272f-44de-bd01-165ba580f32b"
-  },
-  "ADM-45": {
-    "id": "1f7d3e60-272f-44de-bd01-165ba580f32b",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-07T17:15:41+08:00",
-    "title": "[TVM] PMO跨屏打通任务18195状态卡在'提交成功'，无计算进程",
     "parent_issue_id": null
   }
 }
