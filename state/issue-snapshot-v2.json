@@ -17,12 +17,30 @@
     "title": "[ADM] Apple定期IVT占比 Benchmark 跑数（2026年7月、8月）",
     "parent_issue_id": null
   },
+  "ADM-101": {
+    "id": "26ae192a-2889-4b3d-a65f-5ee44de33fe1",
+    "status": "in_progress",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-16T19:10:54+08:00",
+    "title": "[阶段:集成测试] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
+    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
+  },
+  "ADM-100": {
+    "id": "201e33e5-d69d-4616-8653-002e22336f67",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-16T18:34:18+08:00",
+    "title": "[阶段:自测] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
+    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
+  },
   "ADM-99": {
     "id": "86ba412c-5dfd-4bca-bd17-60292f0a2661",
-    "status": "in_progress",
-    "assignee_id": "1c537bb8-6269-4cb0-95b2-31459231486f",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-16T18:03:54+08:00",
+    "updated_at": "2026-09-16T18:28:44+08:00",
     "title": "[阶段:编码] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
     "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
   },
@@ -328,7 +346,7 @@
     "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-16T18:21:09+08:00",
+    "updated_at": "2026-09-16T18:34:57+08:00",
     "title": "[TVM] 多维钻取与API数据报告适配PMO panel属性ID体系",
     "parent_issue_id": null
   },
@@ -429,24 +447,6 @@
     "assignee_type": "member",
     "updated_at": "2026-08-24T17:04:10+08:00",
     "title": "活动2510519 自动日报未发送",
-    "parent_issue_id": null
-  },
-  "ADM-6": {
-    "id": "998e1219-515c-47f8-93dc-078b8ef477ad",
-    "status": "done",
-    "assignee_id": "b2d4c158-36c9-4e9e-a17d-eb83eda4df3e",
-    "assignee_type": "member",
-    "updated_at": "2026-08-19T17:48:11+08:00",
-    "title": "后端排查：活动2509914点位删除日志与恢复",
-    "parent_issue_id": "761f68d6-9227-4899-a4c5-35d3232d65c9"
-  },
-  "ADM-5": {
-    "id": "761f68d6-9227-4899-a4c5-35d3232d65c9",
-    "status": "done",
-    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
-    "assignee_type": "agent",
-    "updated_at": "2026-08-19T17:48:11+08:00",
-    "title": "AdMonitor 活动点位被误删，需恢复（活动2509914）",
     "parent_issue_id": null
   }
 }
