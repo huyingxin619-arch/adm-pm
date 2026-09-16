@@ -1,4 +1,13 @@
 {
+  "ADM-91": {
+    "id": "27fb3204-dc82-4d1e-8087-02ad6c03c424",
+    "status": "todo",
+    "assignee_id": "1c537bb8-6269-4cb0-95b2-31459231486f",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-16T14:50:04+08:00",
+    "title": "[阶段:方案] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
+    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
+  },
   "ADM-79": {
     "id": "aec7fb10-2e47-495a-a47b-3eeb8f5a52b0",
     "status": "cancelled",
@@ -8,14 +17,23 @@
     "title": "_test_guard",
     "parent_issue_id": null
   },
-  "ADM-72": {
-    "id": "22f4dd7d-b963-4e17-8274-30483fb80efa",
-    "status": "cancelled",
-    "assignee_id": "1c537bb8-6269-4cb0-95b2-31459231486f",
+  "ADM-90": {
+    "id": "e2f51903-7635-45bb-bb25-ea9a3033b47c",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-14T17:34:12+08:00",
-    "title": "[260914-tvm-invalidid-zero-1] 验证构建部署：TVM无效ID置零（数据洞察+多维钻取）",
-    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
+    "updated_at": "2026-09-16T14:33:37+08:00",
+    "title": "[阶段:方案] [ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
+    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
+  },
+  "ADM-86": {
+    "id": "5377c93d-5cca-4a68-aaca-c0a92cd67090",
+    "status": "blocked",
+    "assignee_id": "6d638aa2-0349-4f51-94cd-abfbe8978927",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-16T12:57:28+08:00",
+    "title": "[TVM] st_universe 表新增 PMO panel ID 列",
+    "parent_issue_id": null
   },
   "ADM-85": {
     "id": "ccdc9240-cf7d-4c61-af8e-fea678c86939",
@@ -26,24 +44,6 @@
     "title": "挑战因子接口 L1 抽样功能开发",
     "parent_issue_id": null
   },
-  "ADM-78": {
-    "id": "dfb38907-e72d-4e02-ae68-74171b784c73",
-    "status": "cancelled",
-    "assignee_id": "",
-    "assignee_type": "",
-    "updated_at": "2026-09-14T17:39:37+08:00",
-    "title": "_test_guard",
-    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
-  },
-  "ADM-70": {
-    "id": "ef3a9fbf-62e5-4ea2-9614-d40ad631cbed",
-    "status": "cancelled",
-    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-14T17:34:12+08:00",
-    "title": "[260914-invalidid-zero-4] 前端: 无效ID By Day置零展示 (monitor-web)",
-    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
-  },
   "ADM-40": {
     "id": "4bebe45c-ceac-4bdc-addb-3fd09cc5997c",
     "status": "done",
@@ -52,15 +52,6 @@
     "updated_at": "2026-09-03T15:04:18+08:00",
     "title": "[TVM] OTT-GIVT统计：2026年8月各子规则(keyword) by day表现",
     "parent_issue_id": null
-  },
-  "ADM-81": {
-    "id": "5b3eb3a4-2813-4f53-ae51-3dc76b92d44c",
-    "status": "cancelled",
-    "assignee_id": "1c537bb8-6269-4cb0-95b2-31459231486f",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-14T17:52:46+08:00",
-    "title": "[260914-tvm-invalidid-zero-1] 验证构建部署：TVM无效ID置零（数据洞察+多维钻取）",
-    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
   },
   "ADM-77": {
     "id": "75b477f8-f3a1-4b07-8ea8-4f6e19be497e",
@@ -80,30 +71,12 @@
     "title": "__guard_test_ignore__",
     "parent_issue_id": null
   },
-  "ADM-64": {
-    "id": "c5b2cd58-918a-480f-919a-eccdaf59599d",
-    "status": "cancelled",
-    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-14T17:19:53+08:00",
-    "title": "[260914-invalidid-zero-2] 前端: 无效ID By Day置零展示 (monitor-web)",
-    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
-  },
-  "ADM-63": {
-    "id": "5cfafb54-769e-4702-90ba-32b18e520959",
-    "status": "cancelled",
-    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-14T17:19:53+08:00",
-    "title": "[260914-invalidid-zero-1] 后端: 无效ID By Day置零判断 (monitor-api)",
-    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
-  },
   "ADM-59": {
     "id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b",
     "status": "todo",
-    "assignee_id": "1c537bb8-6269-4cb0-95b2-31459231486f",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-14T18:10:32+08:00",
+    "updated_at": "2026-09-16T14:49:52+08:00",
     "title": "[TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
     "parent_issue_id": null
   },
@@ -143,48 +116,12 @@
     "title": "[tv-web] 自定义人群发布TA重算时未传布点计算参数",
     "parent_issue_id": "5dfb9f94-0066-43a4-baeb-5eae2ea5ea42"
   },
-  "ADM-80": {
-    "id": "56cf4218-4065-4418-b91c-bd1ccf7c795b",
-    "status": "cancelled",
-    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-14T17:46:46+08:00",
-    "title": "[260914-invalidid-zero-7] 前端: 无效ID By Day置零展示 (monitor-web)",
-    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
-  },
-  "ADM-76": {
-    "id": "3eb38054-11ab-4890-aa17-5f85ff72c5d5",
-    "status": "cancelled",
-    "assignee_id": "",
-    "assignee_type": "",
-    "updated_at": "2026-09-14T17:39:37+08:00",
-    "title": "_test",
-    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
-  },
-  "ADM-67": {
-    "id": "070c7aa3-5c2b-4605-9c6e-939e854de321",
-    "status": "cancelled",
-    "assignee_id": "1c537bb8-6269-4cb0-95b2-31459231486f",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-14T17:19:54+08:00",
-    "title": "[260914-tvm-invalidid-zero-1] 编码：TVM无效ID置零（数据洞察+多维钻取）",
-    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
-  },
-  "ADM-60": {
-    "id": "5df9412a-73b2-4658-bc24-1bf59a55d988",
-    "status": "cancelled",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-14T16:12:40+08:00",
-    "title": "[260914-tvm-invalidid-zero-1] 编码：TVM无效ID置零（数据洞察+多维钻取）",
-    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
-  },
   "ADM-58": {
     "id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5",
-    "status": "todo",
-    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
+    "status": "in_progress",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-14T18:09:54+08:00",
+    "updated_at": "2026-09-16T13:50:12+08:00",
     "title": "[ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
     "parent_issue_id": null
   },
@@ -296,21 +233,12 @@
     "title": "活动2510519 自动日报未发送（汉高施华蔻抖音）",
     "parent_issue_id": null
   },
-  "ADM-69": {
-    "id": "54d287de-2d6d-435f-93ad-97daaa1d0295",
-    "status": "cancelled",
-    "assignee_id": "1c537bb8-6269-4cb0-95b2-31459231486f",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-14T17:19:54+08:00",
-    "title": "[260914-tvm-invalidid-zero-3] 部署 dev",
-    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
-  },
   "ADM-55": {
     "id": "135fb89e-9cb9-4896-b4a9-2b3f42d21872",
     "status": "in_progress",
-    "assignee_id": "c0babe41-b708-4290-bbe8-84ec33ab3bb5",
+    "assignee_id": "0b96cdc3-de80-4995-9fac-2aed21797301",
     "assignee_type": "agent",
-    "updated_at": "2026-09-15T15:26:19+08:00",
+    "updated_at": "2026-09-16T11:49:58+08:00",
     "title": "IP vs MAC程序进行布点计算",
     "parent_issue_id": null
   },
@@ -447,6 +375,78 @@
     "assignee_type": "agent",
     "updated_at": "2026-08-19T17:48:11+08:00",
     "title": "AdMonitor 活动点位被误删，需恢复（活动2509914）",
+    "parent_issue_id": null
+  },
+  "ADM-51": {
+    "id": "17f04813-da75-4be3-8c70-bad408f3a9ee",
+    "status": "todo",
+    "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
+    "assignee_type": "member",
+    "updated_at": "2026-09-09T16:07:38+08:00",
+    "title": "lqq-测试专家",
+    "parent_issue_id": null
+  },
+  "ADM-26": {
+    "id": "29aa13b3-871e-4446-8770-e588f5692877",
+    "status": "in_progress",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-14T17:35:01+08:00",
+    "title": "ADM M+ 任务定制 API 接口开发",
+    "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
+  },
+  "ADM-50": {
+    "id": "001934da-f221-45ff-9078-7f557c21b981",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-09T18:22:15+08:00",
+    "title": "预估点击参数支持浮点类型（est_click/est_click_day）",
+    "parent_issue_id": null
+  },
+  "ADM-49": {
+    "id": "64231892-86ba-4b77-8b0c-14e87a6685d9",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-10T11:00:10+08:00",
+    "title": "[TVM] 活动4144198延期后totalnet权限/过滤类型标签丢失排查",
+    "parent_issue_id": null
+  },
+  "ADM-48": {
+    "id": "3052d40e-9de8-46f0-8fc6-d9539d2ee2ef",
+    "status": "in_review",
+    "assignee_id": "391876cc-6b44-4e04-b6c6-a8205c6152b0",
+    "assignee_type": "member",
+    "updated_at": "2026-09-08T17:22:00+08:00",
+    "title": "玛氏季度跑数任务（2026 Q3 P7-P9）",
+    "parent_issue_id": null
+  },
+  "ADM-47": {
+    "id": "818986b2-1270-4450-94b4-23272dfe9704",
+    "status": "in_review",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-09-10T10:25:38+08:00",
+    "title": "DOT 模拟提交接口开发 + dev 环境与 CI/CD 部署",
+    "parent_issue_id": null
+  },
+  "ADM-46": {
+    "id": "22df45d3-b695-424b-b333-49e751d9d062",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-07T17:14:35+08:00",
+    "title": "[TVM] 排查PMO跨屏打通任务18195卡在'提交成功'状态",
+    "parent_issue_id": "1f7d3e60-272f-44de-bd01-165ba580f32b"
+  },
+  "ADM-45": {
+    "id": "1f7d3e60-272f-44de-bd01-165ba580f32b",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-07T17:15:41+08:00",
+    "title": "[TVM] PMO跨屏打通任务18195状态卡在'提交成功'，无计算进程",
     "parent_issue_id": null
   }
 }
