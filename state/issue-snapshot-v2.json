@@ -2,9 +2,9 @@
   "ADM-93": {
     "id": "863a638b-11c5-409e-8808-95ff7670d491",
     "status": "in_progress",
-    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-16T15:26:30+08:00",
+    "updated_at": "2026-09-16T15:41:02+08:00",
     "title": "[阶段:编码] [ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
     "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
   },
