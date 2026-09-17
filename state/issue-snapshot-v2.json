@@ -1,10 +1,46 @@
 {
+  "ADM-106": {
+    "id": "006208eb-8f41-43c3-a1e2-5cf25d906b59",
+    "status": "blocked",
+    "assignee_id": "aa1328e9-5d79-4b88-b445-f1e3333f4e0e",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-17T16:19:09+08:00",
+    "title": "[TVM] OTT-GIVT大盘子规则触犯统计（20260909-20260910）",
+    "parent_issue_id": null
+  },
+  "ADM-105": {
+    "id": "7a1136b1-4a0e-4ce9-b2a8-c99e6641a1ef",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-17T15:52:49+08:00",
+    "title": "[阶段:方案] 多维 query worker 因 OOM 静默死亡 —— run() 未 catch Throwable，服务需 restart 恢复",
+    "parent_issue_id": "95af363e-5680-4a35-bac3-64c53a9a3d4c"
+  },
+  "ADM-104": {
+    "id": "95af363e-5680-4a35-bac3-64c53a9a3d4c",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-17T15:40:04+08:00",
+    "title": "多维 query worker 因 OOM 静默死亡 —— run() 未 catch Throwable，服务需 restart 恢复",
+    "parent_issue_id": null
+  },
+  "ADM-102": {
+    "id": "f90678f3-ee2b-459e-8c0e-20efb13de113",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-17T16:47:29+08:00",
+    "title": "[ADM] 活动2514183误删点位恢复（134911572/134911338/134911337）",
+    "parent_issue_id": null
+  },
   "ADM-97": {
     "id": "d9834313-47be-4ead-a065-3582e5c9e175",
     "status": "todo",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-16T17:23:44+08:00",
+    "updated_at": "2026-09-17T10:12:38+08:00",
     "title": "[阶段:方案] [ADM] Apple定期IVT占比 Benchmark 跑数（2026年7月、8月）",
     "parent_issue_id": "4127bf3e-4927-49d2-90da-20baa5296582"
   },
@@ -19,10 +55,10 @@
   },
   "ADM-101": {
     "id": "26ae192a-2889-4b3d-a65f-5ee44de33fe1",
-    "status": "in_progress",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-16T19:10:54+08:00",
+    "updated_at": "2026-09-17T15:04:46+08:00",
     "title": "[阶段:集成测试] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
     "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
   },
@@ -118,10 +154,10 @@
   },
   "ADM-85": {
     "id": "ccdc9240-cf7d-4c61-af8e-fea678c86939",
-    "status": "in_progress",
+    "status": "in_review",
     "assignee_id": "b72f5107-6238-4116-99c8-98bca0603a8d",
     "assignee_type": "agent",
-    "updated_at": "2026-09-15T11:33:11+08:00",
+    "updated_at": "2026-09-17T15:32:16+08:00",
     "title": "挑战因子接口 L1 抽样功能开发",
     "parent_issue_id": null
   },
@@ -133,6 +169,15 @@
     "updated_at": "2026-09-03T15:04:18+08:00",
     "title": "[TVM] OTT-GIVT统计：2026年8月各子规则(keyword) by day表现",
     "parent_issue_id": null
+  },
+  "ADM-103": {
+    "id": "9bc26796-42be-467f-8f66-797a5b2eafeb",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-17T15:04:17+08:00",
+    "title": "[阶段:提测] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
+    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
   },
   "ADM-77": {
     "id": "75b477f8-f3a1-4b07-8ea8-4f6e19be497e",
@@ -154,10 +199,10 @@
   },
   "ADM-59": {
     "id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b",
-    "status": "in_progress",
+    "status": "in_review",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-16T18:03:53+08:00",
+    "updated_at": "2026-09-17T15:04:28+08:00",
     "title": "[TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
     "parent_issue_id": null
   },
@@ -325,10 +370,10 @@
   },
   "ADM-55": {
     "id": "135fb89e-9cb9-4896-b4a9-2b3f42d21872",
-    "status": "in_progress",
+    "status": "blocked",
     "assignee_id": "0b96cdc3-de80-4995-9fac-2aed21797301",
     "assignee_type": "agent",
-    "updated_at": "2026-09-16T11:49:58+08:00",
+    "updated_at": "2026-09-17T16:46:11+08:00",
     "title": "IP vs MAC程序进行布点计算",
     "parent_issue_id": null
   },
@@ -402,51 +447,6 @@
     "assignee_type": "agent",
     "updated_at": "2026-09-02T11:51:56+08:00",
     "title": "[TVM] 监测代码OTT媒体列表添加媒体：银河新电视",
-    "parent_issue_id": null
-  },
-  "ADM-14": {
-    "id": "7175c8f6-8beb-4f0d-b824-2673a795b200",
-    "status": "cancelled",
-    "assignee_id": "aa1328e9-5d79-4b88-b445-f1e3333f4e0e",
-    "assignee_type": "agent",
-    "updated_at": "2026-08-27T15:10:54+08:00",
-    "title": "下载 givt 数据：caid=4144065, date=20260825",
-    "parent_issue_id": null
-  },
-  "ADM-13": {
-    "id": "3f86cd6c-7938-405c-9812-f2bbdf937bc9",
-    "status": "cancelled",
-    "assignee_id": "",
-    "assignee_type": "",
-    "updated_at": "2026-08-27T14:27:01+08:00",
-    "title": "下载 givt 数据：caid=4144065, date=20260825",
-    "parent_issue_id": null
-  },
-  "ADM-12": {
-    "id": "e1e0a3bd-6ec9-4aae-8ef7-f58371194cfa",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-02T11:51:44+08:00",
-    "title": "[BUG] TvMonitor：无布点计算权限用户新建活动时，布点计算字段未设默认值",
-    "parent_issue_id": null
-  },
-  "ADM-9": {
-    "id": "30011012-2ac6-4cf2-a710-64b72ab04b86",
-    "status": "cancelled",
-    "assignee_id": "",
-    "assignee_type": "",
-    "updated_at": "2026-08-24T17:04:18+08:00",
-    "title": "排查活动2510519日报数据生成情况（大数据侧）",
-    "parent_issue_id": "17421815-7e70-4eeb-9f50-90ecad9522a7"
-  },
-  "ADM-7": {
-    "id": "5522d37d-5a81-4432-b42b-64e72f6f34b4",
-    "status": "cancelled",
-    "assignee_id": "7ebd2cab-ab2e-4b7e-b6a9-3a3dd75e128e",
-    "assignee_type": "member",
-    "updated_at": "2026-08-24T17:04:10+08:00",
-    "title": "活动2510519 自动日报未发送",
     "parent_issue_id": null
   }
 }
