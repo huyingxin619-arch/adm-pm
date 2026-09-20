@@ -1,4 +1,85 @@
 {
+  "ADM-110": {
+    "id": "f12bec25-52cb-4c84-aeca-e811f8e040b0",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-20T15:23:02+08:00",
+    "title": "[阶段:方案] [ADM] 宝洁WECHAT媒体监测代码增加Tencent Group媒体名称（大小写不敏感）",
+    "parent_issue_id": "6967d825-b8fe-4e84-bd5c-08a4bdd9ef3a"
+  },
+  "ADM-113": {
+    "id": "888db299-e713-4308-8084-7c462fec79e1",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-20T16:27:39+08:00",
+    "title": "[阶段:集成测试] [ADM] 宝洁WECHAT媒体监测代码增加Tencent Group媒体名称（大小写不敏感）",
+    "parent_issue_id": "6967d825-b8fe-4e84-bd5c-08a4bdd9ef3a"
+  },
+  "ADM-112": {
+    "id": "ec4dcb39-9c5d-4355-a3ad-cdbd7d0912bb",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-20T15:36:42+08:00",
+    "title": "[阶段:自测] [ADM] 宝洁WECHAT媒体监测代码增加Tencent Group媒体名称（大小写不敏感）",
+    "parent_issue_id": "6967d825-b8fe-4e84-bd5c-08a4bdd9ef3a"
+  },
+  "ADM-109": {
+    "id": "2591f477-8e31-466e-afd7-52b7e935126e",
+    "status": "cancelled",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-09-20T16:06:13+08:00",
+    "title": "[阶段:方案] [ADM] Planningtool宝洁DOT对接RTA解析增加publisher枚举值TENCENT GROUP",
+    "parent_issue_id": "ef15eb81-9f89-4ca6-97c5-5a4e8dccb6be"
+  },
+  "ADM-116": {
+    "id": "913d2578-9637-4d6f-b5eb-4935a35659b0",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-20T18:52:52+08:00",
+    "title": "[阶段:提测] [ADM] 宝洁WECHAT媒体监测代码增加Tencent Group媒体名称（大小写不敏感）",
+    "parent_issue_id": "6967d825-b8fe-4e84-bd5c-08a4bdd9ef3a"
+  },
+  "ADM-108": {
+    "id": "6967d825-b8fe-4e84-bd5c-08a4bdd9ef3a",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-20T18:52:40+08:00",
+    "title": "[ADM] 宝洁WECHAT媒体监测代码增加Tencent Group媒体名称（大小写不敏感）",
+    "parent_issue_id": null
+  },
+  "ADM-115": {
+    "id": "745c4d71-bf68-41bc-b06c-359c05cc7c8a",
+    "status": "in_progress",
+    "assignee_id": "7c4d536c-5ebc-43d8-95f5-63932ceaaef0",
+    "assignee_type": "member",
+    "updated_at": "2026-09-20T18:11:54+08:00",
+    "title": "[ADM] otv_multi类升级研究(v6)_开发&跑数",
+    "parent_issue_id": null
+  },
+  "ADM-114": {
+    "id": "c9ac707a-0164-4d4b-823a-50cb810c420b",
+    "status": "cancelled",
+    "assignee_id": "7c4d536c-5ebc-43d8-95f5-63932ceaaef0",
+    "assignee_type": "member",
+    "updated_at": "2026-09-20T16:09:11+08:00",
+    "title": "test",
+    "parent_issue_id": null
+  },
+  "ADM-107": {
+    "id": "ef15eb81-9f89-4ca6-97c5-5a4e8dccb6be",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-20T16:06:32+08:00",
+    "title": "[ADM] Planningtool宝洁DOT对接RTA解析增加publisher枚举值TENCENT GROUP",
+    "parent_issue_id": null
+  },
   "ADM-106": {
     "id": "006208eb-8f41-43c3-a1e2-5cf25d906b59",
     "status": "blocked",
@@ -133,6 +214,15 @@
     "updated_at": "2026-09-14T17:40:15+08:00",
     "title": "_test_guard",
     "parent_issue_id": null
+  },
+  "ADM-111": {
+    "id": "5d47cabb-fc3c-4846-8520-0fdb007239e7",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-20T15:32:07+08:00",
+    "title": "[阶段:编码] [ADM] 宝洁WECHAT媒体监测代码增加Tencent Group媒体名称（大小写不敏感）",
+    "parent_issue_id": "6967d825-b8fe-4e84-bd5c-08a4bdd9ef3a"
   },
   "ADM-90": {
     "id": "e2f51903-7635-45bb-bb25-ea9a3033b47c",
@@ -358,95 +448,5 @@
     "updated_at": "2026-08-24T18:27:26+08:00",
     "title": "排查活动2510519日报发送服务及配置（后端侧）",
     "parent_issue_id": "17421815-7e70-4eeb-9f50-90ecad9522a7"
-  },
-  "ADM-8": {
-    "id": "17421815-7e70-4eeb-9f50-90ecad9522a7",
-    "status": "done",
-    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
-    "assignee_type": "agent",
-    "updated_at": "2026-08-27T17:40:24+08:00",
-    "title": "活动2510519 自动日报未发送（汉高施华蔻抖音）",
-    "parent_issue_id": null
-  },
-  "ADM-55": {
-    "id": "135fb89e-9cb9-4896-b4a9-2b3f42d21872",
-    "status": "blocked",
-    "assignee_id": "0b96cdc3-de80-4995-9fac-2aed21797301",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-17T16:46:11+08:00",
-    "title": "IP vs MAC程序进行布点计算",
-    "parent_issue_id": null
-  },
-  "ADM-54": {
-    "id": "e9357fe5-4f9d-4836-a788-83ccee44cbe3",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-10T18:26:22+08:00",
-    "title": "[intra-api] tvmonitor 创建多维任务适配评估",
-    "parent_issue_id": "f0f45769-ae26-4a40-badd-4f755929b144"
-  },
-  "ADM-53": {
-    "id": "f0f45769-ae26-4a40-badd-4f755929b144",
-    "status": "in_progress",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-16T18:34:57+08:00",
-    "title": "[TVM] 多维钻取与API数据报告适配PMO panel属性ID体系",
-    "parent_issue_id": null
-  },
-  "ADM-52": {
-    "id": "cd3c40ee-d8d1-4467-bb6a-9b94499fb5c8",
-    "status": "in_review",
-    "assignee_id": "bbea0220-05ce-4639-8aad-f73b1526e9f2",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-10T19:37:29+08:00",
-    "title": "[TVM] OTT_百事_高危ip举证（活动4145433/点位32aXk/日期2026-9-9）",
-    "parent_issue_id": null
-  },
-  "ADM-28": {
-    "id": "bde7f2f7-e4e7-4ab0-a217-a8a2ff2a243b",
-    "status": "in_progress",
-    "assignee_id": "37f8ed8c-7925-4e01-8fce-25283fa67d64",
-    "assignee_type": "member",
-    "updated_at": "2026-09-02T15:43:13+08:00",
-    "title": "M+ 任务下载 CSV 字段错列 — 导出逻辑修复（ns字段逗号未转义）",
-    "parent_issue_id": "ae7727f0-c42f-4c10-87c0-a2b812d6e789"
-  },
-  "ADM-27": {
-    "id": "ae7727f0-c42f-4c10-87c0-a2b812d6e789",
-    "status": "in_review",
-    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
-    "assignee_type": "agent",
-    "updated_at": "2026-08-28T18:57:18+08:00",
-    "title": "M+ 任务下载字段错列排查（任务481039/481041）",
-    "parent_issue_id": null
-  },
-  "ADM-17": {
-    "id": "5dfb9f94-0066-43a4-baeb-5eae2ea5ea42",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-03T10:49:39+08:00",
-    "title": "[bug] tvmonitor 活动管理：自定义人群发布TA重算失败 + 活动列表空指针",
-    "parent_issue_id": null
-  },
-  "ADM-16": {
-    "id": "124d2dbf-69d8-493d-bb64-c54643ed284a",
-    "status": "done",
-    "assignee_id": "801c88d7-f6b9-482e-9a64-a34c832f782f",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-03T15:37:29+08:00",
-    "title": "[TVM] ott-givt 分规则统计需求（活动4144746）",
-    "parent_issue_id": null
-  },
-  "ADM-15": {
-    "id": "136d78f2-8e8f-41d9-a5ff-769bc642b92e",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-02T11:51:56+08:00",
-    "title": "[TVM] 监测代码OTT媒体列表添加媒体：银河新电视",
-    "parent_issue_id": null
   }
 }
