@@ -56,9 +56,9 @@
   "ADM-115": {
     "id": "745c4d71-bf68-41bc-b06c-359c05cc7c8a",
     "status": "in_progress",
-    "assignee_id": "7c4d536c-5ebc-43d8-95f5-63932ceaaef0",
+    "assignee_id": "7bcc9ad4-8021-40fd-b96c-eca131504106",
     "assignee_type": "member",
-    "updated_at": "2026-09-20T18:11:54+08:00",
+    "updated_at": "2026-09-21T16:43:19+08:00",
     "title": "[ADM] otv_multi类升级研究(v6)_开发&跑数",
     "parent_issue_id": null
   },
@@ -82,10 +82,10 @@
   },
   "ADM-106": {
     "id": "006208eb-8f41-43c3-a1e2-5cf25d906b59",
-    "status": "blocked",
-    "assignee_id": "aa1328e9-5d79-4b88-b445-f1e3333f4e0e",
+    "status": "done",
+    "assignee_id": "0b96cdc3-de80-4995-9fac-2aed21797301",
     "assignee_type": "agent",
-    "updated_at": "2026-09-17T16:19:09+08:00",
+    "updated_at": "2026-09-21T10:05:01+08:00",
     "title": "[TVM] OTT-GIVT大盘子规则触犯统计（20260909-20260910）",
     "parent_issue_id": null
   },
@@ -118,10 +118,10 @@
   },
   "ADM-97": {
     "id": "d9834313-47be-4ead-a065-3582e5c9e175",
-    "status": "todo",
+    "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-17T10:12:38+08:00",
+    "updated_at": "2026-09-21T19:07:52+08:00",
     "title": "[阶段:方案] [ADM] Apple定期IVT占比 Benchmark 跑数（2026年7月、8月）",
     "parent_issue_id": "4127bf3e-4927-49d2-90da-20baa5296582"
   },
