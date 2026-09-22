@@ -160,6 +160,7 @@
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
 | ADM-117 | [TVM] OTT-GIVT统计：20260909-20260910各子规则触犯情况 | 2026-09-22 | wkc-givt-searcher（agent） | todo | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；统计20260909/10各GIVT子规则触犯by day；出数：date|父规则名称|子规则名称(keyword)|imp|clk；排除keyword=total；issue ID: 13481dc0-8e46-4aaf-a3bc-771f3af44473；labels: type/investigate+tech/data-tvm+svc/tv-api+svc/tv-query；已发todo卡片；原指派wkc小分队→转指派wkc-givt-searcher(2026-09-22) |
+| ADM-118 | [ADM] 多维任务API创建维度组合限制排查（手动可创建但API创建失败） | 2026-09-22 | octo-issue-dispatcher（团长） | todo | 提需人：胡映昕；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；API创建多维任务维度组合超200失败但Web端手动创建正常；示例任务ID 4397187；issue ID: f9db9dcd-60ec-486f-9c41-412e0e5ffabd；labels: type/investigate+tech/backend+svc/admonitor；已发todo卡片 |
 
 ---
 
