@@ -35,6 +35,15 @@
     "title": "[阶段:方案] [ADM] Planningtool宝洁DOT对接RTA解析增加publisher枚举值TENCENT GROUP",
     "parent_issue_id": "ef15eb81-9f89-4ca6-97c5-5a4e8dccb6be"
   },
+  "ADM-119": {
+    "id": "e7998044-73bd-4d85-a383-4a08c844ed0b",
+    "status": "todo",
+    "assignee_id": "41eee17b-bcb6-44a1-a091-6dc4b000aaed",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-22T18:17:23+08:00",
+    "title": "[阶段:根因排查] [ADM] 多维任务API创建维度组合限制排查（手动可创建但API创建失败）",
+    "parent_issue_id": "f9db9dcd-60ec-486f-9c41-412e0e5ffabd"
+  },
   "ADM-116": {
     "id": "913d2578-9637-4d6f-b5eb-4935a35659b0",
     "status": "done",
@@ -51,6 +60,24 @@
     "assignee_type": "agent",
     "updated_at": "2026-09-20T18:52:40+08:00",
     "title": "[ADM] 宝洁WECHAT媒体监测代码增加Tencent Group媒体名称（大小写不敏感）",
+    "parent_issue_id": null
+  },
+  "ADM-118": {
+    "id": "f9db9dcd-60ec-486f-9c41-412e0e5ffabd",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-22T18:17:13+08:00",
+    "title": "[ADM] 多维任务API创建维度组合限制排查（手动可创建但API创建失败）",
+    "parent_issue_id": null
+  },
+  "ADM-117": {
+    "id": "13481dc0-8e46-4aaf-a3bc-771f3af44473",
+    "status": "done",
+    "assignee_id": "0b96cdc3-de80-4995-9fac-2aed21797301",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-22T18:48:06+08:00",
+    "title": "[TVM] OTT-GIVT统计：20260909-20260910各子规则触犯情况",
     "parent_issue_id": null
   },
   "ADM-115": {
@@ -421,32 +448,5 @@
     "updated_at": "2026-08-27T16:28:21+08:00",
     "title": "[tv-api] [bug] tvmonitor 活动管理：自定义人群发布TA重算失败 + 活动列表空指针",
     "parent_issue_id": "5dfb9f94-0066-43a4-baeb-5eae2ea5ea42"
-  },
-  "ADM-19": {
-    "id": "e9ee1334-5af8-4eea-bf3e-038b0ffda24d",
-    "status": "done",
-    "assignee_id": "aa1328e9-5d79-4b88-b445-f1e3333f4e0e",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-03T15:35:21+08:00",
-    "title": "[GIVT查询] 20260826 大盘整体 OTT-GIVT 分规则统计",
-    "parent_issue_id": "59d08a05-f36d-42a6-bf5a-019b5f8700ee"
-  },
-  "ADM-18": {
-    "id": "59d08a05-f36d-42a6-bf5a-019b5f8700ee",
-    "status": "done",
-    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-03T15:37:43+08:00",
-    "title": "[TVM] OTT-GIVT统计需求测试：20260826大盘整体分规则统计",
-    "parent_issue_id": null
-  },
-  "ADM-10": {
-    "id": "77eac548-1c5c-4bd3-a45e-0f86af6dbc76",
-    "status": "in_review",
-    "assignee_id": "d8b9f7b4-2220-4c03-9fb7-0667c10ee275",
-    "assignee_type": "member",
-    "updated_at": "2026-08-24T18:27:26+08:00",
-    "title": "排查活动2510519日报发送服务及配置（后端侧）",
-    "parent_issue_id": "17421815-7e70-4eeb-9f50-90ecad9522a7"
   }
 }
