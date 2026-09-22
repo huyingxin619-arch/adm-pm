@@ -155,6 +155,12 @@
 | ADM-116 | [阶段:提测] [ADM] 宝洁WECHAT媒体监测代码增加Tencent Group媒体名称（大小写不敏感） | 2026-09-20 | octo-issue-dispatcher | done | 子任务,parent: ADM-108;提需人:关甜甜(继承父需求);通知渠道:群:9f78c49daf00466a8eb58ede140f52b6;9/20 16:27 新建子任务;已通知群聊@关甜甜;9/20 17:43 2条新评论(1提测阶段发现bug:关甜甜验收反馈8条验收标准全不通过,测试环境均未生效 2团长更正:并非代码bug,是feature/ADM-108从未合并developcustom部署到QA环境,提前发了提测通知导致验收自然全不通过)已通知群聊@关甜甜;9/20 17:44 指派人变更(4f356f9a团长→d0ff2b22 hcb-admonitor-fullstack)非通知类型跳过通知;9/20 18:06 updated(当前in_review)非通知类型跳过通知;9/20 18:08 新评论(### ✅ 部署已到 QA,重新组织验收:原worker hcb-admonitor-fullstack 已完成 feature/ADM-108 合并与部署,monitor 合并到 developcustom,deploy:site-qa 已触发,QA 前端已确认生效)已通知群聊@关甜甜;9/20 18:06 新评论（部署收尾完成：feature/ADM-108已合并并部署QA环境）已通知群聊@关甜甜；9/20 18:52 状态变更 in_review→done 已闭环；已通知群聊@关甜甜 |
 | ADM-115 | [ADM] otv_multi类升级研究(v6)_开发&跑数 | 2026-09-20 | 杨春雪（7c4d536c）→9cc85d7f→王心宇（7bcc9ad4） | in_progress | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；默认值列表更新+multidevice规则优化+举证sample+M8跑数；含12份报告附件截图；issue ID: 745c4d71-bf68-41bc-b06c-359c05cc7c8a；labels: type/feature+tech/sivt-adm+svc/admonitor；已发创建卡片；9/20 17:17 指派人变更（7c4d536c→9cc85d7f）非通知类型；9/20 17:22 状态变更（todo→in_progress）非通知类型；9/20 17:33 状态变更 in_progress→in_review（请验收）已通知群聊@王心宇；9/20 17:33 新评论（需求分析报告：otv_multi类升级v6，需求vs开发文档对比）已通知群聊@王心宇；9/20 17:36 指派人变更（9cc85d7f→7bcc9ad4/王心宇）非通知类型；9/20 17:36 新评论（杨春雪：核对各版本SIVT中multi bymedia规则使用情况即可，核对完指给我）已通知群聊@王心宇；9/20 17:36 新评论（核对完毕）已通知群聊@王心宇；9/20 18:11 状态变更 in_review→in_progress 非通知类型；9/21 16:09 指派人变更（7c4d536c→9cc85d7f）非通知类型；9/21 16:20 updated 事件（状态仍为 in_progress）非通知类型；9/21 16:20 新评论（20260801 单日数据报告已附件，请核对。）已通知群聊@王心宇；9/21 16:43 指派人变更（9cc85d7f→7bcc9ad4/王心宇）非通知类型 |
 
+## 2026-09-22
+
+| PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
+|---------|------|----------|--------|------|------|
+| ADM-117 | [TVM] OTT-GIVT统计：20260909-20260910各子规则触犯情况 | 2026-09-22 | wkc小分队（squad） | todo | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；统计20260909/10各GIVT子规则触犯by day；出数：date|父规则名称|子规则名称(keyword)|imp|clk；排除keyword=total；issue ID: 13481dc0-8e46-4aaf-a3bc-771f3af44473；labels: type/investigate+tech/data-tvm+svc/tv-api+svc/tv-query；已发todo卡片 |
+
 ---
 
 _每次分发后即时更新。_
