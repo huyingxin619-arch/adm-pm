@@ -47,9 +47,9 @@
   "ADM-119": {
     "id": "e7998044-73bd-4d85-a383-4a08c844ed0b",
     "status": "todo",
-    "assignee_id": "41eee17b-bcb6-44a1-a091-6dc4b000aaed",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-22T18:17:23+08:00",
+    "updated_at": "2026-09-24T18:57:19+08:00",
     "title": "[阶段:根因排查] [ADM] 多维任务API创建维度组合限制排查（手动可创建但API创建失败）",
     "parent_issue_id": "f9db9dcd-60ec-486f-9c41-412e0e5ffabd"
   },
@@ -76,7 +76,7 @@
     "status": "todo",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-22T18:17:13+08:00",
+    "updated_at": "2026-09-24T18:57:19+08:00",
     "title": "[ADM] 多维任务API创建维度组合限制排查（手动可创建但API创建失败）",
     "parent_issue_id": null
   },
@@ -154,10 +154,10 @@
   },
   "ADM-97": {
     "id": "d9834313-47be-4ead-a065-3582e5c9e175",
-    "status": "in_progress",
+    "status": "todo",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-21T19:07:52+08:00",
+    "updated_at": "2026-09-24T19:52:51+08:00",
     "title": "[阶段:方案] [ADM] Apple定期IVT占比 Benchmark 跑数（2026年7月、8月）",
     "parent_issue_id": "4127bf3e-4927-49d2-90da-20baa5296582"
   },
