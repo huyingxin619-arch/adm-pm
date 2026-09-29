@@ -44,12 +44,30 @@
     "title": "[阶段:方案] [ADM] Planningtool宝洁DOT对接RTA解析增加publisher枚举值TENCENT GROUP",
     "parent_issue_id": "ef15eb81-9f89-4ca6-97c5-5a4e8dccb6be"
   },
-  "ADM-129": {
-    "id": "c68261dd-d85e-4594-9b38-97992b470d7c",
+  "ADM-131": {
+    "id": "3b333038-5509-4251-8af2-091fd1e1b611",
     "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-29T18:11:41+08:00",
+    "updated_at": "2026-09-30T01:36:28+08:00",
+    "title": "[阶段:集成测试] [TVM] PMO跨屏打通频次指标n最大值由20提高到80",
+    "parent_issue_id": "94be2319-1178-4181-8fc1-2f7e9a5f8835"
+  },
+  "ADM-130": {
+    "id": "0f6da7a2-0d81-4a0c-bf8c-920ef799dbc3",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-30T01:28:50+08:00",
+    "title": "[阶段:自测] [TVM] PMO跨屏打通频次指标n最大值由20提高到80",
+    "parent_issue_id": "94be2319-1178-4181-8fc1-2f7e9a5f8835"
+  },
+  "ADM-129": {
+    "id": "c68261dd-d85e-4594-9b38-97992b470d7c",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-30T01:17:10+08:00",
     "title": "[阶段:编码] [TVM] PMO跨屏打通频次指标n最大值由20提高到80",
     "parent_issue_id": "94be2319-1178-4181-8fc1-2f7e9a5f8835"
   },
@@ -103,7 +121,7 @@
     "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-29T18:02:07+08:00",
+    "updated_at": "2026-09-30T01:09:40+08:00",
     "title": "[TVM] PMO跨屏打通频次指标n最大值由20提高到80",
     "parent_issue_id": null
   },
@@ -430,23 +448,5 @@
     "updated_at": "2026-09-03T14:39:42+08:00",
     "title": "[tv-web] 自定义人群发布TA重算时未传布点计算参数",
     "parent_issue_id": "5dfb9f94-0066-43a4-baeb-5eae2ea5ea42"
-  },
-  "ADM-98": {
-    "id": "20d26b22-9c0b-4f24-842a-31eb14cb6c97",
-    "status": "in_review",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-16T16:40:58+08:00",
-    "title": "[阶段:提测] [ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
-    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
-  },
-  "ADM-58": {
-    "id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5",
-    "status": "in_review",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-16T16:41:09+08:00",
-    "title": "[ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
-    "parent_issue_id": null
   }
 }
