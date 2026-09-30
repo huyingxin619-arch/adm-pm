@@ -44,12 +44,21 @@
     "title": "[阶段:方案] [ADM] Planningtool宝洁DOT对接RTA解析增加publisher枚举值TENCENT GROUP",
     "parent_issue_id": "ef15eb81-9f89-4ca6-97c5-5a4e8dccb6be"
   },
-  "ADM-131": {
-    "id": "3b333038-5509-4251-8af2-091fd1e1b611",
-    "status": "in_progress",
+  "ADM-132": {
+    "id": "61a0ee7d-1325-41d9-b4c4-abeab76ebe5e",
+    "status": "in_review",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-30T01:36:28+08:00",
+    "updated_at": "2026-09-30T11:12:35+08:00",
+    "title": "[阶段:提测] [TVM] PMO跨屏打通频次指标n最大值由20提高到80",
+    "parent_issue_id": "94be2319-1178-4181-8fc1-2f7e9a5f8835"
+  },
+  "ADM-131": {
+    "id": "3b333038-5509-4251-8af2-091fd1e1b611",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-09-30T11:12:08+08:00",
     "title": "[阶段:集成测试] [TVM] PMO跨屏打通频次指标n最大值由20提高到80",
     "parent_issue_id": "94be2319-1178-4181-8fc1-2f7e9a5f8835"
   },
@@ -116,12 +125,21 @@
     "title": "[ADM] 宝洁WECHAT媒体监测代码增加Tencent Group媒体名称（大小写不敏感）",
     "parent_issue_id": null
   },
+  "ADM-133": {
+    "id": "148fabf4-f0be-43e6-8436-7a349a034de8",
+    "status": "todo",
+    "assignee_id": "7c4d536c-5ebc-43d8-95f5-63932ceaaef0",
+    "assignee_type": "member",
+    "updated_at": "2026-09-30T15:22:36+08:00",
+    "title": "[ADM] 易车IVT数据拉取（SIVT整体情况+高危ip/真人id，26M7-M9）",
+    "parent_issue_id": null
+  },
   "ADM-127": {
     "id": "94be2319-1178-4181-8fc1-2f7e9a5f8835",
-    "status": "in_progress",
+    "status": "in_review",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-09-30T01:09:40+08:00",
+    "updated_at": "2026-09-30T11:13:20+08:00",
     "title": "[TVM] PMO跨屏打通频次指标n最大值由20提高到80",
     "parent_issue_id": null
   },
@@ -430,23 +448,5 @@
     "updated_at": "2026-09-02T16:00:53+08:00",
     "title": "[TVM] OTT GIVT举证开发需求",
     "parent_issue_id": null
-  },
-  "ADM-37": {
-    "id": "3c9bb261-02ba-4c3e-afe4-fb9655125197",
-    "status": "done",
-    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
-    "assignee_type": "member",
-    "updated_at": "2026-09-09T10:54:18+08:00",
-    "title": "[TVM] SIVT线上举证条数限制（新增设备规则）",
-    "parent_issue_id": null
-  },
-  "ADM-22": {
-    "id": "ee225426-321f-4cf9-b026-752501911f41",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-03T14:39:42+08:00",
-    "title": "[tv-web] 自定义人群发布TA重算时未传布点计算参数",
-    "parent_issue_id": "5dfb9f94-0066-43a4-baeb-5eae2ea5ea42"
   }
 }
