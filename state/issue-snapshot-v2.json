@@ -1,19 +1,55 @@
 {
-  "ADM-147": {
-    "id": "f65d12a0-0fd8-4d3b-b202-2646deeca0b1",
-    "status": "todo",
+  "ADM-152": {
+    "id": "01bf18e9-e834-4633-96fd-b61fc9c227b7",
+    "status": "done",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-10-13T16:18:10+08:00",
+    "title": "[阶段:根因排查] 汇丰银行活动 2517866 自动日报无法发出（数据来源任务ID 4425260）",
+    "parent_issue_id": "8266aa6c-63c3-4850-ad90-0f818d2242ff"
+  },
+  "ADM-149": {
+    "id": "7dd8f460-bbd0-49a1-81a8-e003070d221b",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-10-12T20:36:42+08:00",
+    "updated_at": "2026-10-13T11:13:56+08:00",
+    "title": "[阶段:自测] admonitor 多维钻取任务一直卡在队列中（任务ID 4422611）",
+    "parent_issue_id": "db986b49-c62a-40c6-a76a-4e146e3f10b5"
+  },
+  "ADM-148": {
+    "id": "638216b7-fd32-46a3-9122-7c76e2105421",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-10-13T11:03:17+08:00",
+    "title": "[阶段:编码] admonitor 多维钻取任务一直卡在队列中（任务ID 4422611）",
+    "parent_issue_id": "db986b49-c62a-40c6-a76a-4e146e3f10b5"
+  },
+  "ADM-147": {
+    "id": "f65d12a0-0fd8-4d3b-b202-2646deeca0b1",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-10-13T10:43:14+08:00",
     "title": "[阶段:方案] admonitor 多维钻取任务一直卡在队列中（任务ID 4422611）",
     "parent_issue_id": "db986b49-c62a-40c6-a76a-4e146e3f10b5"
   },
-  "ADM-146": {
-    "id": "db986b49-c62a-40c6-a76a-4e146e3f10b5",
-    "status": "in_progress",
+  "ADM-151": {
+    "id": "8266aa6c-63c3-4850-ad90-0f818d2242ff",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-10-12T15:33:53+08:00",
+    "updated_at": "2026-10-13T16:18:03+08:00",
+    "title": "汇丰银行活动 2517866 自动日报无法发出（数据来源任务ID 4425260）",
+    "parent_issue_id": null
+  },
+  "ADM-146": {
+    "id": "db986b49-c62a-40c6-a76a-4e146e3f10b5",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-10-13T11:12:51+08:00",
     "title": "admonitor 多维钻取任务一直卡在队列中（任务ID 4422611）",
     "parent_issue_id": null
   },
@@ -34,6 +70,15 @@
     "updated_at": "2026-10-10T17:04:56+08:00",
     "title": "[ADM] 多维钻取指标统一单元测试",
     "parent_issue_id": null
+  },
+  "ADM-150": {
+    "id": "26dd7ffb-422a-46da-b893-6c02306591fa",
+    "status": "in_progress",
+    "assignee_id": "41eee17b-bcb6-44a1-a091-6dc4b000aaed",
+    "assignee_type": "agent",
+    "updated_at": "2026-10-13T11:13:00+08:00",
+    "title": "[阶段:提测] admonitor 多维钻取任务一直卡在队列中（任务ID 4422611）",
+    "parent_issue_id": "db986b49-c62a-40c6-a76a-4e146e3f10b5"
   },
   "ADM-143": {
     "id": "54e54523-0f60-4b01-aa32-f5bf402a1c04",
@@ -73,19 +118,19 @@
   },
   "ADM-145": {
     "id": "5f666bbe-18f0-4265-abde-60e59a7c10c6",
-    "status": "in_progress",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-10-12T18:48:55+08:00",
+    "updated_at": "2026-10-13T16:06:17+08:00",
     "title": "[阶段:提测] [ADM] 点位新增「像素监测」标识，导代码按标识输出 phsv=0/1-1/1-2 三套代码",
     "parent_issue_id": "13c31fd1-b85b-4d41-b3dd-4a208de79973"
   },
   "ADM-136": {
     "id": "13c31fd1-b85b-4d41-b3dd-4a208de79973",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-10-12T15:26:45+08:00",
+    "updated_at": "2026-10-13T16:11:01+08:00",
     "title": "[ADM] 点位新增「像素监测」标识，导代码按标识输出 phsv=0/1-1/1-2 三套代码",
     "parent_issue_id": null
   },
@@ -229,7 +274,7 @@
     "status": "in_review",
     "assignee_id": "bbea0220-05ce-4639-8aad-f73b1526e9f2",
     "assignee_type": "agent",
-    "updated_at": "2026-10-12T14:43:28+08:00",
+    "updated_at": "2026-10-13T18:58:50+08:00",
     "title": "[ADM] OTT SIVT 指标按 session_id 回传情况拆分输出",
     "parent_issue_id": null
   },
@@ -402,51 +447,6 @@
     "assignee_type": "agent",
     "updated_at": "2026-09-16T18:28:44+08:00",
     "title": "[阶段:编码] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
-    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
-  },
-  "ADM-95": {
-    "id": "bd994978-3fdd-4e9c-8b9d-2c526076a457",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-16T16:40:53+08:00",
-    "title": "[阶段:集成测试] [ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
-    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
-  },
-  "ADM-94": {
-    "id": "2a4dd289-e9b5-47ec-9f9d-11e6b8e75e32",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-16T15:54:27+08:00",
-    "title": "[阶段:自测] [ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
-    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
-  },
-  "ADM-93": {
-    "id": "863a638b-11c5-409e-8808-95ff7670d491",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-16T15:45:43+08:00",
-    "title": "[阶段:编码] [ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
-    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
-  },
-  "ADM-92": {
-    "id": "60451ca9-ac13-47e6-aded-29a216c3d6ae",
-    "status": "done",
-    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-16T15:22:19+08:00",
-    "title": "[阶段:编码] [ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
-    "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
-  },
-  "ADM-91": {
-    "id": "27fb3204-dc82-4d1e-8087-02ad6c03c424",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-16T18:03:49+08:00",
-    "title": "[阶段:方案] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
     "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
   }
 }
