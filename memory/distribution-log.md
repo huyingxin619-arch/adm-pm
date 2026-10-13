@@ -189,7 +189,7 @@ _每次分发后即时更新。_
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-134 | [ADM] OTT SIVT 指标按 session_id 回传情况拆分输出 | 2026-10-09 | wkc-deployer（bbea0220） | blocked | 提需人：邢思源；无通知渠道记录（issue描述中无通知渠道字段）；issue ID: 932930d6-8100-4ed0-84ac-ed3a3b18a907；labels: type/feature+tech/sivt-adm；10/13 12:29 状态变更 in_review→in_progress（非通知类型，只更新记录）；10/13 12:32 状态变更 in_progress→blocked（有阻塞）+新评论（新jar已本地构建完成含isSessionIdReturned正向格式判定，但服务器连接超时疑似VPN断开，请确认VPN恢复后通知我立即上传重跑）无通知渠道跳过通知；10/13 12:32 新评论（不需要使用正则，如果有回传值转大写后和SESSION_ID对比即可）无通知渠道跳过通知 |
+| ADM-134 | [ADM] OTT SIVT 指标按 session_id 回传情况拆分输出 | 2026-10-09 | wkc-deployer（bbea0220） | blocked | 提需人：邢思源；无通知渠道记录（issue描述中无通知渠道字段）；issue ID: 932930d6-8100-4ed0-84ac-ed3a3b18a907；labels: type/feature+tech/sivt-adm；10/13 12:29 状态变更 in_review→in_progress（非通知类型，只更新记录）；10/13 12:32 状态变更 in_progress→blocked（有阻塞）+新评论（新jar已本地构建完成含isSessionIdReturned正向格式判定，但服务器连接超时疑似VPN断开，请确认VPN恢复后通知我立即上传重跑）无通知渠道跳过通知；10/13 12:32 新评论（不需要使用正则，如果有回传值转大写后和SESSION_ID对比即可）无通知渠道跳过通知；10/13 12:32 新评论（已按你的意见改为黑名单式判定，去掉正则，分支feat/pg-offline-stat，修改isSessionIdReturned方法）无通知渠道跳过通知；10/13 15:12 指派人变更（wkc-deployer bbea0220→wkc-reviewer aa4d469f）非通知类型，只更新记录 |
 
 ## 2026-10-12
 
