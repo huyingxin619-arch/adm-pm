@@ -1,19 +1,82 @@
 {
+  "ADM-162": {
+    "id": "3beb0d52-f679-4ffb-9885-b9286415ee9b",
+    "status": "done",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-10-14T20:30:01+08:00",
+    "title": "[阶段:集成测试] [ADM][测试] AGENTS.md瘦身后流程验证单",
+    "parent_issue_id": "62d81b2c-3995-4cfb-87c5-dde3d675eec7"
+  },
+  "ADM-161": {
+    "id": "44866641-f0b1-4b1a-b3eb-6037729b7c1e",
+    "status": "done",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-10-14T20:30:00+08:00",
+    "title": "[阶段:自测] [ADM][测试] AGENTS.md瘦身后流程验证单",
+    "parent_issue_id": "62d81b2c-3995-4cfb-87c5-dde3d675eec7"
+  },
+  "ADM-160": {
+    "id": "df7b58b4-dcf3-4603-8cbc-86457d537a61",
+    "status": "done",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-10-14T20:30:00+08:00",
+    "title": "[阶段:编码] [ADM][测试] AGENTS.md瘦身后流程验证单",
+    "parent_issue_id": "62d81b2c-3995-4cfb-87c5-dde3d675eec7"
+  },
+  "ADM-159": {
+    "id": "5816be48-4372-4bf2-9f28-9dc227612bcd",
+    "status": "done",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-10-14T20:29:59+08:00",
+    "title": "[阶段:方案] [ADM][测试] AGENTS.md瘦身后流程验证单",
+    "parent_issue_id": "62d81b2c-3995-4cfb-87c5-dde3d675eec7"
+  },
+  "ADM-157": {
+    "id": "77f35c40-5103-4df7-a09c-55d7bc25ec94",
+    "status": "cancelled",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-10-14T18:15:08+08:00",
+    "title": "[阶段:编码] 多维 query worker 因 OOM 静默死亡 —— run() 未 catch Throwable，服务需 restart 恢复",
+    "parent_issue_id": "95af363e-5680-4a35-bac3-64c53a9a3d4c"
+  },
   "ADM-155": {
     "id": "a39af885-af42-4981-811e-f77398eae118",
-    "status": "todo",
-    "assignee_id": "41eee17b-bcb6-44a1-a091-6dc4b000aaed",
-    "assignee_type": "agent",
-    "updated_at": "2026-10-14T16:28:39+08:00",
+    "status": "cancelled",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-10-14T17:02:44+08:00",
     "title": "[阶段:根因排查] [ADM] 9月点位list缺少ai bot创建的活动数据排查（2515406/2515436/2517904）",
     "parent_issue_id": "dfe255a9-cdeb-4c12-8809-e87346e7bedd"
   },
+  "ADM-158": {
+    "id": "62d81b2c-3995-4cfb-87c5-dde3d675eec7",
+    "status": "done",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-10-14T20:30:02+08:00",
+    "title": "[ADM][测试] AGENTS.md瘦身后流程验证单",
+    "parent_issue_id": null
+  },
+  "ADM-156": {
+    "id": "be5dd22e-b34b-469f-b8f3-eea7386371c5",
+    "status": "in_progress",
+    "assignee_id": "bbea0220-05ce-4639-8aad-f73b1526e9f2",
+    "assignee_type": "agent",
+    "updated_at": "2026-10-14T18:00:53+08:00",
+    "title": "芒果上报批次 4 点位 phsv 0/1-1/1-2 原始日志提取并上传 SFTP",
+    "parent_issue_id": null
+  },
   "ADM-154": {
     "id": "dfe255a9-cdeb-4c12-8809-e87346e7bedd",
-    "status": "todo",
-    "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
-    "assignee_type": "member",
-    "updated_at": "2026-10-14T16:30:56+08:00",
+    "status": "blocked",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-10-14T17:02:04+08:00",
     "title": "[ADM] 9月点位list缺少ai bot创建的活动数据排查（2515406/2515436/2517904）",
     "parent_issue_id": null
   },
@@ -58,8 +121,8 @@
     "status": "todo",
     "assignee_id": "37f8ed8c-7925-4e01-8fce-25283fa67d64",
     "assignee_type": "member",
-    "updated_at": "2026-10-14T15:37:31+08:00",
-    "title": "[ADM] ETL UA解析：鸿蒙UA带Linux被优先判为PC端，需调整判定优先级（提到Linux之前、iOS/Android之后）",
+    "updated_at": "2026-10-14T17:13:20+08:00",
+    "title": "[ADM] ETL UA解析：鸿蒙UA被Linux层压成PC端，需「Linux层加鸿蒙例外 + 鸿蒙层按DeviceType排除PC」",
     "parent_issue_id": null
   },
   "ADM-151": {
@@ -142,6 +205,15 @@
     "updated_at": "2026-09-20T15:23:02+08:00",
     "title": "[阶段:方案] [ADM] 宝洁WECHAT媒体监测代码增加Tencent Group媒体名称（大小写不敏感）",
     "parent_issue_id": "6967d825-b8fe-4e84-bd5c-08a4bdd9ef3a"
+  },
+  "ADM-163": {
+    "id": "a3018459-309e-4a7f-89db-0dc7b8fe29c6",
+    "status": "done",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-10-14T20:30:01+08:00",
+    "title": "[阶段:提测] [ADM][测试] AGENTS.md瘦身后流程验证单",
+    "parent_issue_id": "62d81b2c-3995-4cfb-87c5-dde3d675eec7"
   },
   "ADM-145": {
     "id": "5f666bbe-18f0-4265-abde-60e59a7c10c6",
@@ -298,10 +370,10 @@
   },
   "ADM-134": {
     "id": "932930d6-8100-4ed0-84ac-ed3a3b18a907",
-    "status": "in_progress",
+    "status": "in_review",
     "assignee_id": "bbea0220-05ce-4639-8aad-f73b1526e9f2",
     "assignee_type": "agent",
-    "updated_at": "2026-10-14T16:27:31+08:00",
+    "updated_at": "2026-10-14T16:51:48+08:00",
     "title": "[ADM] OTT SIVT 指标按 session_id 回传情况拆分输出",
     "parent_issue_id": null
   },
@@ -376,77 +448,5 @@
     "updated_at": "2026-09-23T10:42:11+08:00",
     "title": "[ADM] Planningtool宝洁DOT对接RTA解析增加publisher枚举值TENCENT GROUP",
     "parent_issue_id": null
-  },
-  "ADM-106": {
-    "id": "006208eb-8f41-43c3-a1e2-5cf25d906b59",
-    "status": "done",
-    "assignee_id": "0b96cdc3-de80-4995-9fac-2aed21797301",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-21T10:05:01+08:00",
-    "title": "[TVM] OTT-GIVT大盘子规则触犯统计（20260909-20260910）",
-    "parent_issue_id": null
-  },
-  "ADM-105": {
-    "id": "7a1136b1-4a0e-4ce9-b2a8-c99e6641a1ef",
-    "status": "todo",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-17T15:52:49+08:00",
-    "title": "[阶段:方案] 多维 query worker 因 OOM 静默死亡 —— run() 未 catch Throwable，服务需 restart 恢复",
-    "parent_issue_id": "95af363e-5680-4a35-bac3-64c53a9a3d4c"
-  },
-  "ADM-104": {
-    "id": "95af363e-5680-4a35-bac3-64c53a9a3d4c",
-    "status": "todo",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-17T15:40:04+08:00",
-    "title": "多维 query worker 因 OOM 静默死亡 —— run() 未 catch Throwable，服务需 restart 恢复",
-    "parent_issue_id": null
-  },
-  "ADM-102": {
-    "id": "f90678f3-ee2b-459e-8c0e-20efb13de113",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-17T16:47:29+08:00",
-    "title": "[ADM] 活动2514183误删点位恢复（134911572/134911338/134911337）",
-    "parent_issue_id": null
-  },
-  "ADM-97": {
-    "id": "d9834313-47be-4ead-a065-3582e5c9e175",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-29T15:11:06+08:00",
-    "title": "[阶段:方案] [ADM] Apple定期IVT占比 Benchmark 跑数（2026年7月、8月）",
-    "parent_issue_id": "4127bf3e-4927-49d2-90da-20baa5296582"
-  },
-  "ADM-124": {
-    "id": "266f4a0c-b734-4ef7-8954-b7d6c1ad6af0",
-    "status": "in_review",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-28T17:32:11+08:00",
-    "title": "[阶段:提测] [ADM] 多维任务API创建维度组合限制排查（手动可创建但API创建失败）",
-    "parent_issue_id": "f9db9dcd-60ec-486f-9c41-412e0e5ffabd"
-  },
-  "ADM-96": {
-    "id": "4127bf3e-4927-49d2-90da-20baa5296582",
-    "status": "in_review",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-29T15:41:33+08:00",
-    "title": "[ADM] Apple定期IVT占比 Benchmark 跑数（2026年7月、8月）",
-    "parent_issue_id": null
-  },
-  "ADM-121": {
-    "id": "471707a7-2914-4cb9-ac6d-de484c24ab08",
-    "status": "in_review",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-23T20:06:50+08:00",
-    "title": "[阶段:提测] ADM M+ 任务定制 API 接口开发",
-    "parent_issue_id": "29aa13b3-871e-4446-8770-e588f5692877"
   }
 }
