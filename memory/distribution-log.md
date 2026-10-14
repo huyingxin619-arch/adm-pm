@@ -208,6 +208,12 @@ _每次分发后即时更新。_
 | ADM-151 | 汇丰银行活动 2517866 自动日报无法发出（数据来源任务ID 4425260） | 2026-10-13 | 团长Dispatcher（→hcb-admonitor-fullstack） | done | 提需人：邢思源；无通知渠道记录（issue描述中无通知渠道字段）；issue ID: 8266aa6c-63c3-4850-ad90-0f818d2242ff；labels: type/investigate+tech/backend+svc/admonitor；10/13 14:41 updated（当前todo）无通知渠道跳过通知；10/13 14:41 拆分新子任务 ADM-152（阶段:根因排查）无通知渠道跳过通知；10/13 14:41 new_comment（✅ 已完成格式审核（补充了 svc/admonitor 标签），并进入根因排查阶段。排查子单 ADM-152 已派发至 admonitor 全栈工程师排查）无通知渠道跳过通知；10/13 16:18 状态变更 todo→done 已闭环 无通知渠道跳过通知 |
 | ADM-152 | [阶段:根因排查] 汇丰银行活动 2517866 自动日报无法发出（数据来源任务ID 4425260） | 2026-10-13 | 团长Dispatcher（→hcb-admonitor-fullstack→团长→cab5ac70） | done | 提需人：邢思源（继承父需求ADM-151）；无通知渠道记录；父需求ADM-151；10/13 14:41 新建子任务；无通知渠道跳过通知；10/13 14:41 updated（当前todo）无通知渠道跳过通知；10/13 14:58 指派人变更（d0ff2b22→4f356f9a团长）非通知类型；10/13 14:58 新评论（根因排查结论：沙箱无法访问生产环境，需读生产日志+生产库）无通知渠道跳过通知；10/13 15:00 状态变更 todo→blocked（有阻塞）无通知渠道跳过通知；10/13 15:00 指派人变更（4f356f9a→cab5ac70）非通知类型；10/13 15:00 新评论（Worker已完成代码级链路分析，但沙箱无法访问生产日志/库，需黄春波协助确认根因。AutoSubmitJob到点生成子任务链路分析）无通知渠道跳过通知；10/13 15:00 新评论（问题更正：是子报告压根没有生成。给我异常日志grep命令）无通知渠道跳过通知；10/13 15:00 2条新评论（①问题更正：子报告压根没有生成，要异常日志grep命令②团长回复：按链路分段grep命令——AutoSubmitJob排期触发/Redis计算队列/子任务创建）无通知渠道跳过通知；10/13 15:00 new_comment（[@octo-issue-dispatcher] [startQuartz_Worker-6] [2026-10-13 11:10:00.087] [ERROR] [com.miaozhen.）无通知渠道跳过通知；10/13 15:00 new_comment（看到日志了。Line 272 的 catch 包的是queryTaskService.createTask(newTask)，但createTask内部第三段queryCreateReportTasker.addTask()自己catch Throwable不往外抛）无通知渠道跳过通知；10/13 15:43 updated（当前blocked）非通知类型；10/13 15:43 new_comment（问题原因已经确认：queryTaskId=4425260相关日志grep结果）无通知渠道跳过通知；10/13 15:43 new_comment（✅ 根因确认：st_query_task.TaskName字段超长导致子任务INSERT失败，Data truncation: Data too long for column 'TaskName'）无通知渠道跳过通知；10/13 15:43 new_comment（确认根因）无通知渠道跳过通知；10/13 15:43 new_comment（收到，根因确认。已通过 investigate-done 通知卡片告知需求方（邢思源）根因结论，ADM-152 置 blocked 等待需求方反馈是否需要修复。需求方确认要修后我会推进到方案阶段。）无通知渠道跳过通知；10/13 16:18 状态变更 blocked→done 已闭环 无通知渠道跳过通知 |
 
+## 2026-10-14
+
+| PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
+|---------|------|----------|--------|------|------|
+| ADM-154 | [ADM] 9月点位list缺少ai bot创建的活动数据排查（2515406/2515436/2517904） | 2026-10-14 | 团长Dispatcher | todo | 提需人：王浩阳；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；crutch API每月自动生成campaign_list_otv.csv供下游跑media by city月报，9月list缺少2515406/2515436/2517904三个活动，均为ai bot创建；issue ID: dfe255a9-cdeb-4c12-8809-e87346e7bedd；labels: type/investigate+tech/backend+svc/admonitor+svc/intra-api |
+
 ---
 
 _每次分发后即时更新。_

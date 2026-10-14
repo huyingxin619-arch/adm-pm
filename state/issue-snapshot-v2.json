@@ -35,6 +35,15 @@
     "title": "[阶段:方案] admonitor 多维钻取任务一直卡在队列中（任务ID 4422611）",
     "parent_issue_id": "db986b49-c62a-40c6-a76a-4e146e3f10b5"
   },
+  "ADM-153": {
+    "id": "a9b8cab5-71b0-4aa0-89c4-02491275925d",
+    "status": "todo",
+    "assignee_id": "37f8ed8c-7925-4e01-8fce-25283fa67d64",
+    "assignee_type": "member",
+    "updated_at": "2026-10-14T15:37:31+08:00",
+    "title": "[ADM] ETL UA解析：鸿蒙UA带Linux被优先判为PC端，需调整判定优先级（提到Linux之前、iOS/Android之后）",
+    "parent_issue_id": null
+  },
   "ADM-151": {
     "id": "8266aa6c-63c3-4850-ad90-0f818d2242ff",
     "status": "done",
@@ -46,10 +55,10 @@
   },
   "ADM-146": {
     "id": "db986b49-c62a-40c6-a76a-4e146e3f10b5",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "agent",
-    "updated_at": "2026-10-13T11:12:51+08:00",
+    "updated_at": "2026-10-14T11:47:27+08:00",
     "title": "admonitor 多维钻取任务一直卡在队列中（任务ID 4422611）",
     "parent_issue_id": null
   },
@@ -73,10 +82,10 @@
   },
   "ADM-150": {
     "id": "26dd7ffb-422a-46da-b893-6c02306591fa",
-    "status": "in_progress",
+    "status": "done",
     "assignee_id": "41eee17b-bcb6-44a1-a091-6dc4b000aaed",
     "assignee_type": "agent",
-    "updated_at": "2026-10-13T11:13:00+08:00",
+    "updated_at": "2026-10-14T11:47:14+08:00",
     "title": "[阶段:提测] admonitor 多维钻取任务一直卡在队列中（任务ID 4422611）",
     "parent_issue_id": "db986b49-c62a-40c6-a76a-4e146e3f10b5"
   },
@@ -438,15 +447,6 @@
     "assignee_type": "agent",
     "updated_at": "2026-09-16T18:34:18+08:00",
     "title": "[阶段:自测] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
-    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
-  },
-  "ADM-99": {
-    "id": "86ba412c-5dfd-4bca-bd17-60292f0a2661",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-16T18:28:44+08:00",
-    "title": "[阶段:编码] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
     "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
   }
 }
