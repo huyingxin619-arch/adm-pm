@@ -1,4 +1,22 @@
 {
+  "ADM-155": {
+    "id": "a39af885-af42-4981-811e-f77398eae118",
+    "status": "todo",
+    "assignee_id": "41eee17b-bcb6-44a1-a091-6dc4b000aaed",
+    "assignee_type": "agent",
+    "updated_at": "2026-10-14T16:28:39+08:00",
+    "title": "[阶段:根因排查] [ADM] 9月点位list缺少ai bot创建的活动数据排查（2515406/2515436/2517904）",
+    "parent_issue_id": "dfe255a9-cdeb-4c12-8809-e87346e7bedd"
+  },
+  "ADM-154": {
+    "id": "dfe255a9-cdeb-4c12-8809-e87346e7bedd",
+    "status": "todo",
+    "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
+    "assignee_type": "member",
+    "updated_at": "2026-10-14T16:30:56+08:00",
+    "title": "[ADM] 9月点位list缺少ai bot创建的活动数据排查（2515406/2515436/2517904）",
+    "parent_issue_id": null
+  },
   "ADM-152": {
     "id": "01bf18e9-e834-4633-96fd-b61fc9c227b7",
     "status": "done",
@@ -280,10 +298,10 @@
   },
   "ADM-134": {
     "id": "932930d6-8100-4ed0-84ac-ed3a3b18a907",
-    "status": "in_review",
+    "status": "in_progress",
     "assignee_id": "bbea0220-05ce-4639-8aad-f73b1526e9f2",
     "assignee_type": "agent",
-    "updated_at": "2026-10-13T18:58:50+08:00",
+    "updated_at": "2026-10-14T16:27:31+08:00",
     "title": "[ADM] OTT SIVT 指标按 session_id 回传情况拆分输出",
     "parent_issue_id": null
   },
@@ -430,23 +448,5 @@
     "updated_at": "2026-09-23T20:06:50+08:00",
     "title": "[阶段:提测] ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "29aa13b3-871e-4446-8770-e588f5692877"
-  },
-  "ADM-101": {
-    "id": "26ae192a-2889-4b3d-a65f-5ee44de33fe1",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-17T15:04:46+08:00",
-    "title": "[阶段:集成测试] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
-    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
-  },
-  "ADM-100": {
-    "id": "201e33e5-d69d-4616-8653-002e22336f67",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-16T18:34:18+08:00",
-    "title": "[阶段:自测] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
-    "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
   }
 }
