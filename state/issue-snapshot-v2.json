@@ -1,10 +1,19 @@
 {
+  "ADM-167": {
+    "id": "308d0a51-1b59-4ed5-a4f2-cc279914cbba",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-10-16T15:03:32+08:00",
+    "title": "[ADM] OTT Planningtool publisher表新增记录：KONKA(BILIBILI)",
+    "parent_issue_id": null
+  },
   "ADM-166": {
     "id": "9d230c75-50cd-4109-bd0e-b82dd1344010",
-    "status": "done",
+    "status": "in_progress",
     "assignee_id": "0b96cdc3-de80-4995-9fac-2aed21797301",
     "assignee_type": "agent",
-    "updated_at": "2026-10-15T15:37:56+08:00",
+    "updated_at": "2026-10-16T14:45:33+08:00",
     "title": "[TVM] PMO跨屏打通频次指标n最大值提升至80 — 大数据计算侧适配",
     "parent_issue_id": null
   },
@@ -438,15 +447,6 @@
     "assignee_type": "agent",
     "updated_at": "2026-09-28T17:32:22+08:00",
     "title": "[ADM] 多维任务API创建维度组合限制排查（手动可创建但API创建失败）",
-    "parent_issue_id": null
-  },
-  "ADM-117": {
-    "id": "13481dc0-8e46-4aaf-a3bc-771f3af44473",
-    "status": "done",
-    "assignee_id": "0b96cdc3-de80-4995-9fac-2aed21797301",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-22T18:48:06+08:00",
-    "title": "[TVM] OTT-GIVT统计：20260909-20260910各子规则触犯情况",
     "parent_issue_id": null
   }
 }
