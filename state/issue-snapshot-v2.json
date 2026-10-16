@@ -1,11 +1,20 @@
 {
+  "ADM-168": {
+    "id": "d7e7f9e9-8e0a-4f7b-ad55-b9231c36ee09",
+    "status": "in_progress",
+    "assignee_id": "bbea0220-05ce-4639-8aad-f73b1526e9f2",
+    "assignee_type": "agent",
+    "updated_at": "2026-10-16T17:23:08+08:00",
+    "title": "海信 9.22 批次 8 组 k/p 的 phsv 0/1-1/1-2 原始日志提取（2026-09-22，同范围复提供一致性核对）",
+    "parent_issue_id": null
+  },
   "ADM-167": {
     "id": "308d0a51-1b59-4ed5-a4f2-cc279914cbba",
     "status": "todo",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-10-16T15:03:32+08:00",
-    "title": "[ADM] OTT Planningtool publisher表新增记录：KONKA(BILIBILI)",
+    "assignee_id": "d8b9f7b4-2220-4c03-9fb7-0667c10ee275",
+    "assignee_type": "member",
+    "updated_at": "2026-10-16T15:12:59+08:00",
+    "title": "[ADM] OTT Planningtool publisher表新增3条记录",
     "parent_issue_id": null
   },
   "ADM-166": {
@@ -100,10 +109,10 @@
   },
   "ADM-156": {
     "id": "be5dd22e-b34b-469f-b8f3-eea7386371c5",
-    "status": "in_progress",
+    "status": "done",
     "assignee_id": "bbea0220-05ce-4639-8aad-f73b1526e9f2",
     "assignee_type": "agent",
-    "updated_at": "2026-10-15T17:09:29+08:00",
+    "updated_at": "2026-10-16T16:09:30+08:00",
     "title": "芒果上报批次 4 点位 phsv 0/1-1/1-2 原始日志提取并上传 SFTP",
     "parent_issue_id": null
   },
@@ -438,15 +447,6 @@
     "assignee_type": "agent",
     "updated_at": "2026-10-10T14:18:43+08:00",
     "title": "【排查】Dove 广点通监测 9.28 基础数据全部为0(实时正常收数)",
-    "parent_issue_id": null
-  },
-  "ADM-118": {
-    "id": "f9db9dcd-60ec-486f-9c41-412e0e5ffabd",
-    "status": "in_review",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-28T17:32:22+08:00",
-    "title": "[ADM] 多维任务API创建维度组合限制排查（手动可创建但API创建失败）",
     "parent_issue_id": null
   }
 }
