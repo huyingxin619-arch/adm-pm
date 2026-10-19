@@ -1,4 +1,22 @@
 {
+  "ADM-171": {
+    "id": "3d796f51-8c7a-4d91-b8bf-d1b11c697a31",
+    "status": "done",
+    "assignee_id": "0b96cdc3-de80-4995-9fac-2aed21797301",
+    "assignee_type": "agent",
+    "updated_at": "2026-10-19T17:31:28+08:00",
+    "title": "芒果 OTT 2026-10-15~18 批次 4 点位 phsv 0/1-1/1-2 原始日志提取并上传 SFTP",
+    "parent_issue_id": null
+  },
+  "ADM-170": {
+    "id": "d6d0812d-b2ac-4ba3-850a-1c4826a04652",
+    "status": "done",
+    "assignee_id": "0b96cdc3-de80-4995-9fac-2aed21797301",
+    "assignee_type": "agent",
+    "updated_at": "2026-10-19T16:48:22+08:00",
+    "title": "【芒果抓包机】核查 10-14 抓包会话两条 phsv=0 计费行是否被额外 GIVT 规则过滤",
+    "parent_issue_id": null
+  },
   "ADM-168": {
     "id": "d7e7f9e9-8e0a-4f7b-ad55-b9231c36ee09",
     "status": "in_progress",
@@ -8,12 +26,21 @@
     "title": "海信 9.22 批次 8 组 k/p 的 phsv 0/1-1/1-2 原始日志提取（2026-09-22，同范围复提供一致性核对）",
     "parent_issue_id": null
   },
+  "ADM-169": {
+    "id": "b1b012ae-28a0-4bd9-9caf-6b50466ffaf2",
+    "status": "todo",
+    "assignee_id": "cc18d7a4-873f-4291-b215-2ba584387ff9",
+    "assignee_type": "member",
+    "updated_at": "2026-10-19T14:44:49+08:00",
+    "title": "[ADM] 2026年PMO Panel常规年度更新（Universe更新/权重刷新/活跃样本替换）",
+    "parent_issue_id": null
+  },
   "ADM-167": {
     "id": "308d0a51-1b59-4ed5-a4f2-cc279914cbba",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "d8b9f7b4-2220-4c03-9fb7-0667c10ee275",
     "assignee_type": "member",
-    "updated_at": "2026-10-16T15:12:59+08:00",
+    "updated_at": "2026-10-19T11:00:24+08:00",
     "title": "[ADM] OTT Planningtool publisher表新增3条记录",
     "parent_issue_id": null
   },
@@ -199,10 +226,10 @@
   },
   "ADM-138": {
     "id": "a1c6f8cf-61c6-46e1-b97b-823752eb0c39",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
     "assignee_type": "member",
-    "updated_at": "2026-10-10T17:04:56+08:00",
+    "updated_at": "2026-10-19T10:26:34+08:00",
     "title": "[ADM] 多维钻取指标统一单元测试",
     "parent_issue_id": null
   },
@@ -420,33 +447,6 @@
     "assignee_type": "agent",
     "updated_at": "2026-10-15T11:33:50+08:00",
     "title": "[ADM] OTT SIVT 指标按 session_id 回传情况拆分输出",
-    "parent_issue_id": null
-  },
-  "ADM-133": {
-    "id": "148fabf4-f0be-43e6-8436-7a349a034de8",
-    "status": "in_review",
-    "assignee_id": "7bcc9ad4-8021-40fd-b96c-eca131504106",
-    "assignee_type": "member",
-    "updated_at": "2026-10-09T10:21:17+08:00",
-    "title": "[ADM] 易车IVT数据拉取（SIVT整体情况+高危ip/真人id，26M7-M9）",
-    "parent_issue_id": null
-  },
-  "ADM-127": {
-    "id": "94be2319-1178-4181-8fc1-2f7e9a5f8835",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-10-15T15:18:14+08:00",
-    "title": "[TVM] PMO跨屏打通频次指标n最大值由20提高到80",
-    "parent_issue_id": null
-  },
-  "ADM-125": {
-    "id": "29cdd728-0229-4877-b578-c9217d214072",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-10-10T14:18:43+08:00",
-    "title": "【排查】Dove 广点通监测 9.28 基础数据全部为0(实时正常收数)",
     "parent_issue_id": null
   }
 }
