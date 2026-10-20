@@ -250,3 +250,5 @@ _每次分发后即时更新。_
 ---
 
 _每次分发后即时更新。_
+| ADM-172 | [Planningtool] 排期解析「单条记录校验错误」排查 | 2026-10-20 | 团长Dispatcher（4f356f9a） | in_progress | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；issue ID: b02cc816-b083-4818-9f24-1316d33cc7ba；优先级urgent；sessionId: c9f5fed8-eee5-4bbf-980a-bce11d8aecb1（宝洁DOT系统下发消息ID）；已发卡片通知群聊@吴济；10/20 15:27 状态变更 todo→in_progress（非通知类型跳过）；10/20 15:26 拆分新子任务 ADM-173（根因排查，assignee hcb-planingtool），已通知群聊@吴济 |
+| ADM-173 | [阶段:根因排查] [Planningtool] 排期解析「单条记录校验错误」排查 | 2026-10-20 | hcb-planingtool（cabf9fd0） | todo | 提需人：吴济（继承父需求ADM-172）；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；父需求ADM-172；10/20 15:26 新建子任务；已通知群聊@吴济 |

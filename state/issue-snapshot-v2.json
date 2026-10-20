@@ -1,4 +1,22 @@
 {
+  "ADM-173": {
+    "id": "f42d451a-8eba-4c77-a1a3-cfad820a25e3",
+    "status": "todo",
+    "assignee_id": "cabf9fd0-3d28-42e5-9a25-b4a7348c1a2b",
+    "assignee_type": "agent",
+    "updated_at": "2026-10-20T15:26:52+08:00",
+    "title": "[阶段:根因排查] [Planningtool] 排期解析「单条记录校验错误」排查",
+    "parent_issue_id": "b02cc816-b083-4818-9f24-1316d33cc7ba"
+  },
+  "ADM-172": {
+    "id": "b02cc816-b083-4818-9f24-1316d33cc7ba",
+    "status": "in_progress",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "agent",
+    "updated_at": "2026-10-20T15:27:17+08:00",
+    "title": "[Planningtool] 排期解析「单条记录校验错误」排查",
+    "parent_issue_id": null
+  },
   "ADM-171": {
     "id": "3d796f51-8c7a-4d91-b8bf-d1b11c697a31",
     "status": "done",
@@ -430,23 +448,5 @@
     "updated_at": "2026-09-20T18:52:52+08:00",
     "title": "[阶段:提测] [ADM] 宝洁WECHAT媒体监测代码增加Tencent Group媒体名称（大小写不敏感）",
     "parent_issue_id": "6967d825-b8fe-4e84-bd5c-08a4bdd9ef3a"
-  },
-  "ADM-108": {
-    "id": "6967d825-b8fe-4e84-bd5c-08a4bdd9ef3a",
-    "status": "done",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "agent",
-    "updated_at": "2026-09-20T18:52:40+08:00",
-    "title": "[ADM] 宝洁WECHAT媒体监测代码增加Tencent Group媒体名称（大小写不敏感）",
-    "parent_issue_id": null
-  },
-  "ADM-134": {
-    "id": "932930d6-8100-4ed0-84ac-ed3a3b18a907",
-    "status": "in_review",
-    "assignee_id": "bbea0220-05ce-4639-8aad-f73b1526e9f2",
-    "assignee_type": "agent",
-    "updated_at": "2026-10-15T11:33:50+08:00",
-    "title": "[ADM] OTT SIVT 指标按 session_id 回传情况拆分输出",
-    "parent_issue_id": null
   }
 }
