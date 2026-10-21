@@ -54,20 +54,27 @@ def run(cmd, timeout=15):
     return None
 
 
-def fetch_comments(issue_id):
-    """拉取 issue 的全部评论，返回 [{id, body, author}] 列表或 None。"""
-    out = run(["octo-daemon", "issue", "comment", "list", issue_id, "--output", "json"])
+def fetch_comments(task_id):
+    """拉取 task 的全部评论，返回 [{id, body, author}] 列表或 None。"""
+    out = run([
+        "octo-cli", "loop", "task", "comment", "list", task_id,
+        "--bot-id", "27xvrdnfc6ld216a898_bot",
+        "--workspace-id", "1b1dd00c-1be9-4ceb-bddc-53280567820d",
+        "--page-size", "100",
+        "--format", "json"
+    ], timeout=20)
     if not out:
         return None
     try:
-        comments = json.loads(out)
+        resp = json.loads(out)
+        comments = resp.get("data", [])
         if not isinstance(comments, list):
             return []
         result = []
         for c in comments:
-            cid = c.get("id") or c.get("comment_id") or ""
-            body = (c.get("body") or c.get("content") or "")[:150]
-            author = c.get("creator_name") or c.get("creator_id") or ""
+            cid = c.get("comment_id") or c.get("id") or ""
+            body = (c.get("content") or c.get("body") or "")[:150]
+            author = c.get("author_name") or c.get("author_id") or ""
             result.append({"id": cid, "body": body, "author": author})
         return result
     except Exception:
@@ -111,25 +118,52 @@ def diff_comments(old_list, new_list):
 
 
 def main():
-    out = run(["octo-daemon", "issue", "list", "--output", "json"], timeout=30)
+    out = run([
+        "octo-cli", "loop", "task", "list",
+        "--bot-id", "27xvrdnfc6ld216a898_bot",
+        "--workspace-id", "1b1dd00c-1be9-4ceb-bddc-53280567820d",
+        "--page-size", "100",
+        "--format", "json"
+    ], timeout=30)
     if not out:
-        print("ERROR: octo-daemon issue list failed")
+        print("ERROR: octo-cli loop task list failed")
         return 1
 
-    data = json.loads(out)
-    issues = data.get("issues", [])
+    resp = json.loads(out)
+    tasks = resp.get("data", [])
+
+    # 支持 API 分页：如果 total > page_size，继续拉取
+    pagination = resp.get("_pagination", {})
+    total = pagination.get("total", len(tasks))
+    page = 1
+    while len(tasks) < total:
+        page += 1
+        page_out = run([
+            "octo-cli", "loop", "task", "list",
+            "--bot-id", "27xvrdnfc6ld216a898_bot",
+            "--workspace-id", "1b1dd00c-1be9-4ceb-bddc-53280567820d",
+            "--page", str(page),
+            "--page-size", "100",
+            "--format", "json"
+        ], timeout=30)
+        if not page_out:
+            break
+        page_resp = json.loads(page_out)
+        tasks.extend(page_resp.get("data", []))
+
+    issues = tasks
 
     current = {}
     for i in issues:
         ident = i["identifier"]
         current[ident] = {
-            "id": i["id"],
+            "id": i["task_id"],
             "status": i["status"],
             "assignee_id": i.get("assignee_id") or "",
             "assignee_type": i.get("assignee_type") or "",
             "updated_at": i["updated_at"],
             "title": i["title"],
-            "parent_issue_id": i.get("parent_issue_id"),
+            "parent_issue_id": i.get("parent_task_id"),
         }
 
     id_to_ident = {v["id"]: k for k, v in current.items()}
