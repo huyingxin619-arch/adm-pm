@@ -58,12 +58,13 @@
 | ADM-186 | [阶段:提测] [ADM][测试] octo-daemon 1.2.3 后 stage-sub 全流程验证单 | 2026-10-22 | Loop 内部 | done | 提需人：未知（继承父需求ADM-181）；无通知渠道记录；父需求ADM-181；10/22 19:25 新建子任务（status=in_review）；10/22 19:28 状态变更 in_review→done 已闭环；无通知渠道跳过通知 |
 | ADM-187 | [阶段:集成测试] [ADM][测试] octo-daemon 1.2.3 后 stage-sub 全流程验证单 | 2026-10-22 | Loop 内部 | done | 提需人：未知（继承父需求ADM-181）；无通知渠道记录；父需求ADM-181；10/22 19:25 新建子任务（status=todo）；10/22 19:26 状态变更 todo→cancelled（已取消）+ 指派人变更（8f6d778a→4f356f9a团长）；无通知渠道跳过通知；10/22 19:44 状态变更 cancelled→done 无通知渠道跳过通知 |
 | ADM-188 | [阶段:根因排查] [ADM] 监测点落地页URL含@符号导致导出监测代码报错 | 2026-10-22 | octo-issue-dispatcher | cancelled | 提需人：吴济（继承父需求ADM-174）；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；父需求ADM-174；10/22 19:49 新建子任务（status=cancelled）；已通知群聊@吴济 |
+| ADM-189 | [阶段:根因排查] [ADM] 监测点落地页URL含@符号导致导出监测代码报错 | 2026-10-22 | octo-issue-dispatcher | todo | 提需人：吴济（继承父需求ADM-174）；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；父需求ADM-174；10/22 19:50 新建子任务（status=todo）；已通知群聊@吴济 |
 
 ## 2026-10-21
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-174 | [ADM] 监测点落地页URL含@符号导致导出监测代码报错 | 2026-10-21 | 团长（octo-issue-dispatcher） | in_progress | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；活动2519425/监测点9AEdB；落地页URL含@符号导出报错；需排查其他特殊符号兼容性；issue ID: ad2f6762-99e5-4604-acef-9bac3f61d9d1；labels: svc/admonitor+type/investigate+tech/backend；已发卡片通知群聊@吴济；10/21 16:38 新评论（octo-issue-dispatcher: agent工具不可用提示），已通知群聊@吴济；10/22 14:05 新评论（octo-issue-dispatcher: openclaw返回无可解析输出），已通知群聊@吴济；10/22 19:47 状态变更 todo→in_progress；10/22 19:49 新评论（octo-issue-dispatcher: 已完成格式审核并开启阶段流程，父单保留团长名下，已按svc/admonitor路由选择原始worker），已通知群聊@吴济；10/22 19:49 拆分新子任务 ADM-188（阶段:根因排查，status=cancelled），已通知群聊@吴济 |
+| ADM-174 | [ADM] 监测点落地页URL含@符号导致导出监测代码报错 | 2026-10-21 | 团长（octo-issue-dispatcher） | in_progress | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；活动2519425/监测点9AEdB；落地页URL含@符号导出报错；需排查其他特殊符号兼容性；issue ID: ad2f6762-99e5-4604-acef-9bac3f61d9d1；labels: svc/admonitor+type/investigate+tech/backend；已发卡片通知群聊@吴济；10/21 16:38 新评论（octo-issue-dispatcher: agent工具不可用提示），已通知群聊@吴济；10/22 14:05 新评论（octo-issue-dispatcher: openclaw返回无可解析输出），已通知群聊@吴济；10/22 19:47 状态变更 todo→in_progress；10/22 19:49 新评论（octo-issue-dispatcher: 已完成格式审核并开启阶段流程，父单保留团长名下，已按svc/admonitor路由选择原始worker），已通知群聊@吴济；10/22 19:49 拆分新子任务 ADM-188（阶段:根因排查，status=cancelled），已通知群聊@吴济；10/22 19:50 updated（非通知类型跳过）；10/22 19:50 拆分新子任务 ADM-189（阶段:根因排查，status=todo），已通知群聊@吴济 |
 
 ## 2026-10-19
 

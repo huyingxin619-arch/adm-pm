@@ -1,4 +1,139 @@
 {
+  "ADM-183": {
+    "id": "b289304b-755f-45c9-a1a0-798ca157631c",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T19:23:45+08:00",
+    "title": "[阶段:编码] [ADM][测试] octo-daemon 1.2.3 后 stage-sub 全流程验证单",
+    "parent_issue_id": "1bb22fda-4bf1-4f18-84cd-4d2d93dc99bb"
+  },
+  "ADM-182": {
+    "id": "57e4e89e-036b-4620-90ac-e8af3d1c6a74",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T19:22:59+08:00",
+    "title": "[阶段:方案] [ADM][测试] octo-daemon 1.2.3 后 stage-sub 全流程验证单",
+    "parent_issue_id": "1bb22fda-4bf1-4f18-84cd-4d2d93dc99bb"
+  },
+  "ADM-189": {
+    "id": "006560ab-99d6-4b27-8be1-611e529e86ad",
+    "status": "todo",
+    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T19:50:27+08:00",
+    "title": "[阶段:根因排查] [ADM] 监测点落地页URL含@符号导致导出监测代码报错",
+    "parent_issue_id": "ad2f6762-99e5-4604-acef-9bac3f61d9d1"
+  },
+  "ADM-188": {
+    "id": "0516d166-efb6-43f3-98c9-6407a5596da0",
+    "status": "cancelled",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T19:49:36+08:00",
+    "title": "[阶段:根因排查] [ADM] 监测点落地页URL含@符号导致导出监测代码报错",
+    "parent_issue_id": "ad2f6762-99e5-4604-acef-9bac3f61d9d1"
+  },
+  "ADM-187": {
+    "id": "74fc2592-12d4-4f27-8980-b0a2947c9679",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T19:44:26+08:00",
+    "title": "[阶段:集成测试] [ADM][测试] octo-daemon 1.2.3 后 stage-sub 全流程验证单",
+    "parent_issue_id": "1bb22fda-4bf1-4f18-84cd-4d2d93dc99bb"
+  },
+  "ADM-186": {
+    "id": "a9f6c81a-cdb4-4494-bd32-7de7817c7bef",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T19:28:04+08:00",
+    "title": "[阶段:提测] [ADM][测试] octo-daemon 1.2.3 后 stage-sub 全流程验证单",
+    "parent_issue_id": "1bb22fda-4bf1-4f18-84cd-4d2d93dc99bb"
+  },
+  "ADM-185": {
+    "id": "a96dbdf3-23dd-4a82-9fcd-7c99ad9742e4",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T19:24:44+08:00",
+    "title": "[阶段:集成测试] [ADM][测试] octo-daemon 1.2.3 后 stage-sub 全流程验证单",
+    "parent_issue_id": "1bb22fda-4bf1-4f18-84cd-4d2d93dc99bb"
+  },
+  "ADM-184": {
+    "id": "0704376d-a719-4468-96b6-9468cdf1832c",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T19:25:26+08:00",
+    "title": "[阶段:自测] [ADM][测试] octo-daemon 1.2.3 后 stage-sub 全流程验证单",
+    "parent_issue_id": "1bb22fda-4bf1-4f18-84cd-4d2d93dc99bb"
+  },
+  "ADM-181": {
+    "id": "1bb22fda-4bf1-4f18-84cd-4d2d93dc99bb",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T19:27:34+08:00",
+    "title": "[ADM][测试] octo-daemon 1.2.3 后 stage-sub 全流程验证单",
+    "parent_issue_id": null
+  },
+  "ADM-180": {
+    "id": "3b447f3b-e533-44ba-a440-782b51dc4f87",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T19:52:06+08:00",
+    "title": "[阶段:根因排查] 【排查】tvmonitor SKD_SPID_FILE 活动点位列表筛选逻辑确认",
+    "parent_issue_id": "cd1851d8-a663-4956-b09f-80f9c6f4e272"
+  },
+  "ADM-179": {
+    "id": "4d2df917-ca18-4391-b28b-e09ad8a30453",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T18:26:53+08:00",
+    "title": "[TVM] PMO Panel类型下新增两个panel配置",
+    "parent_issue_id": null
+  },
+  "ADM-178": {
+    "id": "cd1851d8-a663-4956-b09f-80f9c6f4e272",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T19:04:42+08:00",
+    "title": "【排查】tvmonitor SKD_SPID_FILE 活动点位列表筛选逻辑确认",
+    "parent_issue_id": null
+  },
+  "ADM-177": {
+    "id": "bc6f5c3f-508f-4fed-ac54-761247801d86",
+    "status": "todo",
+    "assignee_id": "bbea0220-05ce-4639-8aad-f73b1526e9f2",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T17:32:12+08:00",
+    "title": "【小米】10.21 新一波像素测试投放，请提取日志",
+    "parent_issue_id": null
+  },
+  "ADM-176": {
+    "id": "7fff4017-9fe3-4708-b4f2-7c6c3a619553",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T15:24:33+08:00",
+    "title": "[ADM] 小米测试环境挑战因子接口请求key失效更新",
+    "parent_issue_id": null
+  },
+  "ADM-175": {
+    "id": "b8251401-9913-49bf-971d-6869af7895c6",
+    "status": "in_progress",
+    "assignee_id": "6d638aa2-0349-4f51-94cd-abfbe8978927",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-22T11:01:56+08:00",
+    "title": "[TVM] Daily Report支持PMO Panel类型计算",
+    "parent_issue_id": null
+  },
   "ADM-173": {
     "id": "f42d451a-8eba-4c77-a1a3-cfad820a25e3",
     "status": "done",
@@ -10,10 +145,10 @@
   },
   "ADM-174": {
     "id": "ad2f6762-99e5-4604-acef-9bac3f61d9d1",
-    "status": "todo",
+    "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-21T16:38:40+08:00",
+    "updated_at": "2026-10-22T19:50:13+08:00",
     "title": "[ADM] 监测点落地页URL含@符号导致导出监测代码报错",
     "parent_issue_id": null
   },
