@@ -1,4 +1,22 @@
 {
+  "ADM-191": {
+    "id": "bf38a209-b229-4e34-8b91-ecabb2eef2b2",
+    "status": "todo",
+    "assignee_id": "f90db656-6667-4abd-b20e-75e6d2bc561b",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-23T15:17:11+08:00",
+    "title": "[ADM] IPIP 停采影响评估：多版本 IPIP 配置重跑白名单 v8",
+    "parent_issue_id": null
+  },
+  "ADM-190": {
+    "id": "b8bdaae5-821f-470f-8677-3efc425a9736",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-23T11:07:42+08:00",
+    "title": "【流程优化】将人员角色权限配置化并统一判断",
+    "parent_issue_id": null
+  },
   "ADM-183": {
     "id": "b289304b-755f-45c9-a1a0-798ca157631c",
     "status": "done",
@@ -82,10 +100,10 @@
   },
   "ADM-180": {
     "id": "3b447f3b-e533-44ba-a440-782b51dc4f87",
-    "status": "in_review",
+    "status": "blocked",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-23T10:49:03+08:00",
+    "updated_at": "2026-10-23T11:14:17+08:00",
     "title": "[阶段:根因排查] 【排查】tvmonitor SKD_SPID_FILE 活动点位列表筛选逻辑确认",
     "parent_issue_id": "cd1851d8-a663-4956-b09f-80f9c6f4e272"
   },
