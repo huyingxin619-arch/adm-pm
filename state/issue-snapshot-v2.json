@@ -1,4 +1,13 @@
 {
+  "ADM-192": {
+    "id": "708e960d-0bbb-47cd-95db-f408550fc0cc",
+    "status": "cancelled",
+    "assignee_id": "7c4d536c-5ebc-43d8-95f5-63932ceaaef0",
+    "assignee_type": "member",
+    "updated_at": "2026-10-23T16:04:43+08:00",
+    "title": "[ADM] IP 黑名单停采评估：2026-10-20 单天结果按 2024/2025 版 IPIP 配置重算",
+    "parent_issue_id": null
+  },
   "ADM-191": {
     "id": "bf38a209-b229-4e34-8b91-ecabb2eef2b2",
     "status": "todo",
