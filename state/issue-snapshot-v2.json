@@ -1,4 +1,13 @@
 {
+  "ADM-193": {
+    "id": "9fb271f8-018b-4986-8884-51fc0b3f5c3e",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-26T15:44:28+08:00",
+    "title": "[ADM] 多维钻取任务计算失败排查（任务ID 4437553、4437544 — 固定模板+基础指标+SIVT指标）",
+    "parent_issue_id": null
+  },
   "ADM-192": {
     "id": "708e960d-0bbb-47cd-95db-f408550fc0cc",
     "status": "cancelled",
@@ -46,10 +55,10 @@
   },
   "ADM-189": {
     "id": "006560ab-99d6-4b27-8be1-611e529e86ad",
-    "status": "todo",
-    "assignee_id": "d0ff2b22-754a-4a4d-9e18-ccb211b245e5",
+    "status": "blocked",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-22T19:50:27+08:00",
+    "updated_at": "2026-10-26T19:47:15+08:00",
     "title": "[阶段:根因排查] [ADM] 监测点落地页URL含@符号导致导出监测代码报错",
     "parent_issue_id": "ad2f6762-99e5-4604-acef-9bac3f61d9d1"
   },
@@ -109,10 +118,10 @@
   },
   "ADM-180": {
     "id": "3b447f3b-e533-44ba-a440-782b51dc4f87",
-    "status": "blocked",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-23T11:14:17+08:00",
+    "updated_at": "2026-10-26T18:47:17+08:00",
     "title": "[阶段:根因排查] 【排查】tvmonitor SKD_SPID_FILE 活动点位列表筛选逻辑确认",
     "parent_issue_id": "cd1851d8-a663-4956-b09f-80f9c6f4e272"
   },
@@ -686,9 +695,9 @@
   "ADM-115": {
     "id": "745c4d71-bf68-41bc-b06c-359c05cc7c8a",
     "status": "in_progress",
-    "assignee_id": "7c4d536c-5ebc-43d8-95f5-63932ceaaef0",
+    "assignee_id": "7bcc9ad4-8021-40fd-b96c-eca131504106",
     "assignee_type": "member",
-    "updated_at": "2026-10-20T18:45:26+08:00",
+    "updated_at": "2026-10-26T14:17:55+08:00",
     "title": "[ADM] otv_multi类升级研究(v6)_开发&跑数",
     "parent_issue_id": null
   },
