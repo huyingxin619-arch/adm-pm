@@ -1,4 +1,22 @@
 {
+  "ADM-195": {
+    "id": "76bc160c-6b3d-4e65-b135-f445473e9003",
+    "status": "cancelled",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-27T15:16:07+08:00",
+    "title": "[测试] dispatcher 自然触发 author 验证",
+    "parent_issue_id": null
+  },
+  "ADM-194": {
+    "id": "4b4065f9-3ca5-49e3-99f7-6074d6eb1d9e",
+    "status": "todo",
+    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
+    "assignee_type": "member",
+    "updated_at": "2026-10-27T12:07:24+08:00",
+    "title": "[TVM] PHSV 日志提取：SFTP 批量输入 + 按周/按月跑数流程",
+    "parent_issue_id": null
+  },
   "ADM-193": {
     "id": "9fb271f8-018b-4986-8884-51fc0b3f5c3e",
     "status": "todo",
@@ -28,10 +46,10 @@
   },
   "ADM-190": {
     "id": "b8bdaae5-821f-470f-8677-3efc425a9736",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-23T11:07:42+08:00",
+    "updated_at": "2026-10-27T10:31:24+08:00",
     "title": "【流程优化】将人员角色权限配置化并统一判断",
     "parent_issue_id": null
   },
@@ -127,19 +145,19 @@
   },
   "ADM-179": {
     "id": "4d2df917-ca18-4391-b28b-e09ad8a30453",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-22T18:26:53+08:00",
+    "updated_at": "2026-10-27T15:08:15+08:00",
     "title": "[TVM] PMO Panel类型下新增两个panel配置",
     "parent_issue_id": null
   },
   "ADM-178": {
     "id": "cd1851d8-a663-4956-b09f-80f9c6f4e272",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-23T10:33:35+08:00",
+    "updated_at": "2026-10-27T10:31:30+08:00",
     "title": "【排查】tvmonitor SKD_SPID_FILE 活动点位列表筛选逻辑确认",
     "parent_issue_id": null
   },
