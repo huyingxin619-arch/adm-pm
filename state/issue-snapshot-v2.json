@@ -1,4 +1,103 @@
 {
+  "ADM-206": {
+    "id": "c65b9af8-e7ad-4d32-a41b-42e4cc0a6346",
+    "status": "in_progress",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-10-28T19:13:58+08:00",
+    "title": "日志改造实施及 dev 验证进度（2026-10-28）",
+    "parent_issue_id": "6eaab4f6-eed4-42ef-97e6-0ba6d4c16912"
+  },
+  "ADM-205": {
+    "id": "6eaab4f6-eed4-42ef-97e6-0ba6d4c16912",
+    "status": "todo",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-10-28T16:56:13+08:00",
+    "title": "TVMonitor 业务日志降噪与审计上下文清理",
+    "parent_issue_id": null
+  },
+  "ADM-204": {
+    "id": "b2970cbc-5af0-4030-b464-1962f09673c2",
+    "status": "todo",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-10-28T16:56:13+08:00",
+    "title": "活动点位恢复工单接口新增 Excel 文件导入功能",
+    "parent_issue_id": null
+  },
+  "ADM-203": {
+    "id": "80a3a5a8-17c9-429c-b4d5-7b69ade07c9c",
+    "status": "done",
+    "assignee_id": "8f6d778a-f901-46dc-8e77-91339a5902eb",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-28T15:58:01+08:00",
+    "title": "[测试] 火力测试王 cache_control 400 复现",
+    "parent_issue_id": null
+  },
+  "ADM-202": {
+    "id": "19608692-4ba5-4674-8fc0-51fa105be49a",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-28T16:13:11+08:00",
+    "title": "[阶段:提测] [planningtool] OTT 活动建单 panel 默认取值应为 OTT panel 最新版（区分 PMO）",
+    "parent_issue_id": "2cd41c45-ccc6-4c8f-b699-22c1f7d0f4f4"
+  },
+  "ADM-201": {
+    "id": "273a4e6c-7bca-4b63-bdcf-ea76393cf7f3",
+    "status": "cancelled",
+    "assignee_id": "8f6d778a-f901-46dc-8e77-91339a5902eb",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-28T14:20:45+08:00",
+    "title": "[阶段:集成测试] [planningtool] OTT 活动建单 panel 默认取值应为 OTT panel 最新版（区分 PMO）",
+    "parent_issue_id": "2cd41c45-ccc6-4c8f-b699-22c1f7d0f4f4"
+  },
+  "ADM-200": {
+    "id": "e58d3ee4-f7f2-4c1e-8756-7d2fea924d6e",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-28T14:21:00+08:00",
+    "title": "[阶段:自测] [planningtool] OTT 活动建单 panel 默认取值应为 OTT panel 最新版（区分 PMO）",
+    "parent_issue_id": "2cd41c45-ccc6-4c8f-b699-22c1f7d0f4f4"
+  },
+  "ADM-199": {
+    "id": "ebb2a4be-d5aa-4a35-9b79-9a6ceccc5403",
+    "status": "done",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-10-28T15:59:34+08:00",
+    "title": "[ADM] 批量修改OTT活动panel名称（PMO panel→OTT panel）",
+    "parent_issue_id": null
+  },
+  "ADM-198": {
+    "id": "2c339d8f-70a5-4631-b210-4a806e66d9f0",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-28T11:49:55+08:00",
+    "title": "[阶段:编码] [planningtool] OTT 活动建单 panel 默认取值应为 OTT panel 最新版（区分 PMO）",
+    "parent_issue_id": "2cd41c45-ccc6-4c8f-b699-22c1f7d0f4f4"
+  },
+  "ADM-197": {
+    "id": "20e85b40-5a52-4125-89c8-74008509cf88",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-28T10:46:17+08:00",
+    "title": "[阶段:方案] [planningtool] OTT 活动建单 panel 默认取值应为 OTT panel 最新版（区分 PMO）",
+    "parent_issue_id": "2cd41c45-ccc6-4c8f-b699-22c1f7d0f4f4"
+  },
+  "ADM-196": {
+    "id": "2cd41c45-ccc6-4c8f-b699-22c1f7d0f4f4",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-28T16:13:15+08:00",
+    "title": "[planningtool] OTT 活动建单 panel 默认取值应为 OTT panel 最新版（区分 PMO）",
+    "parent_issue_id": null
+  },
   "ADM-195": {
     "id": "76bc160c-6b3d-4e65-b135-f445473e9003",
     "status": "cancelled",
@@ -19,10 +118,10 @@
   },
   "ADM-193": {
     "id": "9fb271f8-018b-4986-8884-51fc0b3f5c3e",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-26T15:44:28+08:00",
+    "updated_at": "2026-10-28T10:58:25+08:00",
     "title": "[ADM] 多维钻取任务计算失败排查（任务ID 4437553、4437544 — 固定模板+基础指标+SIVT指标）",
     "parent_issue_id": null
   },
@@ -76,7 +175,7 @@
     "status": "blocked",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-26T19:47:15+08:00",
+    "updated_at": "2026-10-28T12:00:08+08:00",
     "title": "[阶段:根因排查] [ADM] 监测点落地页URL含@符号导致导出监测代码报错",
     "parent_issue_id": "ad2f6762-99e5-4604-acef-9bac3f61d9d1"
   },
@@ -202,7 +301,7 @@
     "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-22T19:50:13+08:00",
+    "updated_at": "2026-10-28T12:00:11+08:00",
     "title": "[ADM] 监测点落地页URL含@符号导致导出监测代码报错",
     "parent_issue_id": null
   },
@@ -271,10 +370,10 @@
   },
   "ADM-165": {
     "id": "761bb4cc-9162-41b0-aec3-bb1743fcce8d",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-15T13:48:07+08:00",
+    "updated_at": "2026-10-28T10:59:06+08:00",
     "title": "[阶段:根因排查] [ADM] 多维任务执行失败排查（任务ID 4428590）",
     "parent_issue_id": "e097ba09-64b0-4d26-88de-a8969a159b12"
   },
@@ -334,10 +433,10 @@
   },
   "ADM-164": {
     "id": "e097ba09-64b0-4d26-88de-a8969a159b12",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-15T12:13:07+08:00",
+    "updated_at": "2026-10-28T10:59:01+08:00",
     "title": "[ADM] 多维任务执行失败排查（任务ID 4428590）",
     "parent_issue_id": null
   },
@@ -580,7 +679,7 @@
     "status": "in_review",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-08T10:37:13+08:00",
+    "updated_at": "2026-10-28T12:00:15+08:00",
     "title": "[阶段:提测] [TVM] PMO跨屏打通频次指标n最大值由20提高到80",
     "parent_issue_id": "94be2319-1178-4181-8fc1-2f7e9a5f8835"
   },
@@ -694,10 +793,10 @@
   },
   "ADM-118": {
     "id": "f9db9dcd-60ec-486f-9c41-412e0e5ffabd",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-09-28T17:32:22+08:00",
+    "updated_at": "2026-10-28T15:08:15+08:00",
     "title": "[ADM] 多维任务API创建维度组合限制排查（手动可创建但API创建失败）",
     "parent_issue_id": null
   },
@@ -784,19 +883,19 @@
   },
   "ADM-124": {
     "id": "266f4a0c-b734-4ef7-8954-b7d6c1ad6af0",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-09-28T17:32:11+08:00",
+    "updated_at": "2026-10-28T15:08:39+08:00",
     "title": "[阶段:提测] [ADM] 多维任务API创建维度组合限制排查（手动可创建但API创建失败）",
     "parent_issue_id": "f9db9dcd-60ec-486f-9c41-412e0e5ffabd"
   },
   "ADM-96": {
     "id": "4127bf3e-4927-49d2-90da-20baa5296582",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-09-29T15:41:33+08:00",
+    "updated_at": "2026-10-28T15:09:01+08:00",
     "title": "[ADM] Apple定期IVT占比 Benchmark 跑数（2026年7月、8月）",
     "parent_issue_id": null
   },
@@ -805,7 +904,7 @@
     "status": "in_review",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-09-23T20:06:50+08:00",
+    "updated_at": "2026-10-28T12:00:31+08:00",
     "title": "[阶段:提测] ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "29aa13b3-871e-4446-8770-e588f5692877"
   },
@@ -940,7 +1039,7 @@
     "status": "in_review",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-09-23T14:52:53+08:00",
+    "updated_at": "2026-10-28T12:00:35+08:00",
     "title": "[阶段:提测] [TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
     "parent_issue_id": "60e6e8e9-6313-4dc3-9f8e-04212f265a1b"
   },
@@ -967,7 +1066,7 @@
     "status": "in_review",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-09-17T15:04:28+08:00",
+    "updated_at": "2026-10-28T12:00:40+08:00",
     "title": "[TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
     "parent_issue_id": null
   },
@@ -1012,7 +1111,7 @@
     "status": "in_review",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-09-16T16:40:58+08:00",
+    "updated_at": "2026-10-28T12:00:44+08:00",
     "title": "[阶段:提测] [ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
     "parent_issue_id": "9781dc18-71a1-484d-8e7c-40e12d2fdeb5"
   },
@@ -1021,7 +1120,7 @@
     "status": "in_review",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-09-16T16:41:09+08:00",
+    "updated_at": "2026-10-28T12:00:46+08:00",
     "title": "[ADM] 无效ID前端置零：布点场景By Day负数治理（多维+数据洞察）",
     "parent_issue_id": null
   },
@@ -1084,7 +1183,7 @@
     "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-09-03T17:54:38+08:00",
+    "updated_at": "2026-10-28T12:00:47+08:00",
     "title": "[TVM] 多维自动报告异常（任务1106395/1106394）",
     "parent_issue_id": null
   },
@@ -1153,10 +1252,10 @@
   },
   "ADM-53": {
     "id": "f0f45769-ae26-4a40-badd-4f755929b144",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-09-29T15:13:10+08:00",
+    "updated_at": "2026-10-28T15:09:28+08:00",
     "title": "[TVM] 多维钻取与API数据报告适配PMO panel属性ID体系",
     "parent_issue_id": null
   },
@@ -1291,7 +1390,7 @@
     "status": "in_review",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-09-23T19:23:30+08:00",
+    "updated_at": "2026-10-28T12:00:50+08:00",
     "title": "ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
   },
@@ -1396,10 +1495,10 @@
   },
   "ADM-25": {
     "id": "0e9b300f-c269-48a1-b79f-81eb2761b73f",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-09-29T15:15:27+08:00",
+    "updated_at": "2026-10-28T15:09:51+08:00",
     "title": "TVM 数据中心 API 接口开发",
     "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
   },
