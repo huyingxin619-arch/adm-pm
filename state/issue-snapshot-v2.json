@@ -10,19 +10,28 @@
   },
   "ADM-205": {
     "id": "6eaab4f6-eed4-42ef-97e6-0ba6d4c16912",
-    "status": "todo",
+    "status": "in_progress",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-10-28T16:56:13+08:00",
+    "updated_at": "2026-10-30T11:35:57+08:00",
     "title": "TVMonitor 业务日志降噪与审计上下文清理",
+    "parent_issue_id": null
+  },
+  "ADM-207": {
+    "id": "f21a8d43-e3c7-463b-a344-739ba2b322d0",
+    "status": "todo",
+    "assignee_id": "801c88d7-f6b9-482e-9a64-a34c832f782f",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-30T17:24:35+08:00",
+    "title": "[TVM] OTT-丝塔芙风行-流量签名重算（活动4144544）",
     "parent_issue_id": null
   },
   "ADM-204": {
     "id": "b2970cbc-5af0-4030-b464-1962f09673c2",
-    "status": "todo",
+    "status": "in_progress",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-10-28T16:56:13+08:00",
+    "updated_at": "2026-10-30T11:35:57+08:00",
     "title": "活动点位恢复工单接口新增 Excel 文件导入功能",
     "parent_issue_id": null
   },
