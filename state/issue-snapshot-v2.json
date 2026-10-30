@@ -8,6 +8,15 @@
     "title": "日志改造实施及 dev 验证进度（2026-10-28）",
     "parent_issue_id": "6eaab4f6-eed4-42ef-97e6-0ba6d4c16912"
   },
+  "ADM-208": {
+    "id": "4fe6d8f1-c80c-4202-942d-e06d7c8ecd32",
+    "status": "in_progress",
+    "assignee_id": "b72f5107-6238-4116-99c8-98bca0603a8d",
+    "assignee_type": "expert",
+    "updated_at": "2026-10-30T18:26:47+08:00",
+    "title": "排查海信 2026-10-28 验证参数接口请求日志（challenge_factor 与下发值不一致）",
+    "parent_issue_id": null
+  },
   "ADM-205": {
     "id": "6eaab4f6-eed4-42ef-97e6-0ba6d4c16912",
     "status": "in_progress",
