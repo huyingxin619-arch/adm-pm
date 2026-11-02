@@ -8,6 +8,15 @@
     "title": "日志改造实施及 dev 验证进度（2026-10-28）",
     "parent_issue_id": "6eaab4f6-eed4-42ef-97e6-0ba6d4c16912"
   },
+  "ADM-209": {
+    "id": "cdc7f359-dc4d-4901-853e-9db4f44e8fce",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-02T15:16:31+08:00",
+    "title": "[紧急] 快手11/1网络中断影响排查 — 导出投放周期含11月1日的快手系活动列表",
+    "parent_issue_id": null
+  },
   "ADM-208": {
     "id": "4fe6d8f1-c80c-4202-942d-e06d7c8ecd32",
     "status": "in_progress",
@@ -1084,7 +1093,7 @@
     "status": "in_review",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-28T12:00:40+08:00",
+    "updated_at": "2026-11-02T14:04:21+08:00",
     "title": "[TVM] 无效ID前端置零：布点场景By Day负数治理（数据洞察+多维钻取）",
     "parent_issue_id": null
   },
