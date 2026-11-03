@@ -1,4 +1,31 @@
 {
+  "ADM-217": {
+    "id": "c33f7247-2222-4b69-a645-a7e754e0f747",
+    "status": "todo",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-03T19:12:37+08:00",
+    "title": "ADM-216 测试建单",
+    "parent_issue_id": null
+  },
+  "ADM-216": {
+    "id": "b7bb4e2d-809f-4164-a0a1-11562d2f0fe0",
+    "status": "todo",
+    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-03T18:55:31+08:00",
+    "title": "测试issue-认证验证",
+    "parent_issue_id": null
+  },
+  "ADM-212": {
+    "id": "c7ce3460-0a24-4836-a307-85a36cb5fb86",
+    "status": "done",
+    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
+    "assignee_type": "member",
+    "updated_at": "2026-11-03T14:21:41+08:00",
+    "title": "OTT-SIVT-多地域异常2.0计算报错问题修复",
+    "parent_issue_id": null
+  },
   "ADM-206": {
     "id": "c65b9af8-e7ad-4d32-a41b-42e4cc0a6346",
     "status": "in_progress",
@@ -7,6 +34,33 @@
     "updated_at": "2026-10-28T19:13:58+08:00",
     "title": "日志改造实施及 dev 验证进度（2026-10-28）",
     "parent_issue_id": "6eaab4f6-eed4-42ef-97e6-0ba6d4c16912"
+  },
+  "ADM-215": {
+    "id": "2a76bfb7-379f-4f20-8678-1d6c66e0139a",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-03T15:42:58+08:00",
+    "title": "[TVM] SIVT多地域异常2.0模块计算失败修复优化",
+    "parent_issue_id": null
+  },
+  "ADM-211": {
+    "id": "59a10619-e532-4b88-a0fb-f60fb7db5d4e",
+    "status": "done",
+    "assignee_id": "41eee17b-bcb6-44a1-a091-6dc4b000aaed",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-03T14:08:32+08:00",
+    "title": "[阶段:根因排查] [ADM] m+任务队列大量任务卡在\"正在提交\"状态",
+    "parent_issue_id": "9c16180d-6c59-4918-a94b-d948f34b2028"
+  },
+  "ADM-210": {
+    "id": "9c16180d-6c59-4918-a94b-d948f34b2028",
+    "status": "done",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-03T14:09:25+08:00",
+    "title": "[ADM] m+任务队列大量任务卡在\"正在提交\"状态",
+    "parent_issue_id": null
   },
   "ADM-209": {
     "id": "cdc7f359-dc4d-4901-853e-9db4f44e8fce",
@@ -19,10 +73,10 @@
   },
   "ADM-208": {
     "id": "4fe6d8f1-c80c-4202-942d-e06d7c8ecd32",
-    "status": "in_progress",
+    "status": "done",
     "assignee_id": "b72f5107-6238-4116-99c8-98bca0603a8d",
     "assignee_type": "expert",
-    "updated_at": "2026-10-30T18:26:47+08:00",
+    "updated_at": "2026-11-03T11:03:31+08:00",
     "title": "排查海信 2026-10-28 验证参数接口请求日志（challenge_factor 与下发值不一致）",
     "parent_issue_id": null
   },
@@ -46,10 +100,10 @@
   },
   "ADM-204": {
     "id": "b2970cbc-5af0-4030-b464-1962f09673c2",
-    "status": "in_progress",
+    "status": "done",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-10-30T11:35:57+08:00",
+    "updated_at": "2026-11-03T15:09:18+08:00",
     "title": "活动点位恢复工单接口新增 Excel 文件导入功能",
     "parent_issue_id": null
   },
@@ -163,10 +217,10 @@
   },
   "ADM-191": {
     "id": "bf38a209-b229-4e34-8b91-ecabb2eef2b2",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "f90db656-6667-4abd-b20e-75e6d2bc561b",
     "assignee_type": "expert",
-    "updated_at": "2026-10-23T15:17:11+08:00",
+    "updated_at": "2026-11-03T11:04:10+08:00",
     "title": "[ADM] IPIP 停采影响评估：多版本 IPIP 配置重跑白名单 v8",
     "parent_issue_id": null
   },
@@ -298,10 +352,10 @@
   },
   "ADM-176": {
     "id": "7fff4017-9fe3-4708-b4f2-7c6c3a619553",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-22T15:24:33+08:00",
+    "updated_at": "2026-11-03T14:41:27+08:00",
     "title": "[ADM] 小米测试环境挑战因子接口请求key失效更新",
     "parent_issue_id": null
   },

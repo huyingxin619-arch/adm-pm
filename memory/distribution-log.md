@@ -53,7 +53,7 @@
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
 | ADM-175 | [TVM] Daily Report支持PMO Panel类型计算 | 2026-10-22 | wkc 小分队（吴坤城） | in_progress | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；TVM新增PMO Panel类型，前端已完成适配；需大数据daily report支持PMO Panel计算（指标与活动报表一致，target device除外）；重算模块适配；universe配置表新增地域码映射关系；第一期不含高打通算法；issue ID: b8251401-9913-49bf-971d-6869af7895c6；labels: type/feature+tech/data-tvm；已发卡片通知群聊@吴济；10/22 11:01 状态变更 todo→in_progress + 指派人变更（8a96f947→6d638aa2）；10/22 11:01 新评论（已完成现有 TVM Daily Report 代码结构调研，以下是开发 Plan，请审批），已通知群聊@吴济；10/22 14:41 新评论（本需求已由人工开发），已通知群聊@吴济 |
-| ADM-176 | [ADM] 小米测试环境挑战因子接口请求key失效更新 | 2026-10-22 | 团长（octo-issue-dispatcher） | todo | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；小米测试环境挑战因子接口请求key失效；需更新key并通过小米专用接口推送；黄春波member指派报identity unavailable，改走团长派发；issue ID: 7fff4017-9fe3-4708-b4f2-7c6c3a619553；labels: svc/admonitor+type/operation+tech/backend；已发卡片通知群聊@邢思源；10/22 15:24 新评论（octo-issue-dispatcher: openclaw返回无可解析输出），已通知群聊@邢思源 |
+| ADM-176 | [ADM] 小米测试环境挑战因子接口请求key失效更新 | 2026-10-22 | 团长（octo-issue-dispatcher） | todo | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；小米测试环境挑战因子接口请求key失效；需更新key并通过小米专用接口推送；黄春波member指派报identity unavailable，改走团长派发；issue ID: 7fff4017-9fe3-4708-b4f2-7c6c3a619553；labels: svc/admonitor+type/operation+tech/backend；已发卡片通知群聊@邢思源；10/22 15:24 新评论（octo-issue-dispatcher: openclaw返回无可解析输出），已通知群聊@邢思源；11/03 14:41 状态变更 todo→done 已闭环，已通知群聊@邢思源 |
 | ADM-177 | 【小米】10.21 新一波像素测试投放，请提取日志 | 2026-10-22 | wkc-deployer（bbea0220） | todo | 提需人：未知；无通知渠道记录（Loop内自建，issue描述中无提需人/通知渠道字段）；issue ID: bc6f5c3f-508f-4fed-ac54-761247801d86；10/23 09:36 新评论（wkc-deployer提供SFTP信息：dts.mininglamp.com:2222，用户名ADM-PE，请将相关逻辑整）无通知渠道跳过通知；10/23 10:43 新评论（wkc-deployer：全链路收口✅ 跑数→SFTP交付→脚本固化三步完成，无后续派单，本单结束）+新评论（wkc-指挥官：已闭环，收口评论已发，归档两点：后续phsv提取统一走run_phsv_extract.sh传参）无通知渠道跳过通知；10/23 10:43 新评论（指挥官收口评论已归档进记忆）无通知渠道跳过通知 |
 | ADM-179 | [TVM] PMO Panel类型下新增两个panel配置 | 2026-10-22 | 团长（octo-issue-dispatcher）→李晴晴 | done | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；TVM活动管理PMO panel类型下新增两个panel（pmo_panel.2022H1_20230525和pmo_panel.2023H1_20240514）；含commercialTVGraph/population/sceneIpLib/stableOTT/calculateType参数；issue ID: 4d2df917-ca18-4391-b28b-e09ad8a30453；labels: svc/tv-web+type/operation+tech/frontend；已发卡片通知群聊@吴济；10/27 15:08 状态变更 todo→done 已闭环，已通知群聊@吴济 |
 | ADM-190 | 【流程优化】将人员角色权限配置化并统一判断 | 2026-10-23 | 团长（octo-issue-dispatcher） | in_review | 提需人：未知；无通知渠道记录（Loop内自建）；issue ID: b8bdaae5-821f-470f-8677-3efc425a9736；10/23 11:07 状态变更 in_progress→in_review（请验收）+新评论（已完成权限配置化改造，新增config/permissions.yaml）无通知渠道跳过通知；10/23 11:07 新评论（@octo-issue-dispatcher 方案/测试确认卡默认通知worker所属的人员，不是最高权限者）无通知渠道跳过通知；10/23 11:32 新评论（评论预览：已按你的纠正改掉，方案/测试确认卡恢复为默认通知 worker 所属人员）无通知渠道跳过通知 |
@@ -313,12 +313,15 @@ _每次分发后即时更新。_
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
 | ADM-209 | [TVM] SIVT多地域异常2.0模块计算失败修复优化 | 2026-11-03 | 吴坤城（@Octo-Ad-Issue-Dispatcher 代建） | todo | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；20261103凌晨计算20261102 SIVT报错，点位ID=334V3已删但有遗留日志导致多地域异常2.0模块计算失败；已重跑20261102数据；需参照其他SIVT规则修复优化避免同类问题；labels: type/bug+tech/sivt-tvm+tech/data-tvm；已发卡片通知群聊@王心宇；⚠️octo-daemon 403 PROJECT_MEMBERSHIP_REQUIRED，通过@Octo-Ad-Issue-Dispatcher代建issue |
+| ADM-210 | [ADM] m+任务队列大量任务卡在"正在提交"状态 | 2026-11-03 | octo-issue-dispatcher→cab5ac70 | done | 提需人：未知；无通知渠道记录（Loop内自建）；11/03 11:37 updated（当前in_progress）非通知类型跳过通知；11/03 11:37 新评论（octo-issue-dispatcher：已按bug类流程完成受理与派发，格式审核通过，已开启根因排查子单ADM-211）无通知渠道跳过通知；11/03 14:09 状态变更 in_progress→done 已闭环 + 指派人变更（4f356f9a→cab5ac70）无通知渠道跳过通知 |
+| ADM-211 | [阶段:根因排查] [ADM] m+任务队列大量任务卡在"正在提交"状态 | 2026-11-03 | 未指派 | done | 提需人：未知（继承父需求ADM-210）；无通知渠道记录；父需求ADM-210；11/03 11:36 新建子任务；无通知渠道跳过通知；11/03 14:08 状态变更 todo→done 已闭环 无通知渠道跳过通知 |
+| ADM-212 | OTT-SIVT-多地域异常2.0计算报错问题修复 | 2026-11-03 | 吴坤城（d5ca704c） | done | 提需人：未知；无通知渠道记录（Loop内自建）；issue ID: c7ce3460-0a24-4836-a307-85a36cb5fb86；11/03 14:21 状态变更 todo→done 已闭环 无通知渠道跳过通知 |
 
 ## 2026-10-30
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-204 | 活动点位恢复工单接口新增 Excel 文件导入功能 | 2026-10-30 | 未知 | in_progress | 提需人：未知；无通知渠道记录（Loop内自建或未记录）；10/30 11:35 状态变更 todo→in_progress 非通知类型跳过通知 |
+| ADM-204 | 活动点位恢复工单接口新增 Excel 文件导入功能 | 2026-10-30 | 未知 | done | 提需人：未知；无通知渠道记录（Loop内自建或未记录）；10/30 11:35 状态变更 todo→in_progress 非通知类型跳过通知；11/03 15:09 状态变更 in_progress→done 已闭环 无通知渠道跳过通知 |
 | ADM-205 | 日志改造实施及 dev 验证 | 2026-10-28 | 未知 | in_progress | 提需人：未知；无通知渠道记录（Loop内自建或未记录）；10/28 19:00 拆分新子任务 ADM-206；10/30 11:35 状态变更 todo→in_progress 非通知类型跳过通知 |
 | ADM-206 | 日志改造实施及 dev 验证进度（2026-10-28） | 2026-10-28 | 未知 | in_progress | 提需人：未知（继承父需求ADM-205）；无通知渠道记录；父需求ADM-205；10/28 19:00 新建子任务（status=in_progress）无通知渠道跳过通知；10/28 19:13 指派人变更为 cab5ac70（octo-daemon session过期未解析名称），不通知类型不发送卡片 |
 
