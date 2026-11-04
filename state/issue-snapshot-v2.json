@@ -1,19 +1,37 @@
 {
+  "ADM-219": {
+    "id": "81126c15-39fa-4358-9d24-33d89203440f",
+    "status": "todo",
+    "assignee_id": "cabf9fd0-3d28-42e5-9a25-b4a7348c1a2b",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-04T14:59:47+08:00",
+    "title": "[阶段:方案] [TVM] Planningtool 解析逻辑更新：新增 pixelMonitor 字段映射至 pixel_monitor",
+    "parent_issue_id": "69d84b3c-05f8-4643-903d-5c4f826156be"
+  },
   "ADM-217": {
     "id": "c33f7247-2222-4b69-a645-a7e754e0f747",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-11-03T19:12:37+08:00",
+    "updated_at": "2026-11-04T10:22:28+08:00",
     "title": "ADM-216 测试建单",
+    "parent_issue_id": null
+  },
+  "ADM-218": {
+    "id": "69d84b3c-05f8-4643-903d-5c4f826156be",
+    "status": "in_progress",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-04T15:00:11+08:00",
+    "title": "[TVM] Planningtool 解析逻辑更新：新增 pixelMonitor 字段映射至 pixel_monitor",
     "parent_issue_id": null
   },
   "ADM-216": {
     "id": "b7bb4e2d-809f-4164-a0a1-11562d2f0fe0",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
     "assignee_type": "expert",
-    "updated_at": "2026-11-03T18:55:31+08:00",
+    "updated_at": "2026-11-04T10:22:28+08:00",
     "title": "测试issue-认证验证",
     "parent_issue_id": null
   },

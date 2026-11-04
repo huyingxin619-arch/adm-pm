@@ -118,3 +118,4 @@
 | ADM-211 | [阶段:根因排查] [ADM] m+任务队列大量任务卡在"正在提交"状态 | 已闭环 | 未指派 | 2026-11-03 14:08 | 提需人：未知（继承父需求ADM-210）；无通知渠道记录；父需求ADM-210；11/03 11:36 新建子任务；11/03 14:08 状态变更 todo→done 已闭环 无通知渠道跳过通知 |
 | ADM-212 | OTT-SIVT-多地域异常2.0计算报错问题修复 | 已闭环 | 吴坤城（d5ca704c） | 2026-11-03 14:21 | 提需人：未知；无通知渠道记录（Loop内自建）；issue ID: c7ce3460-0a24-4836-a307-85a36cb5fb86；11/03 14:21 状态变更 todo→done 已闭环 无通知渠道跳过通知 |
 | ADM-176 | [ADM] 小米测试环境挑战因子接口请求key失效更新 | 已完成 | 团长（octo-issue-dispatcher） | 2026-11-03 14:41 | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；11/03 14:41 状态变更 todo→done 已闭环，已通知群聊@邢思源 |
+| ADM-218 | [TVM] Planningtool 解析逻辑更新：新增 pixelMonitor 字段映射至 pixel_monitor | 已分发 | 团长（octo-issue-dispatcher） | 2026-11-04 14:56 | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high/P1；Due 11/20；客户消息新增pixelMonitor字段(枚举0/1)，解析时赋值给TVM广告位pixel_monitor；缺失默认0；只改Planningtool解析逻辑；issue ID: 69d84b3c-05f8-4643-903d-5c4f826156be；labels: svc/tv-api+svc/planning-tool+tech/backend+type/feature；已发卡片通知群聊@吴济 |
