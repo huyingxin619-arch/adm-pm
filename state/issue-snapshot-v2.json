@@ -1,10 +1,19 @@
 {
+  "ADM-221": {
+    "id": "6d53ac1e-2c91-41b0-9d48-238b351a848f",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-04T18:21:21+08:00",
+    "title": "[阶段:方案] [TVM] RM获取监测代码接口：按pixel_monitor导出对应代码字段（OTT侧）",
+    "parent_issue_id": "7b14ea59-9560-4201-b263-732883ecbc8c"
+  },
   "ADM-219": {
     "id": "81126c15-39fa-4358-9d24-33d89203440f",
-    "status": "todo",
-    "assignee_id": "cabf9fd0-3d28-42e5-9a25-b4a7348c1a2b",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-04T14:59:47+08:00",
+    "updated_at": "2026-11-04T16:45:19+08:00",
     "title": "[阶段:方案] [TVM] Planningtool 解析逻辑更新：新增 pixelMonitor 字段映射至 pixel_monitor",
     "parent_issue_id": "69d84b3c-05f8-4643-903d-5c4f826156be"
   },
@@ -17,12 +26,75 @@
     "title": "ADM-216 测试建单",
     "parent_issue_id": null
   },
-  "ADM-218": {
-    "id": "69d84b3c-05f8-4643-903d-5c4f826156be",
+  "ADM-227": {
+    "id": "ef21988a-8f89-4fce-a9cb-9e5d5f1bcbe5",
+    "status": "blocked",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-04T18:25:30+08:00",
+    "title": "[阶段:编码] [TVM] RM获取监测代码接口：按pixel_monitor导出对应代码字段（OTT侧）",
+    "parent_issue_id": "7b14ea59-9560-4201-b263-732883ecbc8c"
+  },
+  "ADM-226": {
+    "id": "55dcea29-b398-4b98-87f8-d73ab3f78eb0",
+    "status": "blocked",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-04T17:46:05+08:00",
+    "title": "[阶段:根因排查] [ADM] 多维钻取byday同时勾选RealTime和GIVT时表头与数据错位",
+    "parent_issue_id": "b59a3a4e-d71a-4e92-bc65-d1ef87b2d547"
+  },
+  "ADM-225": {
+    "id": "b59a3a4e-d71a-4e92-bc65-d1ef87b2d547",
     "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-04T15:00:11+08:00",
+    "updated_at": "2026-11-04T17:33:21+08:00",
+    "title": "[ADM] 多维钻取byday同时勾选RealTime和GIVT时表头与数据错位",
+    "parent_issue_id": null
+  },
+  "ADM-224": {
+    "id": "398c5597-3462-4b48-8cab-3260c585dfdf",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-04T18:20:31+08:00",
+    "title": "[阶段:提测] [TVM] Planningtool 解析逻辑更新：新增 pixelMonitor 字段映射至 pixel_monitor",
+    "parent_issue_id": "69d84b3c-05f8-4643-903d-5c4f826156be"
+  },
+  "ADM-223": {
+    "id": "ded7f3a3-f215-45c3-8f67-9ea0ee04c881",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-04T17:12:16+08:00",
+    "title": "[阶段:自测] [TVM] Planningtool 解析逻辑更新：新增 pixelMonitor 字段映射至 pixel_monitor",
+    "parent_issue_id": "69d84b3c-05f8-4643-903d-5c4f826156be"
+  },
+  "ADM-222": {
+    "id": "7ee8de8b-24c1-431c-a455-655b8ff04fcd",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-04T16:53:03+08:00",
+    "title": "[阶段:编码] [TVM] Planningtool 解析逻辑更新：新增 pixelMonitor 字段映射至 pixel_monitor",
+    "parent_issue_id": "69d84b3c-05f8-4643-903d-5c4f826156be"
+  },
+  "ADM-220": {
+    "id": "7b14ea59-9560-4201-b263-732883ecbc8c",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-04T16:33:37+08:00",
+    "title": "[TVM] RM获取监测代码接口：按pixel_monitor导出对应代码字段（OTT侧）",
+    "parent_issue_id": null
+  },
+  "ADM-218": {
+    "id": "69d84b3c-05f8-4643-903d-5c4f826156be",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-04T18:20:37+08:00",
     "title": "[TVM] Planningtool 解析逻辑更新：新增 pixelMonitor 字段映射至 pixel_monitor",
     "parent_issue_id": null
   },
