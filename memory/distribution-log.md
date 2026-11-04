@@ -45,7 +45,8 @@
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-218 | [TVM] Planningtool 解析逻辑更新：新增 pixelMonitor 字段映射至 pixel_monitor | 2026-11-04 | 团长（octo-issue-dispatcher） | todo | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high/P1；Due 11/20；客户消息新增pixelMonitor字段(枚举0/1)，解析时赋值给TVM广告位pixel_monitor；缺失默认0；只改Planningtool解析逻辑；issue ID: 69d84b3c-05f8-4643-903d-5c4f826156be；labels: svc/tv-api+svc/planning-tool+tech/backend+type/feature；已发卡片通知群聊@吴济 |
+| ADM-218 | [TVM] Planningtool 解析逻辑更新：新增 pixelMonitor 字段映射至 pixel_monitor | 2026-11-04 | 团长（octo-issue-dispatcher） | todo | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high/P1；Due 11/20；客户消息新增pixelMonitor字段(枚举0/1)，解析时赋值给TVM广告位pixel_monitor；缺失默认0；只改Planningtool解析逻辑；issue ID: 69d84b3c-05f8-4643-903d-5c4f826156be；labels: svc/tv-api+svc/planning-tool+tech/backend+type/feature；已发卡片通知群聊@吴济；11/04 15:07 ADM-219 状态变更 todo→blocked（方案就绪通知卡片发送失败，基础设施bug卡住，请黄春波处理）+新评论（团长：worker hcb-planingtool已交付方案，等待发plan-ready卡片确认），已通知群聊@吴济 |
+| ADM-220 | [TVM] RM获取监测代码接口：按pixel_monitor导出对应代码字段（OTT侧） | 2026-11-04 | 团长→小胡（member） | todo | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P1；Due 11/20；ADM-137扩展需求；接口/monitortv/v1/rm/getRMCostomCode按pixel_monitor值导出对应代码字段；关联ADM-218；issue ID: ADM-220；labels: svc/tv-api；11/04 15:16 指派人变更（团长4f356f9a→小胡d8b9f7b4，非通知类型跳过通知） |
 
 ## 2026-10-30
 
