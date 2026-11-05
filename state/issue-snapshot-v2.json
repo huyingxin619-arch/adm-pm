@@ -1,10 +1,19 @@
 {
+  "ADM-246": {
+    "id": "c984e162-68c1-4669-81dd-4ae230393b24",
+    "status": "todo",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-05T18:27:56+08:00",
+    "title": "[ADM] 多维钻取数据下载文件异常（任务ID 4462608）",
+    "parent_issue_id": null
+  },
   "ADM-245": {
     "id": "3446df1a-aa92-4484-8aad-18d2cbff7e3d",
-    "status": "todo",
-    "assignee_id": "8f6d778a-f901-46dc-8e77-91339a5902eb",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T18:22:37+08:00",
+    "updated_at": "2026-11-05T18:41:32+08:00",
     "title": "【浏览器复现】用两份原模板验证 OTT 布点计算标记（ADM-240）",
     "parent_issue_id": "9466f2f7-8fa4-4c2c-9857-4b9a384e97ad"
   },
