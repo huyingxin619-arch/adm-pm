@@ -26,6 +26,15 @@
     "title": "ADM-216 测试建单",
     "parent_issue_id": null
   },
+  "ADM-228": {
+    "id": "fd7eba54-5f12-405f-a61d-a64354d31086",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-05T10:40:39+08:00",
+    "title": "[TVM] 导入模板增加pixel_monitor字段，新增像素方案专用导入模板",
+    "parent_issue_id": null
+  },
   "ADM-227": {
     "id": "ef21988a-8f89-4fce-a9cb-9e5d5f1bcbe5",
     "status": "blocked",
