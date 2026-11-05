@@ -45,8 +45,10 @@
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-228 | [TVM] 导入模板增加pixel_monitor字段，新增像素方案专用导入模板 | 2026-11-05 | 团长（octo-issue-dispatcher） | todo | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；关联ADM-137/218/220；issue ID: fd7eba54-5f12-405f-a61d-a64354d31086；labels: svc/tv-web+svc/tv-api+tech/frontend+tech/backend+type/feature；已发卡片通知群聊@邢思源 |
-| ADM-229 | [ADM] 活动2520763重算卡在11-3无进展 | 2026-11-05 | 团长（octo-issue-dispatcher） | todo | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；11-4提交重算卡在11-3；11-5上午重新提交仍卡住；issue ID: 1c08330d-b509-4baa-b9a4-81171c6dc2a9；labels: svc/admonitor+tech/backend+type/investigate；已发卡片通知群聊@邢思源 |
+| ADM-228 | [TVM] 导入模板增加pixel_monitor字段，新增像素方案专用导入模板 | 2026-11-05 | 团长（octo-issue-dispatcher） | in_progress | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；关联ADM-137/218/220；issue ID: fd7eba54-5f12-405f-a61d-a64354d31086；labels: svc/tv-web+svc/tv-api+tech/frontend+tech/backend+type/feature；已发卡片通知群聊@邢思源；11/05 10:51 状态变更 todo→in_progress（非通知类型）；11/05 10:51 新评论（团长：已完成格式审核与派发，补齐标签svc/tv-web+type/feature，已建方案子单ADM-230派给hcb-cloud-tv-web），已通知群聊@邢思源 |
+| ADM-229 | [ADM] 活动2520763重算卡在11-3无进展 | 2026-11-05 | 团长（octo-issue-dispatcher） | in_review | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；11-4提交重算卡在11-3；11-5上午重新提交仍卡住；issue ID: 1c08330d-b509-4baa-b9a4-81171c6dc2a9；labels: svc/admonitor+tech/backend+type/investigate；已发卡片通知群聊@邢思源；11/05 10:51 状态变更 todo→in_progress（非通知类型）；11/05 10:58 状态变更 in_progress→in_review（请验收），已通知群聊@邢思源；11/05 10:58 新评论（团长：已完成格式审核与派发，补齐标签svc/admonitor+type/bug，已建阶段子单ADM-231），已通知群聊@邢思源；11/05 10:57 ADM-231 新建子任务（阶段:根因排查），已通知群聊@邢思源 |
+| ADM-230 | [阶段:方案] [TVM] 导入模板增加pixel_monitor字段，新增像素方案专用导入模板 | 2026-11-05 | 团长（octo-issue-dispatcher） | todo | 提需人：邢思源（继承父需求ADM-228）；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；父需求ADM-228；11/05 10:50 新建子任务，已通知群聊@邢思源；11/05 10:54 指派人变更→团长（octo-issue-dispatcher），非通知类型 |
+| ADM-231 | [阶段:根因排查] [ADM] 活动2520763重算卡在11-3无进展 | 2026-11-05 | 团长（octo-issue-dispatcher） | todo | 提需人：邢思源（继承父需求ADM-229）；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；父需求ADM-229；11/05 10:57 新建子任务，已通知群聊@邢思源 |
 
 ## 2026-11-04
 
