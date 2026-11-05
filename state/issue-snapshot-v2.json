@@ -11,9 +11,9 @@
   "ADM-237": {
     "id": "6abed1d0-ebe4-405c-bcd7-a093724e4611",
     "status": "in_progress",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_id": "8f6d778a-f901-46dc-8e77-91339a5902eb",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T16:01:07+08:00",
+    "updated_at": "2026-11-05T16:23:27+08:00",
     "title": "[阶段:集成测试] [TVM] 导入模板增加pixel_monitor字段，新增像素方案专用导入模板",
     "parent_issue_id": "fd7eba54-5f12-405f-a61d-a64354d31086"
   },
@@ -22,7 +22,7 @@
     "status": "in_progress",
     "assignee_id": "8f6d778a-f901-46dc-8e77-91339a5902eb",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T15:40:53+08:00",
+    "updated_at": "2026-11-05T16:25:25+08:00",
     "title": "[阶段:集成测试] [TVM] RM获取监测代码接口：按pixel_monitor导出对应代码字段（OTT侧）",
     "parent_issue_id": "7b14ea59-9560-4201-b263-732883ecbc8c"
   },
