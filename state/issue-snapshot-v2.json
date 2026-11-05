@@ -1,4 +1,22 @@
 {
+  "ADM-248": {
+    "id": "98fb291b-34da-46a0-8e9f-98cdb3c83742",
+    "status": "blocked",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-05T21:04:41+08:00",
+    "title": "[阶段:根因排查] [ADM] 多维任务4462577缺少精准到达10结果排查",
+    "parent_issue_id": "0a9eae45-6602-4d3e-9026-f7b312dbbc61"
+  },
+  "ADM-247": {
+    "id": "0a9eae45-6602-4d3e-9026-f7b312dbbc61",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-05T19:29:07+08:00",
+    "title": "[ADM] 多维任务4462577缺少精准到达10结果排查",
+    "parent_issue_id": null
+  },
   "ADM-246": {
     "id": "c984e162-68c1-4669-81dd-4ae230393b24",
     "status": "todo",
