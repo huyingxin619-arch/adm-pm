@@ -8,21 +8,39 @@
     "title": "[阶段:自测] [TVM] RM获取监测代码接口：按pixel_monitor导出对应代码字段（OTT侧）",
     "parent_issue_id": "7b14ea59-9560-4201-b263-732883ecbc8c"
   },
+  "ADM-241": {
+    "id": "f74b23cc-51c5-4792-9afd-0cb16bbdd821",
+    "status": "in_progress",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-05T16:47:02+08:00",
+    "title": "[阶段:提测] [TVM] 导入模板增加pixel_monitor字段，新增像素方案专用导入模板",
+    "parent_issue_id": "fd7eba54-5f12-405f-a61d-a64354d31086"
+  },
   "ADM-237": {
     "id": "6abed1d0-ebe4-405c-bcd7-a093724e4611",
-    "status": "in_progress",
-    "assignee_id": "8f6d778a-f901-46dc-8e77-91339a5902eb",
+    "status": "done",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T16:23:27+08:00",
+    "updated_at": "2026-11-05T16:45:59+08:00",
     "title": "[阶段:集成测试] [TVM] 导入模板增加pixel_monitor字段，新增像素方案专用导入模板",
     "parent_issue_id": "fd7eba54-5f12-405f-a61d-a64354d31086"
+  },
+  "ADM-240": {
+    "id": "9466f2f7-8fa4-4c2c-9857-4b9a384e97ad",
+    "status": "todo",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-05T16:28:05+08:00",
+    "title": "[ADM] OTT活动4147536/4144759导入后布点计算标记与模板不一致排查",
+    "parent_issue_id": null
   },
   "ADM-239": {
     "id": "b9b6df98-a026-4342-8c6e-851e33cd21ac",
     "status": "in_progress",
-    "assignee_id": "8f6d778a-f901-46dc-8e77-91339a5902eb",
+    "assignee_id": "1c537bb8-6269-4cb0-95b2-31459231486f",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T16:25:25+08:00",
+    "updated_at": "2026-11-05T16:47:11+08:00",
     "title": "[阶段:集成测试] [TVM] RM获取监测代码接口：按pixel_monitor导出对应代码字段（OTT侧）",
     "parent_issue_id": "7b14ea59-9560-4201-b263-732883ecbc8c"
   },
