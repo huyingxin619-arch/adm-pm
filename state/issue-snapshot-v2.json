@@ -1,10 +1,37 @@
 {
-  "ADM-229": {
-    "id": "1c08330d-b509-4baa-b9a4-81171c6dc2a9",
+  "ADM-232": {
+    "id": "a6bf0ffd-268e-461c-994f-76e90292ead8",
+    "status": "todo",
+    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
+    "assignee_type": "member",
+    "updated_at": "2026-11-05T11:16:48+08:00",
+    "title": "OTT 验证帧并入标准 ETL（tp=bit）—需求文档与流程说明",
+    "parent_issue_id": null
+  },
+  "ADM-231": {
+    "id": "46096156-cf76-4de8-9dc9-388cbe16f9ff",
+    "status": "blocked",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-05T11:18:43+08:00",
+    "title": "[阶段:根因排查] [ADM] 活动2520763重算卡在11-3无进展",
+    "parent_issue_id": "1c08330d-b509-4baa-b9a4-81171c6dc2a9"
+  },
+  "ADM-230": {
+    "id": "6fd26251-ff08-4987-949f-56c75695c8a0",
     "status": "todo",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T10:44:05+08:00",
+    "updated_at": "2026-11-05T10:59:47+08:00",
+    "title": "[阶段:方案] [TVM] 导入模板增加pixel_monitor字段，新增像素方案专用导入模板",
+    "parent_issue_id": "fd7eba54-5f12-405f-a61d-a64354d31086"
+  },
+  "ADM-229": {
+    "id": "1c08330d-b509-4baa-b9a4-81171c6dc2a9",
+    "status": "in_review",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-05T10:58:32+08:00",
     "title": "[ADM] 活动2520763重算卡在11-3无进展",
     "parent_issue_id": null
   },
@@ -37,10 +64,10 @@
   },
   "ADM-228": {
     "id": "fd7eba54-5f12-405f-a61d-a64354d31086",
-    "status": "todo",
+    "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T10:40:39+08:00",
+    "updated_at": "2026-11-05T10:51:00+08:00",
     "title": "[TVM] 导入模板增加pixel_monitor字段，新增像素方案专用导入模板",
     "parent_issue_id": null
   },
