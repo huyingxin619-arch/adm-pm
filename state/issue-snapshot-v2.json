@@ -1,4 +1,31 @@
 {
+  "ADM-251": {
+    "id": "5a075eb8-69c6-4c22-85ac-1cda1b850797",
+    "status": "todo",
+    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
+    "assignee_type": "member",
+    "updated_at": "2026-11-06T16:49:06+08:00",
+    "title": "OTT 宽表核对与统一生产交接：小米 10.21 / 芒果 10.15-18 / 海信 9.22",
+    "parent_issue_id": "a6bf0ffd-268e-461c-994f-76e90292ead8"
+  },
+  "ADM-250": {
+    "id": "a6fa6e5a-2485-4c89-af29-282047e71009",
+    "status": "todo",
+    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
+    "assignee_type": "member",
+    "updated_at": "2026-11-06T18:36:23+08:00",
+    "title": "OTT 验证帧接入：实时排除 phsv≠0，ETL 新增 tp=bit，tirule/tvrmFilter 放行",
+    "parent_issue_id": "a6bf0ffd-268e-461c-994f-76e90292ead8"
+  },
+  "ADM-249": {
+    "id": "8512f292-31c8-4b5e-af0f-c6b9e6fd020b",
+    "status": "cancelled",
+    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-06T16:17:04+08:00",
+    "title": "[阶段:方案] [ADM] 多维钻取byday同时勾选RealTime和GIVT时表头与数据错位",
+    "parent_issue_id": "b59a3a4e-d71a-4e92-bc65-d1ef87b2d547"
+  },
   "ADM-248": {
     "id": "98fb291b-34da-46a0-8e9f-98cdb3c83742",
     "status": "blocked",
@@ -10,10 +37,10 @@
   },
   "ADM-247": {
     "id": "0a9eae45-6602-4d3e-9026-f7b312dbbc61",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T19:29:07+08:00",
+    "updated_at": "2026-11-06T10:35:13+08:00",
     "title": "[ADM] 多维任务4462577缺少精准到达10结果排查",
     "parent_issue_id": null
   },
@@ -217,19 +244,19 @@
   },
   "ADM-226": {
     "id": "55dcea29-b398-4b98-87f8-d73ab3f78eb0",
-    "status": "blocked",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-04T17:46:05+08:00",
+    "updated_at": "2026-11-06T14:49:06+08:00",
     "title": "[阶段:根因排查] [ADM] 多维钻取byday同时勾选RealTime和GIVT时表头与数据错位",
     "parent_issue_id": "b59a3a4e-d71a-4e92-bc65-d1ef87b2d547"
   },
   "ADM-225": {
     "id": "b59a3a4e-d71a-4e92-bc65-d1ef87b2d547",
     "status": "in_progress",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "expert",
-    "updated_at": "2026-11-04T17:33:21+08:00",
+    "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
+    "assignee_type": "member",
+    "updated_at": "2026-11-06T16:17:27+08:00",
     "title": "[ADM] 多维钻取byday同时勾选RealTime和GIVT时表头与数据错位",
     "parent_issue_id": null
   },
@@ -1027,10 +1054,10 @@
   },
   "ADM-132": {
     "id": "61a0ee7d-1325-41d9-b4c4-abeab76ebe5e",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-28T12:00:15+08:00",
+    "updated_at": "2026-11-06T14:27:13+08:00",
     "title": "[阶段:提测] [TVM] PMO跨屏打通频次指标n最大值由20提高到80",
     "parent_issue_id": "94be2319-1178-4181-8fc1-2f7e9a5f8835"
   },
@@ -1252,10 +1279,10 @@
   },
   "ADM-121": {
     "id": "471707a7-2914-4cb9-ac6d-de484c24ab08",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-28T12:00:31+08:00",
+    "updated_at": "2026-11-06T14:26:55+08:00",
     "title": "[阶段:提测] ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "29aa13b3-871e-4446-8770-e588f5692877"
   },
@@ -1738,10 +1765,10 @@
   },
   "ADM-26": {
     "id": "29aa13b3-871e-4446-8770-e588f5692877",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-28T12:00:50+08:00",
+    "updated_at": "2026-11-06T14:26:16+08:00",
     "title": "ADM M+ 任务定制 API 接口开发",
     "parent_issue_id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc"
   },
@@ -1855,10 +1882,10 @@
   },
   "ADM-24": {
     "id": "5e4c50ef-6039-4289-836c-a0c8ae1379bc",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-09-29T15:15:16+08:00",
+    "updated_at": "2026-11-06T14:25:34+08:00",
     "title": "ADM M+ & TVM 数据中心 API 接口开发",
     "parent_issue_id": null
   },
