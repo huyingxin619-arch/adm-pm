@@ -1,10 +1,46 @@
 {
+  "ADM-256": {
+    "id": "122158d1-ce4a-47ba-bd6c-62e9d7f69869",
+    "status": "in_review",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-10T14:40:11+08:00",
+    "title": "otv media by month list 筛选逻辑修改",
+    "parent_issue_id": null
+  },
+  "ADM-254": {
+    "id": "cf14f415-72b4-4801-a08b-3ac4f7dbacbf",
+    "status": "cancelled",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-10T10:48:49+08:00",
+    "title": "【联调测试】ADM 下载链路只读核对",
+    "parent_issue_id": null
+  },
+  "ADM-257": {
+    "id": "2281b6e7-a249-40b0-80f1-e8b1ed93c2e1",
+    "status": "todo",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-10T17:12:03+08:00",
+    "title": "[TVM] 像素监测增加广告主白名单校验（ADM-241 验收补充）",
+    "parent_issue_id": null
+  },
+  "ADM-253": {
+    "id": "8300b9e0-86c5-435b-b2f4-ef21dfee11c7",
+    "status": "cancelled",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-10T10:48:50+08:00",
+    "title": "【联调测试】Autoloop 审批与状态回传",
+    "parent_issue_id": null
+  },
   "ADM-252": {
     "id": "445e2dac-83c9-4012-a783-80307a8f9433",
     "status": "todo",
-    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
-    "assignee_type": "expert",
-    "updated_at": "2026-11-07T23:23:25+08:00",
+    "assignee_id": "8a96f947-f669-49f9-a954-01ea4fbf2f74",
+    "assignee_type": "expert_team",
+    "updated_at": "2026-11-10T11:11:28+08:00",
     "title": "[TVM] 活动4148436 SIVT总列数据异常（服务端返回曝光全量）",
     "parent_issue_id": null
   },
@@ -13,8 +49,8 @@
     "status": "todo",
     "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
     "assignee_type": "member",
-    "updated_at": "2026-11-06T16:49:06+08:00",
-    "title": "OTT 宽表核对与统一生产交接：小米 10.21 / 芒果 10.15-18 / 海信 9.22",
+    "updated_at": "2026-11-10T15:27:08+08:00",
+    "title": "OTT 宽表核对与统一生产交接：优先 10.28 小米/海信，其次 小米 10.21 / 芒果 10.15-18 / 海信 9.22",
     "parent_issue_id": "a6bf0ffd-268e-461c-994f-76e90292ead8"
   },
   "ADM-250": {
@@ -22,7 +58,7 @@
     "status": "todo",
     "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
     "assignee_type": "member",
-    "updated_at": "2026-11-06T18:36:23+08:00",
+    "updated_at": "2026-11-10T10:48:53+08:00",
     "title": "OTT 验证帧接入：实时排除 phsv≠0，ETL 新增 tp=bit，tirule/tvrmFilter 放行",
     "parent_issue_id": "a6bf0ffd-268e-461c-994f-76e90292ead8"
   },
@@ -100,19 +136,19 @@
   },
   "ADM-242": {
     "id": "4ab43eec-a874-4152-a13b-638d98ee0be6",
-    "status": "todo",
+    "status": "in_progress",
     "assignee_id": "7c4d536c-5ebc-43d8-95f5-63932ceaaef0",
     "assignee_type": "member",
-    "updated_at": "2026-11-05T16:53:52+08:00",
+    "updated_at": "2026-11-09T09:48:26+08:00",
     "title": "[ADM] OTV-SIVT-KA设备ID无效规则豁免redid",
     "parent_issue_id": null
   },
   "ADM-241": {
     "id": "f74b23cc-51c5-4792-9afd-0cb16bbdd821",
-    "status": "in_review",
+    "status": "in_progress",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T17:09:46+08:00",
+    "updated_at": "2026-11-09T18:46:18+08:00",
     "title": "[阶段:提测] [TVM] 导入模板增加pixel_monitor字段，新增像素方案专用导入模板",
     "parent_issue_id": "fd7eba54-5f12-405f-a61d-a64354d31086"
   },
@@ -199,10 +235,10 @@
   },
   "ADM-229": {
     "id": "1c08330d-b509-4baa-b9a4-81171c6dc2a9",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T10:58:32+08:00",
+    "updated_at": "2026-11-10T14:39:58+08:00",
     "title": "[ADM] 活动2520763重算卡在11-3无进展",
     "parent_issue_id": null
   },
