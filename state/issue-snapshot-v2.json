@@ -1,11 +1,29 @@
 {
+  "ADM-260": {
+    "id": "1b765d3b-9ea2-4ffa-b1c1-5549f809aa99",
+    "status": "todo",
+    "assignee_id": "",
+    "assignee_type": "",
+    "updated_at": "2026-11-11T19:41:34+08:00",
+    "title": "[ADM] 10.28 小米+海信 OTT SIVT 指标按 session_id 回传情况拆分输出",
+    "parent_issue_id": null
+  },
   "ADM-256": {
     "id": "122158d1-ce4a-47ba-bd6c-62e9d7f69869",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-11-10T14:40:11+08:00",
+    "updated_at": "2026-11-11T16:28:12+08:00",
     "title": "otv media by month list 筛选逻辑修改",
+    "parent_issue_id": null
+  },
+  "ADM-259": {
+    "id": "a5235a06-87cf-4138-80a2-1dd876e65647",
+    "status": "todo",
+    "assignee_id": "391876cc-6b44-4e04-b6c6-a8205c6152b0",
+    "assignee_type": "member",
+    "updated_at": "2026-11-11T16:34:46+08:00",
+    "title": "爱奇艺TVM快照方案前瞻",
     "parent_issue_id": null
   },
   "ADM-254": {
@@ -37,10 +55,10 @@
   },
   "ADM-252": {
     "id": "445e2dac-83c9-4012-a783-80307a8f9433",
-    "status": "todo",
-    "assignee_id": "8a96f947-f669-49f9-a954-01ea4fbf2f74",
-    "assignee_type": "expert_team",
-    "updated_at": "2026-11-10T11:11:28+08:00",
+    "status": "in_review",
+    "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
+    "assignee_type": "member",
+    "updated_at": "2026-11-11T16:06:32+08:00",
     "title": "[TVM] 活动4148436 SIVT总列数据异常（服务端返回曝光全量）",
     "parent_issue_id": null
   },
@@ -73,10 +91,10 @@
   },
   "ADM-248": {
     "id": "98fb291b-34da-46a0-8e9f-98cdb3c83742",
-    "status": "blocked",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "expert",
-    "updated_at": "2026-11-05T21:04:41+08:00",
+    "status": "todo",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-11T16:41:39+08:00",
     "title": "[阶段:根因排查] [ADM] 多维任务4462577缺少精准到达10结果排查",
     "parent_issue_id": "0a9eae45-6602-4d3e-9026-f7b312dbbc61"
   },
@@ -109,10 +127,10 @@
   },
   "ADM-244": {
     "id": "5d2e6c30-cad6-425a-baf5-bf931b5f9d20",
-    "status": "blocked",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "expert",
-    "updated_at": "2026-11-05T17:19:44+08:00",
+    "status": "todo",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-11T16:41:23+08:00",
     "title": "[阶段:根因排查] [ADM] OTT活动4147536/4144759导入后布点计算标记与模板不一致排查",
     "parent_issue_id": "9466f2f7-8fa4-4c2c-9857-4b9a384e97ad"
   },
@@ -163,10 +181,10 @@
   },
   "ADM-240": {
     "id": "9466f2f7-8fa4-4c2c-9857-4b9a384e97ad",
-    "status": "blocked",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "expert",
-    "updated_at": "2026-11-05T17:20:13+08:00",
+    "status": "todo",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-11T16:42:02+08:00",
     "title": "[ADM] OTT活动4147536/4144759导入后布点计算标记与模板不一致排查",
     "parent_issue_id": null
   },
@@ -298,10 +316,10 @@
   },
   "ADM-225": {
     "id": "b59a3a4e-d71a-4e92-bc65-d1ef87b2d547",
-    "status": "in_progress",
+    "status": "done",
     "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
     "assignee_type": "member",
-    "updated_at": "2026-11-06T16:17:27+08:00",
+    "updated_at": "2026-11-11T16:03:52+08:00",
     "title": "[ADM] 多维钻取byday同时勾选RealTime和GIVT时表头与数据错位",
     "parent_issue_id": null
   },
@@ -1432,10 +1450,10 @@
   },
   "ADM-86": {
     "id": "5377c93d-5cca-4a68-aaca-c0a92cd67090",
-    "status": "blocked",
+    "status": "todo",
     "assignee_id": "6d638aa2-0349-4f51-94cd-abfbe8978927",
     "assignee_type": "expert",
-    "updated_at": "2026-09-16T12:57:28+08:00",
+    "updated_at": "2026-11-11T16:43:11+08:00",
     "title": "[TVM] st_universe 表新增 PMO panel ID 列",
     "parent_issue_id": null
   },
@@ -1950,6 +1968,15 @@
     "assignee_type": "expert",
     "updated_at": "2026-08-19T11:15:12+08:00",
     "title": "test测试",
+    "parent_issue_id": null
+  },
+  "ADM-258": {
+    "id": "d9695c8d-f563-4a5a-af10-8934eac577d6",
+    "status": "in_progress",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-11T16:27:49+08:00",
+    "title": "【宝洁】通过 Shield 工单审批自动新增基础配置数据",
     "parent_issue_id": null
   },
   "ADM-139": {
