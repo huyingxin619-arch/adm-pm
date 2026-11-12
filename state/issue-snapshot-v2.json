@@ -1,10 +1,28 @@
 {
+  "ADM-262": {
+    "id": "4b702797-e272-45a2-9c03-f7e2c806f076",
+    "status": "in_review",
+    "assignee_id": "41eee17b-bcb6-44a1-a091-6dc4b000aaed",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-12T18:23:50+08:00",
+    "title": "【只读联调】查询本机 monitor 与 monitor-api 当前分支",
+    "parent_issue_id": "606f31a6-d527-42cc-b539-fda8e8e9ae67"
+  },
+  "ADM-261": {
+    "id": "606f31a6-d527-42cc-b539-fda8e8e9ae67",
+    "status": "in_review",
+    "assignee_id": "b43775cd-7623-49bf-9ce9-763352dbbc91",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-12T18:26:40+08:00",
+    "title": "【联调测试】【只读】lqq服务器调度至本机查询当前分支",
+    "parent_issue_id": null
+  },
   "ADM-260": {
     "id": "1b765d3b-9ea2-4ffa-b1c1-5549f809aa99",
     "status": "todo",
-    "assignee_id": "",
-    "assignee_type": "",
-    "updated_at": "2026-11-11T19:41:34+08:00",
+    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
+    "assignee_type": "member",
+    "updated_at": "2026-11-12T11:04:43+08:00",
     "title": "[ADM] 10.28 小米+海信 OTT SIVT 指标按 session_id 回传情况拆分输出",
     "parent_issue_id": null
   },
@@ -38,9 +56,9 @@
   "ADM-257": {
     "id": "2281b6e7-a249-40b0-80f1-e8b1ed93c2e1",
     "status": "todo",
-    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_id": "dc9baa78-b672-4b5c-8093-c95368298e76",
     "assignee_type": "member",
-    "updated_at": "2026-11-10T17:12:03+08:00",
+    "updated_at": "2026-11-12T19:33:27+08:00",
     "title": "[TVM] 像素监测增加广告主白名单校验（ADM-241 验收补充）",
     "parent_issue_id": null
   },
@@ -91,10 +109,10 @@
   },
   "ADM-248": {
     "id": "98fb291b-34da-46a0-8e9f-98cdb3c83742",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-11-11T16:41:39+08:00",
+    "updated_at": "2026-11-12T19:09:28+08:00",
     "title": "[阶段:根因排查] [ADM] 多维任务4462577缺少精准到达10结果排查",
     "parent_issue_id": "0a9eae45-6602-4d3e-9026-f7b312dbbc61"
   },
@@ -127,10 +145,10 @@
   },
   "ADM-244": {
     "id": "5d2e6c30-cad6-425a-baf5-bf931b5f9d20",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-11-11T16:41:23+08:00",
+    "updated_at": "2026-11-12T19:09:42+08:00",
     "title": "[阶段:根因排查] [ADM] OTT活动4147536/4144759导入后布点计算标记与模板不一致排查",
     "parent_issue_id": "9466f2f7-8fa4-4c2c-9857-4b9a384e97ad"
   },
@@ -163,10 +181,10 @@
   },
   "ADM-241": {
     "id": "f74b23cc-51c5-4792-9afd-0cb16bbdd821",
-    "status": "in_progress",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-09T18:46:18+08:00",
+    "updated_at": "2026-11-12T19:08:58+08:00",
     "title": "[阶段:提测] [TVM] 导入模板增加pixel_monitor字段，新增像素方案专用导入模板",
     "parent_issue_id": "fd7eba54-5f12-405f-a61d-a64354d31086"
   },
@@ -181,10 +199,10 @@
   },
   "ADM-240": {
     "id": "9466f2f7-8fa4-4c2c-9857-4b9a384e97ad",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-11-11T16:42:02+08:00",
+    "updated_at": "2026-11-12T19:09:46+08:00",
     "title": "[ADM] OTT活动4147536/4144759导入后布点计算标记与模板不一致排查",
     "parent_issue_id": null
   },
@@ -388,10 +406,10 @@
   },
   "ADM-206": {
     "id": "c65b9af8-e7ad-4d32-a41b-42e4cc0a6346",
-    "status": "in_progress",
+    "status": "done",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-10-28T19:13:58+08:00",
+    "updated_at": "2026-11-12T19:09:04+08:00",
     "title": "日志改造实施及 dev 验证进度（2026-10-28）",
     "parent_issue_id": "6eaab4f6-eed4-42ef-97e6-0ba6d4c16912"
   },
@@ -442,10 +460,10 @@
   },
   "ADM-205": {
     "id": "6eaab4f6-eed4-42ef-97e6-0ba6d4c16912",
-    "status": "in_progress",
+    "status": "done",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-10-30T11:35:57+08:00",
+    "updated_at": "2026-11-12T19:11:49+08:00",
     "title": "TVMonitor 业务日志降噪与审计上下文清理",
     "parent_issue_id": null
   },
