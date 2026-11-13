@@ -130,6 +130,7 @@
 **实施**：cron job `Loop issue 事件轮询` 每 3 分钟跑 `bash ~/.openclaw-adm_pm/workspace-pm/scripts/issue-poll.sh`，有事件就按规则发通知 + 更新两份日志
 
 ### Loop Issue 创建铁律
+- **确认技术方向**：不确定前端/后端的，必须先问提需方确认，不自己猜
 - **读图**：如果反馈内容含图片，必须先用 image 工具读图，提取关键信息（task ID、错误日志、配置截图等）
 - **附图**：有图片的 issue 必须把图附到 issue 上（--attachment）
 - **完整信息**：issue 描述必须包含所有执行所需信息，不能假设 Loop 那边的我知道对话上下文

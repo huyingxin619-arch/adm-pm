@@ -1,4 +1,13 @@
 {
+  "ADM-264": {
+    "id": "5c4101b1-dee5-4eed-bd06-b259196e7b17",
+    "status": "in_progress",
+    "assignee_id": "7c4d536c-5ebc-43d8-95f5-63932ceaaef0",
+    "assignee_type": "member",
+    "updated_at": "2026-11-13T14:55:01+08:00",
+    "title": "[ADM] 小红书鸿蒙MO误传：数据验证与SIVT重算",
+    "parent_issue_id": null
+  },
   "ADM-262": {
     "id": "4b702797-e272-45a2-9c03-f7e2c806f076",
     "status": "in_review",
@@ -7,6 +16,15 @@
     "updated_at": "2026-11-12T18:23:50+08:00",
     "title": "【只读联调】查询本机 monitor 与 monitor-api 当前分支",
     "parent_issue_id": "606f31a6-d527-42cc-b539-fda8e8e9ae67"
+  },
+  "ADM-263": {
+    "id": "eff59a7b-2534-4e31-a42c-09ed3fc3638c",
+    "status": "todo",
+    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-13T14:34:38+08:00",
+    "title": "[ADM] 报告归档模块下载报告封面防伪二维码扫码无响应",
+    "parent_issue_id": null
   },
   "ADM-261": {
     "id": "606f31a6-d527-42cc-b539-fda8e8e9ae67",
@@ -1225,10 +1243,10 @@
   },
   "ADM-133": {
     "id": "148fabf4-f0be-43e6-8436-7a349a034de8",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "7bcc9ad4-8021-40fd-b96c-eca131504106",
     "assignee_type": "member",
-    "updated_at": "2026-10-09T10:21:17+08:00",
+    "updated_at": "2026-11-13T11:35:01+08:00",
     "title": "[ADM] 易车IVT数据拉取（SIVT整体情况+高危ip/真人id，26M7-M9）",
     "parent_issue_id": null
   },
