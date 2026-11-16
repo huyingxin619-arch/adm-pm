@@ -1,4 +1,13 @@
 {
+  "ADM-266": {
+    "id": "4633c9fd-9ee5-40f1-8bee-be43ecd68d26",
+    "status": "in_progress",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-16T18:22:58+08:00",
+    "title": "多维钻取任务异常滞留队列的识别与恢复",
+    "parent_issue_id": null
+  },
   "ADM-265": {
     "id": "ef17baa5-2dd7-4284-a164-e5c29d0d319a",
     "status": "todo",
