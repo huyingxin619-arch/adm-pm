@@ -1,4 +1,13 @@
 {
+  "ADM-265": {
+    "id": "ef17baa5-2dd7-4284-a164-e5c29d0d319a",
+    "status": "todo",
+    "assignee_id": "b24cd526-5675-482f-a90a-ea4bf0edeabf",
+    "assignee_type": "member",
+    "updated_at": "2026-11-16T15:08:38+08:00",
+    "title": "快手11月1日-3日日志清洗",
+    "parent_issue_id": null
+  },
   "ADM-264": {
     "id": "5c4101b1-dee5-4eed-bd06-b259196e7b17",
     "status": "in_progress",
@@ -433,10 +442,10 @@
   },
   "ADM-215": {
     "id": "2a76bfb7-379f-4f20-8678-1d6c66e0139a",
-    "status": "todo",
-    "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
-    "assignee_type": "expert",
-    "updated_at": "2026-11-03T15:42:58+08:00",
+    "status": "done",
+    "assignee_id": "7bcc9ad4-8021-40fd-b96c-eca131504106",
+    "assignee_type": "member",
+    "updated_at": "2026-11-16T14:20:01+08:00",
     "title": "[TVM] SIVT多地域异常2.0模块计算失败修复优化",
     "parent_issue_id": null
   },
