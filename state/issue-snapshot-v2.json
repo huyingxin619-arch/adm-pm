@@ -1,4 +1,13 @@
 {
+  "ADM-268": {
+    "id": "71723513-2eff-4e95-9b55-976601afafba",
+    "status": "todo",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-18T02:57:57+08:00",
+    "title": "Planningtool PG/MZ FILE 模板修改：新增 pixelMonitor 列及导出规则调整",
+    "parent_issue_id": null
+  },
   "ADM-267": {
     "id": "fae42853-e4c0-44b7-be5c-003c85af3441",
     "status": "todo",
