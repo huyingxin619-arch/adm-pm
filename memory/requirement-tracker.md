@@ -132,3 +132,4 @@
 | ADM-246 | [ADM] 多维钻取数据下载文件异常（任务ID 4462608） | 已分发 | 黄春波（member） | 2026-11-05 18:25 | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；多维任务4462608下载结果为名为P的异常文件；含2张截图；issue ID: c984e162-68c1-4669-81dd-4ae230393b24；labels: svc/admonitor+tech/backend+type/investigate；已发卡片通知群聊@王心宇；李晴晴已定位根因——任务名含&符号导致下载文件名被截断 |
 | ADM-215 | [TVM] SIVT多地域异常2.0模块计算失败修复优化 | 已完成 | Loop adm-pm助手专家 | 2026-11-16 14:20 | 老 issue 无通知渠道记录；11/16 14:20 状态变更 todo→done + 指派人变更；无通知渠道跳过通知 |
 | ADM-266 | 多维钻取任务异常滞留队列的识别与恢复 | 开发中 | 黄春波（member） | 2026-11-16 18:22 | 提需人：王浩阳；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；11/16 18:22 状态变更 todo→in_progress（非通知类型） |
+| ADM-267 | OTV media by month list 筛选口径更正及10月数据重跑 | 已分发 | 黄春波（member） | 2026-11-17 10:45 | 提需人：王浩阳；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；关联ADM-256（已done）；issue ID: fae42853-e4c0-44b7-be5c-003c85af3441；labels: svc/admonitor+tech/backend+type/feature |
