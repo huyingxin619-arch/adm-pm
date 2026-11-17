@@ -1,4 +1,13 @@
 {
+  "ADM-267": {
+    "id": "fae42853-e4c0-44b7-be5c-003c85af3441",
+    "status": "todo",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-17T10:45:42+08:00",
+    "title": "OTV media by month list 筛选口径更正及10月数据重跑",
+    "parent_issue_id": null
+  },
   "ADM-266": {
     "id": "4633c9fd-9ee5-40f1-8bee-be43ecd68d26",
     "status": "in_progress",

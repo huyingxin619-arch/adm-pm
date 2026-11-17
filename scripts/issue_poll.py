@@ -44,7 +44,7 @@ def make_event_id(ev):
 SKIP_IDENTS = {"ADM-3"}
 
 
-def run(cmd, timeout=15):
+def run(cmd, timeout=45):
     try:
         r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)
         if r.returncode == 0:
