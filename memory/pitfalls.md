@@ -93,6 +93,21 @@
 
 **状态**：已解决，规则已在 AGENTS.md Loop Issue 创建铁律中（原已有「确认所属项目」条目，本次强化执行）
 
+## P006 | 2026-11-18 | Bot API presigned URL 上传文件 403
+
+**现象**：上传模板文件到 Bot API presigned URL 时返回 403。11/17 第一次创建 ADM-268 时失败，session status=failed。
+
+**根因**：PUT 请求缺少 signedHeaders 要求的三个 header——Content-Disposition、Content-Length、Content-Type。预签名 URL 的签名包含了这些 header，如果请求时不 echo 这些 header，签名校验失败返回 403。
+
+**解法**：curl PUT 上传时必须：
+1. 从 presigned 响应取 contentDisposition、contentType、maxFileSize
+2. 设置 `-H "Content-Type: {contentType}"`
+3. 设置 `-H "Content-Disposition: {contentDisposition}"`
+4. 设置 `-H "Content-Length: {fileSize}"`
+5. 用 `--data-binary @file` 上传
+
+**状态**：已解决，2026-11-18 重新创建 ADM-268 时补齐 header 后 200 OK
+
 ---
 
 _每次踩坑当场记录，不等整理。_
