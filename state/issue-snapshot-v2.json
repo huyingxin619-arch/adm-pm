@@ -1,10 +1,19 @@
 {
+  "ADM-270": {
+    "id": "7771d08a-f8b5-4bb8-ac8d-6528df2e325c",
+    "status": "todo",
+    "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
+    "assignee_type": "member",
+    "updated_at": "2026-11-18T14:40:44+08:00",
+    "title": "[ADM] DDR新增重算风险及负数异常预警",
+    "parent_issue_id": null
+  },
   "ADM-269": {
     "id": "78e22e19-6c87-4397-8a6d-f9b128cc2881",
-    "status": "todo",
+    "status": "in_review",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-11-18T11:40:07+08:00",
+    "updated_at": "2026-11-18T16:19:44+08:00",
     "title": "[ADM/TVM] M+模块增加快手数据特殊处理标识",
     "parent_issue_id": null
   },
@@ -19,10 +28,10 @@
   },
   "ADM-267": {
     "id": "fae42853-e4c0-44b7-be5c-003c85af3441",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-11-17T10:45:42+08:00",
+    "updated_at": "2026-11-18T16:00:27+08:00",
     "title": "OTV media by month list 筛选口径更正及10月数据重跑",
     "parent_issue_id": null
   },
