@@ -45,6 +45,7 @@
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
+| ADM-270 | [ADM] DDR新增重算风险及负数异常预警 | 2026-11-18 | 李晴晴（member） | todo | 提需人：王浩阳；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；宝洁定制开发服务；前端（DDR报告由前端取数）；重算风险预警+负数异常预警+Octo通知；覆盖OTV/OTT链路；本期仅预警不暂停交付；issue ID: 7771d08a-f8b5-4bb8-ac8d-6528df2e325c；labels: svc/admonitor+tech/frontend+type/feature+ka/pg；已发卡片通知群聊@王浩阳 |
 | ADM-269 | [ADM/TVM] M+模块增加快手数据特殊处理标识 | 2026-11-18 | 黄春波（member） | todo | 提需人：关甜甜；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；monitor-web项目；前端+后端；adm任务定制新建任务+TVM PMO跨屏打通增加「快手数据特殊处理」选项；配套权限位；后端取数逻辑调整；issue ID: 78e22e19-6c87-4397-8a6d-f9b128cc2881；labels: svc/admonitor+svc/tv-web+tech/frontend+tech/backend+type/feature；已发卡片通知群聊@关甜甜 |
 | ADM-268 | Planningtool PG/MZ FILE 模板修改：新增 pixelMonitor 列及导出规则调整 | 2026-11-18 | 黄春波（member） | todo | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；关联ADM-218（todo）；PG FILE新增BO列pixelMonitor(1/0)；MZ FILE BF-BO列设为recordId_tagKey_8至17，BP列pixelMonitor，原BF列landingUrl移至BQ列；模板文件已上传issue评论；issue ID: 71723513-2eff-4e95-9b55-976601afafba；labels: svc/planning-tool+tech/frontend+type/feature；已发卡片通知群聊@吴济 |
 

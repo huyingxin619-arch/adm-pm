@@ -2,9 +2,9 @@
   "ADM-269": {
     "id": "78e22e19-6c87-4397-8a6d-f9b128cc2881",
     "status": "todo",
-    "assignee_id": "",
-    "assignee_type": "",
-    "updated_at": "2026-11-18T11:39:44+08:00",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-18T11:40:07+08:00",
     "title": "[ADM/TVM] M+模块增加快手数据特殊处理标识",
     "parent_issue_id": null
   },
