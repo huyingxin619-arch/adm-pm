@@ -45,6 +45,7 @@
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
+| ADM-269 | [ADM/TVM] M+模块增加快手数据特殊处理标识 | 2026-11-18 | 黄春波（member） | todo | 提需人：关甜甜；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；monitor-web项目；前端+后端；adm任务定制新建任务+TVM PMO跨屏打通增加「快手数据特殊处理」选项；配套权限位；后端取数逻辑调整；issue ID: 78e22e19-6c87-4397-8a6d-f9b128cc2881；labels: svc/admonitor+svc/tv-web+tech/frontend+tech/backend+type/feature；已发卡片通知群聊@关甜甜 |
 | ADM-268 | Planningtool PG/MZ FILE 模板修改：新增 pixelMonitor 列及导出规则调整 | 2026-11-18 | 黄春波（member） | todo | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；关联ADM-218（todo）；PG FILE新增BO列pixelMonitor(1/0)；MZ FILE BF-BO列设为recordId_tagKey_8至17，BP列pixelMonitor，原BF列landingUrl移至BQ列；模板文件已上传issue评论；issue ID: 71723513-2eff-4e95-9b55-976601afafba；labels: svc/planning-tool+tech/frontend+type/feature；已发卡片通知群聊@吴济 |
 
 ## 2026-11-17
