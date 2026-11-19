@@ -1,4 +1,13 @@
 {
+  "ADM-272": {
+    "id": "65314f16-3e51-49ab-a9fc-8508989033f1",
+    "status": "todo",
+    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
+    "assignee_type": "member",
+    "updated_at": "2026-11-19T22:29:55+08:00",
+    "title": "【海信】11.17 贴片像素测试批次：日志清洗 + CMP round1 上传与 round2 输出",
+    "parent_issue_id": null
+  },
   "ADM-271": {
     "id": "2999d868-d8f8-4ad0-b043-40e8e0dae680",
     "status": "todo",
@@ -28,10 +37,10 @@
   },
   "ADM-268": {
     "id": "71723513-2eff-4e95-9b55-976601afafba",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
     "assignee_type": "member",
-    "updated_at": "2026-11-18T02:57:57+08:00",
+    "updated_at": "2026-11-19T18:48:31+08:00",
     "title": "Planningtool PG/MZ FILE 模板修改：新增 pixelMonitor 列及导出规则调整",
     "parent_issue_id": null
   },
@@ -460,10 +469,10 @@
   },
   "ADM-218": {
     "id": "69d84b3c-05f8-4643-903d-5c4f826156be",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-04T18:20:37+08:00",
+    "updated_at": "2026-11-19T18:14:05+08:00",
     "title": "[TVM] Planningtool 解析逻辑更新：新增 pixelMonitor 字段映射至 pixel_monitor",
     "parent_issue_id": null
   },
