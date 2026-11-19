@@ -257,8 +257,15 @@ def main():
             })
 
         # --- 评论变更（新增/编辑/删除）---
+        # 只对 updated_at 有变化的 issue 才拉评论，没变的不拉（性能优化）
+        prev_updated = prev.get("updated_at", "")
+        need_comment_check = (prev_updated != new["updated_at"])
+
         if new["status"] in ("done", "cancelled"):
             new_comments[ident] = None
+        elif not need_comment_check:
+            # updated_at 没变，复用旧评论状态，跳过 API 调用
+            new_comments[ident] = old_comments.get(ident)
         else:
             current_comments = fetch_comments(new["id"])
             if current_comments is None:
