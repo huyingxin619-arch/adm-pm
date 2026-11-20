@@ -1,4 +1,22 @@
 {
+  "ADM-274": {
+    "id": "7e929614-807c-461f-98a4-f021ac3a05fe",
+    "status": "todo",
+    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
+    "assignee_type": "member",
+    "updated_at": "2026-11-20T17:34:23+08:00",
+    "title": "ies-ott模块ta名称适配问题",
+    "parent_issue_id": null
+  },
+  "ADM-273": {
+    "id": "3a85e35e-000d-44af-b4c3-3e86f7c55883",
+    "status": "todo",
+    "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-20T15:35:49+08:00",
+    "title": "[TVM] 监测代码OTT媒体列表新增酒店媒体：智驿科技",
+    "parent_issue_id": null
+  },
   "ADM-272": {
     "id": "65314f16-3e51-49ab-a9fc-8508989033f1",
     "status": "todo",
@@ -91,10 +109,10 @@
   },
   "ADM-263": {
     "id": "eff59a7b-2534-4e31-a42c-09ed3fc3638c",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "c8ae294f-2048-437f-aa87-f3dd76565f4e",
     "assignee_type": "expert",
-    "updated_at": "2026-11-13T14:34:38+08:00",
+    "updated_at": "2026-11-20T10:39:51+08:00",
     "title": "[ADM] 报告归档模块下载报告封面防伪二维码扫码无响应",
     "parent_issue_id": null
   },
@@ -145,10 +163,10 @@
   },
   "ADM-257": {
     "id": "2281b6e7-a249-40b0-80f1-e8b1ed93c2e1",
-    "status": "todo",
+    "status": "done",
     "assignee_id": "dc9baa78-b672-4b5c-8093-c95368298e76",
     "assignee_type": "member",
-    "updated_at": "2026-11-12T19:33:27+08:00",
+    "updated_at": "2026-11-20T10:39:54+08:00",
     "title": "[TVM] 像素监测增加广告主白名单校验（ADM-241 验收补充）",
     "parent_issue_id": null
   },
@@ -244,10 +262,10 @@
   },
   "ADM-243": {
     "id": "3bef6010-0aae-45ad-9fdb-887e0f4c7735",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T17:07:26+08:00",
+    "updated_at": "2026-11-20T10:41:03+08:00",
     "title": "[阶段:提测] [TVM] RM获取监测代码接口：按pixel_monitor导出对应代码字段（OTT侧）",
     "parent_issue_id": "7b14ea59-9560-4201-b263-732883ecbc8c"
   },
@@ -343,10 +361,10 @@
   },
   "ADM-231": {
     "id": "46096156-cf76-4de8-9dc9-388cbe16f9ff",
-    "status": "blocked",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T11:18:43+08:00",
+    "updated_at": "2026-11-20T10:42:16+08:00",
     "title": "[阶段:根因排查] [ADM] 活动2520763重算卡在11-3无进展",
     "parent_issue_id": "1c08330d-b509-4baa-b9a4-81171c6dc2a9"
   },
@@ -397,10 +415,10 @@
   },
   "ADM-228": {
     "id": "fd7eba54-5f12-405f-a61d-a64354d31086",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T17:09:57+08:00",
+    "updated_at": "2026-11-20T10:41:10+08:00",
     "title": "[TVM] 导入模板增加pixel_monitor字段，新增像素方案专用导入模板",
     "parent_issue_id": null
   },
@@ -433,10 +451,10 @@
   },
   "ADM-224": {
     "id": "398c5597-3462-4b48-8cab-3260c585dfdf",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-04T18:20:31+08:00",
+    "updated_at": "2026-11-20T10:41:43+08:00",
     "title": "[阶段:提测] [TVM] Planningtool 解析逻辑更新：新增 pixelMonitor 字段映射至 pixel_monitor",
     "parent_issue_id": "69d84b3c-05f8-4643-903d-5c4f826156be"
   },
@@ -460,10 +478,10 @@
   },
   "ADM-220": {
     "id": "7b14ea59-9560-4201-b263-732883ecbc8c",
-    "status": "in_review",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-11-05T17:07:27+08:00",
+    "updated_at": "2026-11-20T10:42:33+08:00",
     "title": "[TVM] RM获取监测代码接口：按pixel_monitor导出对应代码字段（OTT侧）",
     "parent_issue_id": null
   },
@@ -721,10 +739,10 @@
   },
   "ADM-189": {
     "id": "006560ab-99d6-4b27-8be1-611e529e86ad",
-    "status": "blocked",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-28T12:00:08+08:00",
+    "updated_at": "2026-11-20T10:42:49+08:00",
     "title": "[阶段:根因排查] [ADM] 监测点落地页URL含@符号导致导出监测代码报错",
     "parent_issue_id": "ad2f6762-99e5-4604-acef-9bac3f61d9d1"
   },
@@ -847,10 +865,10 @@
   },
   "ADM-174": {
     "id": "ad2f6762-99e5-4604-acef-9bac3f61d9d1",
-    "status": "in_progress",
+    "status": "done",
     "assignee_id": "4f356f9a-4875-4028-9af9-24725bd5457c",
     "assignee_type": "expert",
-    "updated_at": "2026-10-28T12:00:11+08:00",
+    "updated_at": "2026-11-20T10:43:13+08:00",
     "title": "[ADM] 监测点落地页URL含@符号导致导出监测代码报错",
     "parent_issue_id": null
   },
@@ -1361,9 +1379,9 @@
   "ADM-115": {
     "id": "745c4d71-bf68-41bc-b06c-359c05cc7c8a",
     "status": "in_progress",
-    "assignee_id": "7c4d536c-5ebc-43d8-95f5-63932ceaaef0",
+    "assignee_id": "7bcc9ad4-8021-40fd-b96c-eca131504106",
     "assignee_type": "member",
-    "updated_at": "2026-10-29T10:59:00+08:00",
+    "updated_at": "2026-11-20T14:37:04+08:00",
     "title": "[ADM] otv_multi类升级研究(v6)_开发&跑数",
     "parent_issue_id": null
   },
