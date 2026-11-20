@@ -66,7 +66,7 @@
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-263 | [ADM] 报告归档模块下载报告封面防伪二维码扫码无响应 | 2026-11-13 | Loop adm-pm助手专家 | todo | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；所有报告封面防伪二维码扫码无响应，微信+浏览器原生相机均无反应；issue ID: eff59a7b-2534-4e31-a42c-09ed3fc3638c；labels: svc/ui-report+tech/backend+type/investigate；已发卡片通知群聊@吴济 |
+| ADM-263 | [ADM] 报告归档模块下载报告封面防伪二维码扫码无响应 | 2026-11-13 | Loop adm-pm助手专家 | done | 提需人：吴济；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；所有报告封面防伪二维码扫码无响应，微信+浏览器原生相机均无反应；issue ID: eff59a7b-2534-4e31-a42c-09ed3fc3638c；labels: svc/ui-report+tech/backend+type/investigate；已发卡片通知群聊@吴济；11/20 10:39 状态变更 todo→done 已闭环，已通知群聊@吴济 |
 | ADM-264 | [ADM] 小红书鸿蒙MO误传：数据验证与SIVT重算 | 2026-11-13 | 杨春雪（member） | todo | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级high；小红书鸿蒙MO误传为wp导致illegal OS误判，需验证日志+重算SIVT规则；需求文档链接见issue；issue ID: 5c4101b1-dee5-4eed-bd06-b259196e7b17；labels: svc/admonitor+tech/sivt-adm+type/feature；已发卡片通知群聊@王心宇 |
 
 ## 2026-11-05
