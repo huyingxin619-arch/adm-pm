@@ -417,5 +417,5 @@ _每次分发后即时更新。_
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-275 | [TVM] 多维任务下载404排查（taskId=1143096/1143207） | 2026-11-23 | Loop adm-pm助手专家 | todo | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；后端接口问题；所属tv-web；涉及taskId=1143096(手动下载)+1143207(自动报告)；下载链接404；labels: type/investigate+tech/backend+svc/tv-web；issue ID: e0fc2993-f69f-431d-8343-b272828b11c7；已发卡片通知邢思源；11/23 17:13 指派人变更（adm-pm助手专家→b43775cd，转指派）非通知类型 |
+| ADM-275 | [TVM] 多维任务下载404排查（taskId=1143096/1143207） | 2026-11-23 | Loop adm-pm助手专家 | todo→in_progress | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；后端接口问题；所属tv-web；涉及taskId=1143096(手动下载)+1143207(自动报告)；下载链接404；labels: type/investigate+tech/backend+svc/tv-web；issue ID: e0fc2993-f69f-431d-8343-b272828b11c7；已发卡片通知邢思源；11/23 17:13 指派人变更（adm-pm助手专家→b43775cd，转指派）非通知类型；11/23 17:17 状态变更（todo→in_progress）非通知类型；11/23 17:18 拆分新子任务 ADM-276（只读根因分析，assignee lqq-tvmonitor），已通知群聊@邢思源 |
 
