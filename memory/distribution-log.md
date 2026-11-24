@@ -45,7 +45,9 @@
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-277 | 【PG】快手同源1101-1103缺数日志 SIVT计算、重出SIVT报告 | 2026-11-24 | 杨春雪（member） | todo | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；Due 11/26（本周三）；基于二哥补充日志dmlog（路径：/admonitor/apps/miaozhen/tools/yuchangliang/kuaishou/dmlog）重算SIVT；配置文件与1101-1103线上保持一致（最新版白名单无法一致的用线上版本）；报告by day by点位，线上sivt一份+补充sivt一份；报告字段见沟通文件（春雪已知晓）；issue ID: 2d535946-d319-4ed3-a7d0-8af6c9f13039；labels: ka/pg+tech/sivt-adm+type/feature+svc/admonitor；已发卡片通知群聊@王心宇 |
+| ADM-277 | 【PG】快手同源1101-1103缺数日志 SIVT计算、重出SIVT报告 | 2026-11-24 | 杨春雪（member） | in_progress | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；Due 11/26（本周三）；基于二哥补充日志dmlog（路径：/admonitor/apps/miaozhen/tools/yuchangliang/kuaishou/dmlog）重算SIVT；配置文件与1101-1103线上保持一致（最新版白名单无法一致的用线上版本）；报告by day by点位，线上sivt一份+补充sivt一份；报告字段见沟通文件（春雪已知晓）；issue ID: 2d535946-d319-4ed3-a7d0-8af6c9f13039；labels: ka/pg+tech/sivt-adm+type/feature+svc/admonitor；已发卡片通知群聊@王心宇；11/24 17:46 状态变更 todo→in_progress（非通知类型） |
+| ADM-282 | 【ADM系统-多维】real_deviceId_imp等4个指标前端聚合计算方式确认 | 2026-11-24 | 黄春波（member） | todo | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；确认real_deviceId_imp/legal_deviceId_imp/real_deviceId_clk/legal_deviceId_clk前端聚合计算方式；后端rawdata字段：real_deviceId(caid,spid,date,tp,validimp,validclk,realimp,realclk)、legal_deviceId(spid,caid,idfrom,tp,len,imp,clk)；issue ID: 1a29f51e-f768-4e9b-a4cd-6cdb0c79398c；labels: type/feature+svc/admonitor；已发卡片通知群聊@王心宇 |
+| ADM-280 | ADM前端上线20260520版PMO panel | 未知 | 未知 | done | 无通知渠道记录（distribution-log中无此issue记录）；11/24 17:35 状态变更 todo→done 已闭环；无通知渠道跳过通知 |
 
 ## 2026-11-20
 
