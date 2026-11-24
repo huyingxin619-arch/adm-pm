@@ -11,3 +11,4 @@
 健康检测通过：心跳差值 22s，≤ 600s，无需告警。2026-11-19 20:23:36
 心跳正常，差值79秒，无需告警
 Heartbeat check passed: diff=97s, within 600s threshold. No action needed.
+Heartbeat check passed: diff=74s, within 600s threshold. No action needed.

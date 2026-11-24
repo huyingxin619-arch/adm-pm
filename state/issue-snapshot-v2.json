@@ -1,10 +1,64 @@
 {
+  "ADM-282": {
+    "id": "1a29f51e-f768-4e9b-a4cd-6cdb0c79398c",
+    "status": "todo",
+    "assignee_id": "cab5ac70-983c-42de-bf13-4c1dd2f4f231",
+    "assignee_type": "member",
+    "updated_at": "2026-11-24T17:46:30+08:00",
+    "title": "【ADM系统-多维】real_deviceId_imp等4个指标前端聚合计算方式确认",
+    "parent_issue_id": null
+  },
+  "ADM-281": {
+    "id": "3d9cec4c-3b73-47b2-aca8-dd62a2ee4f60",
+    "status": "todo",
+    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
+    "assignee_type": "member",
+    "updated_at": "2026-11-24T19:14:51+08:00",
+    "title": "【海信】11.18 批次 round1 重传 + round2 计算（舒肤佳素材修正）",
+    "parent_issue_id": null
+  },
+  "ADM-280": {
+    "id": "9521d401-d90a-472f-82f7-a62f06191a2c",
+    "status": "done",
+    "assignee_id": "b2d4c158-36c9-4e9e-a17d-eb83eda4df3e",
+    "assignee_type": "member",
+    "updated_at": "2026-11-24T17:35:06+08:00",
+    "title": "ADM前端上线20260520版PMO panel",
+    "parent_issue_id": null
+  },
+  "ADM-279": {
+    "id": "f33e781d-902c-4daa-93c6-90440a32d43b",
+    "status": "todo",
+    "assignee_id": "37f8ed8c-7925-4e01-8fce-25283fa67d64",
+    "assignee_type": "member",
+    "updated_at": "2026-11-24T11:41:39+08:00",
+    "title": "快手11月1-3日数据M+特殊适配-ADM",
+    "parent_issue_id": null
+  },
+  "ADM-278": {
+    "id": "2e093ba9-6c19-430d-a14c-bcb8c86acbfb",
+    "status": "todo",
+    "assignee_id": "d5ca704c-b135-4cd5-ae87-00efde41c7f7",
+    "assignee_type": "member",
+    "updated_at": "2026-11-24T11:37:30+08:00",
+    "title": "快手11月1-3日丢数M+跑数适配-PMO模块",
+    "parent_issue_id": null
+  },
+  "ADM-277": {
+    "id": "2d535946-d319-4ed3-a7d0-8af6c9f13039",
+    "status": "in_progress",
+    "assignee_id": "7c4d536c-5ebc-43d8-95f5-63932ceaaef0",
+    "assignee_type": "member",
+    "updated_at": "2026-11-24T11:33:44+08:00",
+    "title": "【PG】快手同源1101-1103缺数日志 SIVT计算、重出SIVT报告",
+    "parent_issue_id": null
+  },
   "ADM-276": {
     "id": "a4e57798-472f-4490-866c-8e59341f012b",
-    "status": "todo",
-    "assignee_id": "36b65f85-19d2-43db-a44f-7059bb68a8be",
-    "assignee_type": "expert",
-    "updated_at": "2026-11-23T17:18:24+08:00",
+    "status": "in_progress",
+    "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
+    "assignee_type": "member",
+    "updated_at": "2026-11-24T11:04:55+08:00",
     "title": "[TVM] 多维任务下载404排查（子任务：只读根因分析）",
     "parent_issue_id": "e0fc2993-f69f-431d-8343-b272828b11c7"
   },
@@ -55,10 +109,10 @@
   },
   "ADM-270": {
     "id": "7771d08a-f8b5-4bb8-ac8d-6528df2e325c",
-    "status": "todo",
+    "status": "in_review",
     "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
     "assignee_type": "member",
-    "updated_at": "2026-11-18T14:40:44+08:00",
+    "updated_at": "2026-11-24T11:04:15+08:00",
     "title": "[ADM] DDR新增重算风险及负数异常预警",
     "parent_issue_id": null
   },
