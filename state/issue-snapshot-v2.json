@@ -1,4 +1,13 @@
 {
+  "ADM-284": {
+    "id": "c5375a7e-67d0-4675-b3dd-9c9c86667d22",
+    "status": "todo",
+    "assignee_id": "cc18d7a4-873f-4291-b215-2ba584387ff9",
+    "assignee_type": "member",
+    "updated_at": "2026-11-25T16:23:43+08:00",
+    "title": "[ADM] 计算机型报告md字段匹配babel机型表改为模糊匹配",
+    "parent_issue_id": null
+  },
   "ADM-283": {
     "id": "afc1624c-89b0-4a91-b830-627c8e5d3788",
     "status": "in_progress",
