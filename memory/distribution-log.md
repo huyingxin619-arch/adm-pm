@@ -46,7 +46,7 @@
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
 | ADM-277 | 【PG】快手同源1101-1103缺数日志 SIVT计算、重出SIVT报告 | 2026-11-24 | 杨春雪（member） | in_progress | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；Due 11/26（本周三）；基于二哥补充日志dmlog（路径：/admonitor/apps/miaozhen/tools/yuchangliang/kuaishou/dmlog）重算SIVT；配置文件与1101-1103线上保持一致（最新版白名单无法一致的用线上版本）；报告by day by点位，线上sivt一份+补充sivt一份；报告字段见沟通文件（春雪已知晓）；issue ID: 2d535946-d319-4ed3-a7d0-8af6c9f13039；labels: ka/pg+tech/sivt-adm+type/feature+svc/admonitor；已发卡片通知群聊@王心宇；11/24 17:46 状态变更 todo→in_progress（非通知类型） |
-| ADM-282 | 【ADM系统-多维】real_deviceId_imp等4个指标前端聚合计算方式确认 | 2026-11-24 | 黄春波（member） | todo | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；确认real_deviceId_imp/legal_deviceId_imp/real_deviceId_clk/legal_deviceId_clk前端聚合计算方式；后端rawdata字段：real_deviceId(caid,spid,date,tp,validimp,validclk,realimp,realclk)、legal_deviceId(spid,caid,idfrom,tp,len,imp,clk)；issue ID: 1a29f51e-f768-4e9b-a4cd-6cdb0c79398c；labels: type/feature+svc/admonitor；已发卡片通知群聊@王心宇 |
+| ADM-282 | 【ADM系统-多维】real_deviceId_imp等4个指标前端聚合计算方式确认 | 2026-11-24 | 黄春波（member） | done | 提需人：王心宇；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；确认real_deviceId_imp/legal_deviceId_imp/real_deviceId_clk/legal_deviceId_clk前端聚合计算方式；后端rawdata字段：real_deviceId(caid,spid,date,tp,validimp,validclk,realimp,realclk)、legal_deviceId(spid,caid,idfrom,tp,len,imp,clk)；issue ID: 1a29f51e-f768-4e9b-a4cd-6cdb0c79398c；labels: type/feature+svc/admonitor；已发卡片通知群聊@王心宇；11/25 10:35 状态变更 todo→done 已闭环，已通知群聊@王心宇 |
 | ADM-280 | ADM前端上线20260520版PMO panel | 未知 | 未知 | done | 无通知渠道记录（distribution-log中无此issue记录）；11/24 17:35 状态变更 todo→done 已闭环；无通知渠道跳过通知 |
 
 ## 2026-11-20
@@ -413,7 +413,7 @@ _每次分发后即时更新。_
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
 | ADM-260 | [ADM] 10.28 小米+海信 OTT SIVT 指标按 session_id 回传情况拆分输出 | 2026-11-11 | d5ca704c（member） | todo | 提需人：未知；无通知渠道记录（Loop内自建）；11/12 11:04 updated（非通知类型跳过通知）；11/12 11:04 new_comment（模板已按4列格式修正），无通知渠道跳过通知 |
-| ADM-261 | 【联调测试】【只读】lqq服务器调度至本机查询当前分支 | 2026-11-12 | lqq-issue-dispatcher | in_review | 提需人：李晴晴；无通知渠道记录（联调测试issue，非标准PRD分发）；11/12 ADM-262 子任务由 lqq-issue-dispatcher 自动拆分（指派 lqq-admonitor）；11/12 18:23 ADM-262 new_comment（只读查询完成：hostname=Lqq的电脑，monitor分支ADM-225-bugfix，monitor-api分支信息），无通知渠道跳过通知 |
+| ADM-261 | 【联调测试】【只读】lqq服务器调度至本机查询当前分支 | 2026-11-12 | lqq-issue-dispatcher | in_review | 提需人：李晴晴；无通知渠道记录（联调测试issue，非标准PRD分发）；11/12 ADM-262 子任务由 lqq-issue-dispatcher 自动拆分（指派 lqq-admonitor）；11/12 18:23 ADM-262 new_comment（只读查询完成：hostname=Lqq的电脑，monitor分支ADM-225-bugfix，monitor-api分支信息），无通知渠道跳过通知；11/25 ADM-262 assignee_change（41eee17b→36b65f85 lqq-tvmonitor）非通知类型跳过通知；11/25 ADM-262 new_comment×4（①评论功能测试②lqq-admonitor核对任务上下文③@lqq-tvmonitor署名验证请求④lqq-tvmonitor专家署名测试回复）无通知渠道跳过通知 |
 
 ## 2026-11-16
 
@@ -425,6 +425,6 @@ _每次分发后即时更新。_
 
 | PRD编号 | 标题 | 分发日期 | 接收人 | 状态 | 备注 |
 |---------|------|----------|--------|------|------|
-| ADM-275 | [TVM] 多维任务下载404排查（taskId=1143096/1143207） | 2026-11-23 | Loop adm-pm助手专家 | todo→in_progress | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；后端接口问题；所属tv-web；涉及taskId=1143096(手动下载)+1143207(自动报告)；下载链接404；labels: type/investigate+tech/backend+svc/tv-web；issue ID: e0fc2993-f69f-431d-8343-b272828b11c7；已发卡片通知邢思源；11/23 17:13 指派人变更（adm-pm助手专家→b43775cd，转指派）非通知类型；11/23 17:17 状态变更（todo→in_progress）非通知类型；11/23 17:18 拆分新子任务 ADM-276（只读根因分析，assignee lqq-tvmonitor），已通知群聊@邢思源 |
+| ADM-275 | [TVM] 多维任务下载404排查（taskId=1143096/1143207） | 2026-11-23 | Loop adm-pm助手专家 | todo→in_progress | 提需人：邢思源；通知渠道：群:9f78c49daf00466a8eb58ede140f52b6；优先级P0/urgent；后端接口问题；所属tv-web；涉及taskId=1143096(手动下载)+1143207(自动报告)；下载链接404；labels: type/investigate+tech/backend+svc/tv-web；issue ID: e0fc2993-f69f-431d-8343-b272828b11c7；已发卡片通知邢思源；11/23 17:13 指派人变更（adm-pm助手专家→b43775cd，转指派）非通知类型；11/23 17:17 状态变更（todo→in_progress）非通知类型；11/23 17:18 拆分新子任务 ADM-276（只读根因分析，assignee lqq-tvmonitor），已通知群聊@邢思源；11/25 11:19 ADM-276 指派人变更（02c8a8d1→36b65f85），非通知类型 |
 | ADM-281 | 【海信】11.18 批次 round1 重传 + round2 计算（舒肤佳素材修正） | 未知 | d5ca704c（member/吴坤城） | todo | 提需人：未知；无通知渠道记录（Loop内自建，非标准PRD分发）；issue ID: 3d9cec4c-3b73-47b2-aca8-dd62a2ee4f60；11/24 19:14 updated（非通知类型）；11/24 19:14 new_comment（round2 输入已生成，文件20261120_round2.csv，md5:1ba7802b2ba91f98093ebf5db286b56f），无通知渠道跳过通知 |
 
