@@ -13,3 +13,4 @@
 Heartbeat check passed: diff=97s, within 600s threshold. No action needed.
 Heartbeat check passed: diff=74s, within 600s threshold. No action needed.
 2026-11-26 10:44:36 轮询健康检测通过，心跳差值158s，正常
+[2026-11-26 16:14:37] 健康检测通过，心跳差值153秒，无需告警
