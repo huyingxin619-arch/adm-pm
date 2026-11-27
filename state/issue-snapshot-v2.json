@@ -1,4 +1,22 @@
 {
+  "ADM-286": {
+    "id": "5f378315-f3c2-4174-bf9f-10905d638d6d",
+    "status": "todo",
+    "assignee_id": "02c8a8d1-cd10-4739-a17a-9fefbec5cbfa",
+    "assignee_type": "member",
+    "updated_at": "2026-11-27T16:06:13+08:00",
+    "title": "[Crutch] Media_By Month List 按报表月过滤点位",
+    "parent_issue_id": null
+  },
+  "ADM-285": {
+    "id": "d144ffa2-b533-47de-8be0-110b1ec89bda",
+    "status": "todo",
+    "assignee_id": "36b65f85-19d2-43db-a44f-7059bb68a8be",
+    "assignee_type": "expert",
+    "updated_at": "2026-11-27T16:51:23+08:00",
+    "title": "[TVM] 多维 API 固定模板任务提交校验与网站对齐",
+    "parent_issue_id": null
+  },
   "ADM-284": {
     "id": "c5375a7e-67d0-4675-b3dd-9c9c86667d22",
     "status": "todo",
@@ -193,7 +211,7 @@
     "status": "in_review",
     "assignee_id": "36b65f85-19d2-43db-a44f-7059bb68a8be",
     "assignee_type": "expert",
-    "updated_at": "2026-11-25T11:55:51+08:00",
+    "updated_at": "2026-11-27T18:16:28+08:00",
     "title": "【只读联调】查询本机 monitor 与 monitor-api 当前分支",
     "parent_issue_id": "606f31a6-d527-42cc-b539-fda8e8e9ae67"
   },
